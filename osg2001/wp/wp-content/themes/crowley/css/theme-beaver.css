@@ -1,0 +1,22 @@
+/**
+ *   Table Of Contents
+ *      - 1. layout
+ */
+/**
+ @- 1. layout
+ **/
+.fl-row-fixed-width {
+    max-width: 1116px !important;
+}
+
+.fl-row-content-wrap {
+    padding: 0;
+}
+
+.fl-module-content {
+    margin: 36px 24px;
+}
+
+.fl-builder .crowley-mc-w_i {
+    padding: 0;
+}

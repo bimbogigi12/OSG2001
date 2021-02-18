@@ -1,0 +1,605 @@
+/*--------------------------------------------------------------
+ #Animated Elements
+--------------------------------------------------------------- */
+
+.animateblock {
+	opacity: 0;
+	-webkit-transition: all 0.55s linear;
+	-moz-transition: all 0.55s linear;
+	transition: all 0.55s linear; 
+	-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+	z-index: 99999; 
+}
+
+.animateblock.animated {
+	opacity: 1;
+}
+
+/****************** Animateblock FadeIn *************/
+
+.animateblock.fadeIn {
+	-webkit-animation-name: none;
+	animation-name: none;
+}
+  
+  .animateblock.fadeIn.animated  {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+/****************** Animateblock fadeInLeft *************/
+
+.animateblock.fadeInLeft {
+	-webkit-animation-name: none;
+	animation-name: none; 
+}
+  
+  .animateblock.fadeInLeft.animated  {
+	animation-name: fadeInLeft; 
+	-webkit-animation-name: fadeInLeft;
+}
+  
+/****************** Animateblock flipInX *************/
+
+.animateblock.flipInX{
+  -webkit-backface-visibility: none !important;
+  backface-visibility: none !important;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.flipInX.animated  {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+} 
+  
+/****************** Animateblock bounce *************/
+
+.animateblock.bounce{
+  -webkit-animation-name: none;
+  animation-name: none;
+  -webkit-transform-origin: none;
+  transform-origin: none;
+}
+  
+  .animateblock.bounce.animated  {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+/****************** Animateblock bounceIn *************/
+
+.animateblock.bounceIn {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.bounceIn.animated  {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+/****************** Animateblock bounceInDown *************/
+
+.animateblock.bounceInDown {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.bounceInDown.animated  {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+/****************** Animateblock bounceInLeft *************/
+
+.animateblock.bounceInLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.bounceInLeft.animated  {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+/****************** Animateblock bounceInRight *************/
+
+.animateblock.bounceInRight {
+	-webkit-animation-name: none;
+	animation-name: none;
+}
+  
+  .animateblock.bounceInRight.animated  {
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
+
+/****************** Animateblock bounceInUp *************/
+
+.animateblock.bounceInUp {
+	-webkit-animation-name: none;
+	animation-name: none;
+}
+  
+  .animateblock.bounceInUp.animated  {
+	-webkit-animation-name: bounceInUp;
+	animation-name: bounceInUp;
+}
+
+/****************** Animateblock bounceOut *************/
+
+.animateblock.bounceOut {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.bounceOut.animated  {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+}
+
+
+/****************** Animateblock fadeInDown *************/
+
+.animateblock.fadeInDown {
+	-webkit-animation-name: none;
+	animation-name: none;
+}
+  
+  .animateblock.fadeInDown.animated  {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+
+/****************** Animateblock fadeInDownBig *************/
+
+.animateblock.fadeInDownBig {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInDownBig.animated  {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+
+/****************** Animateblock fadeInLeft *************/
+
+.animateblock.fadeInLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInLeft.animated  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+/****************** Animateblock fadeInLeftBig *************/
+
+.animateblock.fadeInLeftBig {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInLeftBig.animated  {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+
+/****************** Animateblock fadeInRight *************/
+
+.animateblock.fadeInRight {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInRight.animated  {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+/****************** Animateblock fadeInRightBig *************/
+
+.animateblock.fadeInRightBig {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInRightBig.animated  {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+
+/****************** Animateblock fadeInUp *************/
+
+.animateblock.fadeInUp {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInUp.animated  {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+/****************** Animateblock fadeInUpBig *************/
+
+.animateblock.fadeInUpBig {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.fadeInUpBig.animated  {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
+/****************** Animateblock flash *************/
+
+.animateblock.flash {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.flash.animated  {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+/****************** Animateblock flip *************/
+
+.animateblock.flip {
+  -webkit-backface-visibility: none;
+  backface-visibility: none;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.flip.animated  {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+/****************** Animateblock flipInY *************/
+
+.animateblock.flipInY {
+  -webkit-backface-visibility: none !important;
+  backface-visibility: none !important;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.flipInY.animated  {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+}
+
+/****************** Animateblock headShake *************/
+
+.animateblock.headShake {
+  -webkit-animation-timing-function:none;
+  animation-timing-function: none;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.headShake.animated  {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: headShake;
+  animation-name: headShake;
+}
+
+/****************** Animateblock hinge *************/
+
+.animateblock.hinge {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.hinge.animated  {
+  -webkit-animation-name: hinge;
+  animation-name: hinge;
+}
+
+/****************** Animateblock jello *************/
+
+.animateblock.jello {
+  -webkit-animation-name: none;
+  animation-name: none;
+  -webkit-transform-origin: none;
+  transform-origin: none;
+}
+  
+  .animateblock.jello.animated  {
+  -webkit-animation-name: jello;
+  animation-name: jello;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+/****************** Animateblock lightSpeedIn *************/
+
+.animateblock.lightSpeedIn {
+  -webkit-animation-name: none;
+  animation-name: none;
+  -webkit-animation-timing-function: none;
+  animation-timing-function: none;
+}
+  
+  .animateblock.lightSpeedIn.animated  {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+/****************** Animateblock pulse *************/
+
+.animateblock.pulse {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.pulse.animated  {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/****************** Animateblock rollIn *************/
+
+.animateblock.rollIn {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rollIn.animated  {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+/****************** Animateblock rotateIn *************/
+
+.animateblock.rotateIn {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rotateIn.animated  {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+
+/****************** Animateblock rotateInDownLeft *************/
+
+.animateblock.rotateInDownLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rotateInDownLeft.animated  {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+}
+
+/****************** Animateblock rotateInDownRight *************/
+
+.animateblock.rotateInDownRight {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rotateInDownRight.animated  {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+}
+
+/****************** Animateblock rotateInUpLeft *************/
+
+.animateblock.rotateInUpLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rotateInUpLeft.animated  {
+  -webkit-animation-name: rotateInUpLeft;
+  animation-name: rotateInUpLeft;
+}
+
+/****************** Animateblock rotateInUpRight *************/
+
+.animateblock.rotateInUpRight {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.rotateInUpRight.animated  {
+  -webkit-animation-name: rotateInUpRight;
+  animation-name: rotateInUpRight;
+}
+
+/****************** Animateblock shake *************/
+
+.animateblock.shake {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.shake.animated  {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+/****************** Animateblock slideInDown *************/
+
+.animateblock.slideInDown {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.slideInDown.animated  {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+/****************** Animateblock slideInLeft *************/
+
+.animateblock.slideInLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.slideInLeft.animated  {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+/****************** Animateblock slideInRight *************/
+
+.animateblock.slideInRight {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.slideInRight.animated  {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+/****************** Animateblock slideInUp *************/
+
+.animateblock.slideInUp {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.slideInUp.animated  {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+
+/****************** Animateblock swing *************/
+
+.animateblock.swing {
+  -webkit-transform-origin: none;
+  transform-origin: none;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.swing.animated  {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+/****************** Animateblock tada *************/
+
+.animateblock.tada {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.tada.animated  {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+
+/****************** Animateblock wobble *************/
+
+.animateblock.wobble {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.wobble.animated  {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+}
+
+/****************** Animateblock zoomIn *************/
+
+.animateblock.zoomIn {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.zoomIn.animated  {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+/****************** Animateblock zoomInDown *************/
+
+.animateblock.zoomInDown {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.zoomInDown.animated  {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+}
+
+
+/****************** Animateblock zoomInLeft *************/
+
+.animateblock.zoomInLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.zoomInLeft.animated  {
+  -webkit-animation-name: zoomInLeft;
+  animation-name: zoomInLeft;
+}
+
+/****************** Animateblock zoomInRight *************/
+
+.animateblock.zoomInRight {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.zoomInRight.animated  {
+  -webkit-animation-name: zoomInRight;
+  animation-name: zoomInRight;
+}
+
+/****************** Animateblock zoomInUp *************/
+
+.animateblock.zoomInUp {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+  
+  .animateblock.zoomInUp.animated  {
+  -webkit-animation-name: zoomInUp;
+  animation-name: zoomInUp;
+}
+
+
+

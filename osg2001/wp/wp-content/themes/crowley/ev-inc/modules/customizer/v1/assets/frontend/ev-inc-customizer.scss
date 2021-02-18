@@ -1,0 +1,167 @@
+// -----------------------------------------------------------------------------
+// $Customize mixin
+//
+// * Group
+// * key
+// * control
+// * rules
+// -----------------------------------------------------------------------------
+
+@mixin evolvethemes-customize( $group, $keys ) {
+	@each $key in map_keys( $keys ) {
+		$stringified_keys: "";
+		$stringified_params: "";
+		$properties: map_get( $keys, $key );
+		// $properties: map_keys( $key_props );
+
+		$i: 1;
+		@each $property in map_keys( $properties ) {
+			@if $i > 1 {
+				$stringified_keys: #{$stringified_keys}#{";"};
+				$stringified_params: #{$stringified_params}#{";"};
+			}
+
+			$value: #{map_get( $properties, $property )};
+
+			$params: variant text-transform font-size line-height letter-spacing;
+
+			$stringified_keys: #{$stringified_keys}#{$property}#{":"};
+			$stringified_keys: #{$stringified_keys}#{$value};
+
+			@if str-index( $property, _ ) == 1 or index( $params, $property ) != null {
+				$stringified_params: #{$stringified_params}#{$property}#{":"};
+				$stringified_params: #{$stringified_params}#{$value};
+			}
+
+			@if str-index( $property, _ ) == null {
+				@if $property == "variant" {
+					@if $value == '100' {
+						font-weight: 100;
+					}
+					@else if $value == '100italic' {
+						font-style: italic;
+						font-weight: 100;
+					}
+					@else if $value == '200' {
+						font-weight: 200;
+					}
+					@else if $value == '200italic' {
+						font-style: italic;
+						font-weight: 200;
+					}
+					@else if $value == '300' {
+						font-weight: 300;
+					}
+					@else if $value == '300italic' {
+						font-style: italic;
+						font-weight: 300;
+					}
+					@else if $value == 'regular' {
+						font-weight: normal;
+					}
+					@else if $value == 'italic' {
+						font-weight: normal;
+						font-style: italic;
+					}
+					@else if $value == '500' {
+						font-weight: 500;
+					}
+					@else if $value == '500italic' {
+						font-style: italic;
+						font-weight: 500;
+					}
+					@else if $value == '600' {
+						font-weight: 600;
+					}
+					@else if $value == '600italic' {
+						font-style: italic;
+						font-weight: 600;
+					}
+					@else if $value == '700' {
+						font-weight: 700;
+					}
+					@else if $value == '700italic' {
+						font-style: italic;
+						font-weight: 700;
+					}
+					@else if $value == '800' {
+						font-weight: 800;
+					}
+					@else if $value == '800italic' {
+						font-style: italic;
+						font-weight: 800;
+					}
+					@else if $value == '900' {
+						font-weight: 900;
+					}
+					@else if $value == '900italic' {
+						font-style: italic;
+						font-weight: 900;
+					}
+				}
+				@else {
+					#{$property}: $value;
+				}
+			}
+
+			$i: $i + 1;
+		}
+
+		@if $group != false {
+			// $key: #{"fx_"}#{$key};
+			/*! ~#{$group}|#{$key}|#{$stringified_params}|#{$stringified_keys}~ */
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Customizer font function
+// -----------------------------------------------------------------------------
+@function _evolvethemes-customize-font( $type ) {
+	$map: ();
+	$keys: ();
+
+	@each $t, $v in $font-sizes {
+		@if map-has-key( $font-sizes, $type ) {
+
+			@if $t == $type {
+				@each $prop, $val in $v {
+					@if $prop == 'font-weight' {
+						$keys: map-merge( $keys, ( 'variant': $val ) );
+					}
+					@else {
+						$keys: map-merge( $keys, ( $prop: $val ) );
+					}
+				}
+			}
+
+			$map: map-merge( $map, ( $type: $keys ) )
+		}
+	}
+
+	@return $map;
+}
+
+// -----------------------------------------------------------------------------
+// $Shortend for customizer font
+// -----------------------------------------------------------------------------
+@mixin evolvethemes-customize-font( $type ) {
+	@include evolvethemes-customize(
+		'typography',
+		_evolvethemes-customize-font( $type )
+	);
+}
+
+// -----------------------------------------------------------------------------
+// $Shortend for customizer color
+// -----------------------------------------------------------------------------
+@mixin evolvethemes-customize-color( $group, $property, $color ) {
+	@include evolvethemes-customize(
+		'colors',
+		(
+			$group: (
+				$property: ev-get-color( $color )
+			)
+		)
+	);
+}

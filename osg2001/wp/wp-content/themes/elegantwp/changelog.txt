@@ -1,0 +1,8 @@
+= Version 1.0 =
+* Initial Release
+
+= Version 1.0.1 =
+* Updated Theme URI
+
+= Version 1.0.2 =
+* Fixed CSS code issue

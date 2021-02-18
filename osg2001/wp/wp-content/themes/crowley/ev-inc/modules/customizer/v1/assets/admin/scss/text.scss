@@ -1,0 +1,44 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Text, number, textarea
+// -----------------------------------------------------------------------------
+.evolvethemes-f {
+	input[type="text"],
+	input[type="number"],
+	textarea {
+		max-width: 100%;
+		border: 1px solid $grey_40;
+		background-color: $grey_10;
+		box-shadow:  none ;
+		box-sizing: border-box;
+		margin: 0;
+		line-height: $baseline;
+		min-height: $baseline + $baseline/2 + 2;
+		padding: $baseline/4 $gutter/2;
+		border-radius: $radius;
+		transition: background-color $transition_time ease, border-color $transition_time ease;
+
+		&:hover,
+		&:focus {
+			background-color: $white;
+		}
+
+		&:focus {
+			border-color: $grey_50;
+		}
+	}
+
+	select {
+		max-width: 100%;
+	}
+
+	input[type="text"],
+	textarea {
+		width: 100%;
+	}
+
+	input[type="number"] {
+		width: auto;
+	}
+}

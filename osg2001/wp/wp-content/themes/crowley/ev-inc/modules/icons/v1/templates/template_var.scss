@@ -1,0 +1,3 @@
+$icons: "<%= fontBaseName %>";
+<% if (iconsStyles) { %><% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+$icon_<%= glyphs[glyphIdx] %>: \<%= codepoints[glyphIdx] %>;<% } %><% } %>

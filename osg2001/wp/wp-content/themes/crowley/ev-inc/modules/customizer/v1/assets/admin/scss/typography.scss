@@ -1,0 +1,246 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Typography customizer
+// -----------------------------------------------------------------------------
+.customize-control-evolvethemes_typography {
+	transform: translate3d(0,0,0);
+}
+#sub-accordion-section-evolvethemes_typography {
+	border-bottom-color: transparent !important;
+}
+
+// Section heading
+.evolvethemes-fc-sh {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	color: $grey_70;
+}
+
+.evolvethemes-fc-sh-h {
+	font-size: 12px;
+	font-weight: normal;
+	color: $grey_50;
+	display: block;
+	margin-top: $baseline/4;
+}
+
+// Font family container
+.evolvethemes-ff-c,
+.evolvethemes-ffi-c {
+	// box-shadow:  0 2px 12px rgba( $black, .1 ) ;
+	margin-top: $baseline/2;
+	margin-left: -12px;
+	margin-right: -12px;
+	@include clearfix();
+}
+
+.evolvethemes-ff-c {
+	margin-bottom: $baseline*2;
+	background-color: #fcfcfc;
+
+	.evolvethemes-fc-c {
+		margin-top: $baseline/4;
+	}
+}
+
+// font families instance container
+.evolvethemes-ffi-c {
+	> h3 {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}
+
+// Font families instances
+.evolvethemes-ffi {
+	+ .evolvethemes-ffi {
+		margin-top: $baseline;
+	}
+}
+
+// Font family add
+.evolvethemes-ff-add {
+	margin: 12px;
+	padding: 4px;
+	// border: 2px dashed $grey_40;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	transition: border-color $transition_time ease;
+	border-radius: 4px;
+
+	&:hover {
+		border-color: $grey_50;
+	}
+}
+
+.evolvethemes-fc-m {
+	position: relative;
+	background: $white;
+	padding: 15px 12px;
+	transition: background-color $transition_time ease;
+	border-bottom: 1px solid $grey_40;
+
+	&.evolvethemes-fc-exp {
+		background-color: $blue_10;
+	}
+
+	&:not( .evolvethemes-fc-exp ):hover {
+		background-color: $blue_10;
+
+		.evolvethemes-fc-l,
+		.evolvethemes-fc-lh {
+			color: $blue_30;
+		}
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	.evolvethemes-f-l {
+		font-size: 10px;
+		font-weight: normal;
+		color: $grey_50;
+	}
+}
+	// Content
+	.evolvethemes-fc-c {
+		display: none;
+
+		// Expanded
+		.evolvethemes-fc-exp & {
+			display: block;
+		}
+	}
+
+	.evolvethemes-fc-h {
+		cursor: pointer;
+
+		// Expanded
+		.evolvethemes-fc-exp & {
+			&:hover {
+				.evolvethemes-fc-l {
+					color: $blue_30;
+				}
+			}
+		}
+
+		&:hover {
+			.evolvethemes-fc-e {
+				opacity: 1;
+			}
+		}
+	}
+
+	// label
+	.evolvethemes-fc-l {
+		font-size: 14px;
+		font-weight: bold;
+		color: $grey_70;
+		transition: color $transition_time ease;
+	}
+
+	// help
+	.evolvethemes-fc-lh {
+		font-size: 10px;
+		font-weight: normal;
+		color: $grey_50;
+		display: block;
+		margin-top: $baseline/4;
+		line-height: 1.1;
+		transition: color $transition_time ease;
+
+		// Expanded
+		.evolvethemes-fc-exp & {
+			display: none;
+		}
+	}
+	// edit
+	.evolvethemes-fc-e {
+		font-size: 10px;
+		@include position( absolute, 15px 12px null null );
+		transition: opacity $transition_time ease;
+		opacity: .2;
+	}
+
+		// Icon remove
+		.evolvethemes-fc-ir {
+			display: none;
+			font-size: 10px;
+			margin-left: $gutter/4;
+			color: red;
+			font-weight: normal;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			// Expanded
+			.evolvethemes-fc-exp & {
+				display: inline;
+			}
+		}
+
+		// Icon edit
+		.evolvethemes-fc-ie {
+			// Expanded
+			.evolvethemes-fc-exp & {
+				display: none;
+			}
+		}
+		// Icon close
+		.evolvethemes-fc-ic {
+			display: none;
+
+			// Expanded
+			.evolvethemes-fc-exp & {
+				display: block;
+			}
+		}
+
+		// Font properties row
+		.evolvethemes-fc-fpr {
+			display: flex;
+
+			.evolvethemes-f {
+				input[type="text"] {
+					border-radius: 0;
+					border-left: none;
+
+					&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+					  color: #BFBFBF;
+					}
+					&::-moz-placeholder { /* Firefox 19+ */
+					  color: #BFBFBF;
+					}
+					&:-ms-input-placeholder { /* IE 10+ */
+					  color: #BFBFBF;
+					}
+					&:-moz-placeholder { /* Firefox 18- */
+					  color: #BFBFBF;
+					}
+				}
+
+				&:first-child input[type="text"] {
+					border-left: 1px solid $grey_40;
+					@include border-left-radius( $radius );
+
+					&:focus {
+						border-left-color: $grey_50;
+						border-right-color: $grey_40;
+					}
+				}
+				&:nth-child( 2 ) input[type="text"] {
+					&:focus {
+						border-right-color: $grey_40;
+					}
+				}
+				&:last-child input[type="text"] {
+					@include border-right-radius( $radius );
+				}
+			}
+		}

@@ -1,0 +1,131 @@
+/**
+ *   Table Of Contents
+ *      - 1. widgets
+ */
+/**
+ @- 1. widgets
+ **/
+.widget_contact_info .confit-address {
+    margin-bottom: 24px;
+}
+.widget_contact_info .contact-map {
+    margin-bottom: 24px;
+}
+
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts {
+    margin: 0;
+}
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-weight: normal;
+    text-transform: none; /*! ~typography|text|_font-family:secondary;;font-size:16px;line-height:1.5;letter-spacing:0;variant:regular;text-transform:none|_font-family:secondary;font-family:IBM Plex Sans, sans-serif;font-size:16px;line-height:1.5;letter-spacing:0;variant:regular;text-transform:none~ */
+    font-size: 14px; /*! ~typography|text_small|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none~ */
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts p + h4 {
+    margin-top: 2rem;
+}
+.widget_jetpack_display_posts_widget .jetpack-display-remote-posts a + p {
+    margin-top: 1rem !important;
+}
+
+.widget_internet_defense_league_widget a {
+    border-bottom: 0;
+}
+
+.widget_rss_links li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.widget_upcoming_events_widget .upcoming-events li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.widget_upcoming_events_widget .upcoming-events li .event-when {
+    font-size: 12px; /*! ~typography|text_smaller|_font-family:secondary;font-size:12px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none|_font-family:secondary;font-size:12px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none~ */
+}
+.widget_upcoming_events_widget .upcoming-events li .event-description {
+    margin-top: 12px;
+}
+
+.widget.widget-grofile p:last-of-type {
+    margin-bottom: 0;
+}
+.widget.widget-grofile .grofile-meta {
+    margin-bottom: 24px;
+}
+.widget.widget-grofile .grofile-thumbnail {
+    margin-bottom: 12px;
+}
+.widget.widget-grofile h4 {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 12px;
+    line-height: 1.25em;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase; /*! ~typography|small_headings|_font-family:secondary;;font-size:12px;line-height:1.25em;letter-spacing:0.2em;variant:600;text-transform:uppercase|_font-family:secondary;font-family:IBM Plex Sans, sans-serif;font-size:12px;line-height:1.25em;letter-spacing:0.2em;variant:600;text-transform:uppercase~ */
+    margin-bottom: 24px;
+}
+.widget.widget-grofile .grofile-links li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.widget_facebook_likebox p:last-of-type {
+    margin-bottom: 0;
+}
+
+.widget_goodreads div[class^="gr_custom_container"] {
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, .1); /*! ~colors|details||border-color:rgba(0, 0, 0, 0.1)~ */
+    padding: 12px;
+}
+.widget_goodreads div[class^="gr_custom_each_container"] {
+    border-color: rgba(0, 0, 0, .1); /*! ~colors|details||border-color:rgba(0, 0, 0, 0.1)~ */
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+.widget_goodreads div[class^="gr_custom_each_container"]:last-of-type {
+    margin-bottom: 0;
+}
+.widget_goodreads center a {
+    border-bottom: 0;
+}
+
+.widget_google_translate_widget .goog-te-gadget .goog-te-combo {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.widget.widget_authors > ul > li {
+    border-bottom: none;
+    margin-bottom: 24px;
+}
+.widget.widget_authors > ul > li:last-child {
+    margin-bottom: 0;
+}
+.widget.widget_authors > ul > li > a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: none;
+    padding-bottom: 12px;
+}
+.widget.widget_authors > ul > li > a img {
+    margin-bottom: 0;
+    margin-right: 12px;
+}
+.widget.widget_authors ul ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.widget.widget_authors ul ul li a {
+    margin-left: 0;
+}

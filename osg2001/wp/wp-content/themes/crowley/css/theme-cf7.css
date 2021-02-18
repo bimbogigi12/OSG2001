@@ -1,0 +1,77 @@
+/**
+ *   Table Of Contents
+ *      - 1. layout
+ */
+/**
+ @- 1. layout
+ **/
+.wpcf7-form p > label {
+    width: 100%;
+}
+.wpcf7-form label > .wpcf7-form-control-wrap,
+.wpcf7-form label > .wpcf7-form-control {
+    margin-top: 6px;
+}
+.wpcf7-form label ~ .wpcf7-not-valid-tip {
+    margin-top: -6px;
+}
+.wpcf7-form label .wpcf7-not-valid-tip {
+    margin-top: 6px;
+}
+.wpcf7-form .wpcf7-form-control-wrap {
+    display: block;
+    width: 100%;
+}
+.wpcf7-form .wpcf7-form-control-wrap input[type="text"],
+.wpcf7-form .wpcf7-form-control-wrap input[type="password"],
+.wpcf7-form .wpcf7-form-control-wrap input[type="email"],
+.wpcf7-form .wpcf7-form-control-wrap input[type="number"],
+.wpcf7-form .wpcf7-form-control-wrap textarea,
+.wpcf7-form .wpcf7-form-control-wrap select {
+    width: 100%;
+}
+.wpcf7-form .wpcf7-form-control-wrap > label {
+    width: 100%;
+}
+.wpcf7-form span.wpcf7-list-item label {
+    cursor: pointer;
+}
+.wpcf7-form span.wpcf7-list-item.first {
+    margin-left: 0;
+}
+.wpcf7-form span.wpcf7-list-item input[type="checkbox"],
+.wpcf7-form span.wpcf7-list-item input[type="radio"] {
+    margin-right: 6px;
+}
+.wpcf7-form .wpcf7-acceptance span.wpcf7-list-item {
+    margin-left: 0;
+}
+.wpcf7-form .wpcf7-submit {
+    margin: 0;
+    display: inline-block;
+    background-color: #fc5e63; /*! ~colors|highlight||background-color:#FC5E63~ */
+    color: #fff;
+    font-size: 14px; /*! ~typography|text_small|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none~ */
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: box-shadow .2s;
+    border: none;
+    box-shadow: none;
+}
+.wpcf7-form .wpcf7-submit:hover {
+    box-shadow: 0 12px 30px -8px rgba(0, 0, 0, .3);
+}
+.wpcf7-form .wpcf7-submit:focus {
+    outline: none;
+    box-shadow: 0 12px 30px -8px rgba(0, 0, 0, .3);
+}
+.wpcf7-form .wpcf7-not-valid-tip {
+    font-size: 14px; /*! ~typography|text_small|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none|_font-family:secondary;font-size:14px;_line-height:1.5;_letter-spacing:0;_variant:regular;_text-transform:none~ */
+}
+.wpcf7-form .wpcf7-response-output {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 24px;
+}

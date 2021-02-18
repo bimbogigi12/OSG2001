@@ -1,0 +1,6 @@
+<% if (fontfaceStyles) { %>@font-face {
+	font-family:"<%= fontBaseName %>";<% if (fontSrc1) { %>
+	src: <%= fontSrc1 %>;<% }%>
+	src: <%= fontSrc2 %>;
+}
+<% } %>

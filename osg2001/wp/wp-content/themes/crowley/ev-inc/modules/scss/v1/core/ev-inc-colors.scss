@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// $Return a color if a color map configuration is used
+// Color can be specified as a string or a list
+// i.e. ev-get-color( (grey,20 ) ) or ev-get-color( red )
+// -----------------------------------------------------------------------------
+@function ev-get-color( $name ) {
+	$color: "";
+
+	@if type-of( $name ) == list {
+		$color: map-get( map-get( $colors, nth( $name, 1 ) ), nth( $name, 2 ) );
+	}
+	@else {
+		$color: map-get( $colors, $name );
+	}
+
+	@if $color == '' {
+		@error "undefined color";
+	}
+
+	@return $color;
+}

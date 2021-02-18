@@ -1,0 +1,140 @@
+# Copyright (C) 2011 WordPress Importer
+# This file is distributed under the same license as the WordPress Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: IconList 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-importer\n"
+"POT-Creation-Date: 2013-12-29 19:32+0500\n"
+"PO-Revision-Date: 2014-08-11 10:29+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: DesignOrbital <designorbital@live.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: E:\\wamp\\www\\themes\\wp-content\\plugins\\icon-list\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/widget-iconlist.php:26 lib/widget-iconlist.php:159
+msgid "Icon List"
+msgstr "Icon List (Lista de Iconos)"
+
+#: lib/widget-iconlist.php:135 lib/widget-iconlist.php:162
+msgid "Title:"
+msgstr "Título:"
+
+#: lib/widget-iconlist.php:140
+msgid "Icon List Settings"
+msgstr "Configuración de Icon List"
+
+#: lib/widget-iconlist.php:144
+msgid "Number of icon list to display:"
+msgstr "Número de lista de iconos a mostrar"
+
+#: lib/widget-iconlist.php:167
+msgid "Icon Utility:"
+msgstr "Utilidad de Iconos:"
+
+#: lib/widget-iconlist.php:176
+msgid "Icon Code:"
+msgstr "Código de Iconos:"
+
+#: lib/widget-iconlist.php:178
+#, php-format
+msgid ""
+"For Font Awesome: <strong>fa-adjust</strong> - <a href=\"%1$s\" target="
+"\"_blank\">Choose Font Awesome Icons</a>"
+msgstr ""
+"Para Font Awesome:<strong>fa-adjust</strong> - <a href=\"%1$s\" target="
+"\"_blank\">Elegir Iconos Font Awesome</a>"
+
+#: lib/admin/admin.php:26
+msgid "Icon List Options"
+msgstr ""
+"<strong>fa-adjust</strong> - <a href=\"%1$s\" target=\"_blank\">Elegir "
+"Iconos Font Awesome</a>Opciones de Icon List"
+
+#: lib/admin/admin.php:42
+msgid "Load Fontawesome Fonts"
+msgstr "Cargar fuentes Font Awesome"
+
+#: lib/admin/admin.php:46
+msgid "Reset Icon List Options"
+msgstr "Restablecer Opciones de Icon List"
+
+#: lib/admin/admin.php:65
+msgid "Plugin Support"
+msgstr "Soporte del Plugin"
+
+#: lib/admin/admin.php:75
+msgid "License"
+msgstr "Licencia"
+
+#: lib/admin/admin.php:85
+msgid "Changelog"
+msgstr "Registro de Cambios"
+
+#: lib/admin/admin.php:92
+msgid "For more information:"
+msgstr "Para más información:"
+
+#: lib/admin/admin.php:94
+msgid "Icon List Plugin"
+msgstr "Plugin Icon List"
+
+#: lib/admin/admin.php:97
+msgid "Icon List Official Page"
+msgstr "Página Oficial Icon List"
+
+#: lib/admin/admin.php:149
+msgid "yes"
+msgstr "sí"
+
+#: lib/admin/admin.php:150
+msgid "no"
+msgstr "no"
+
+#: lib/admin/admin.php:180
+msgid "Customize fonts by using the following settings."
+msgstr "Personalizar fuentes usando la configuración siguiente"
+
+#: lib/admin/admin.php:197
+msgid "Select \"no\" if your theme supports fontawesome fonts."
+msgstr "Seleccione\"no\" si su tema soporta fuentes Font Awesome."
+
+#: lib/admin/admin.php:204
+msgid "Here are the general settings to customize icon list plugin."
+msgstr ""
+"Aquí están los ajustes generales para personalizar el plugin Icon List:"
+
+#: lib/admin/admin.php:210
+msgid "Reset IconList Options."
+msgstr "Restablecer Opciones Icon List."
+
+#: lib/admin/page.php:9
+#, php-format
+msgid "%1$s Settings"
+msgstr "Ajustes %1$s"
+
+#: lib/admin/page.php:14
+msgid "Premium WordPress Themes"
+msgstr "Temas WordPress Premium"
+
+#: lib/admin/page.php:15
+msgid "Free WordPress Themes"
+msgstr "Temas WordPress gratuitos"
+
+#: lib/admin/page.php:21 lib/admin/page.php:50
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: lib/admin/page.php:29
+msgid "Fonts Settings"
+msgstr "Configuración Fuentes"
+
+#: lib/admin/page.php:30
+msgid "General Settings"
+msgstr "Configuración General"

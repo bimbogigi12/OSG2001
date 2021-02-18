@@ -1,0 +1,69 @@
+// -----------------------------------------------------------------------------
+// $Icons
+// -----------------------------------------------------------------------------
+
+@mixin icon( $char: false, $size: false ) {
+	font-family: $icons;
+	font-weight: 400;
+	line-height: 1;
+	text-rendering: auto;
+	text-transform: none;
+	text-indent: 0;
+	display: inline-block;
+	speak: none;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@if $size == false {
+		font-size: inherit;
+	}
+	@else {
+		font-size: $size;
+	}
+
+	@if $char != false {
+		content: unicode( $char );
+	}
+}
+
+@function unicode($str){
+	@return unquote("\"") + $str + unquote("\"");
+}
+
+// -----------------------------------------------------------------------------
+// $Spinner
+// -----------------------------------------------------------------------------
+
+@mixin spinner( $size: 16px, $weight: 2px, $color: "" ) {
+	z-index: 100000;
+	content: "";
+	display: block;
+	margin: {
+		left: -( ( $size + ( $weight*2 ) ) / 2 );
+		top: -( ( $size + ( $weight*2 ) ) / 2 );
+	}
+	@include size($size);
+	border-top: {
+		width: $weight;
+		style: solid;
+	}
+	border-right: {
+		width: $weight;
+		style: solid;
+		color: transparent !important;
+	}
+	border-bottom: {
+		width: $weight;
+		style: solid;
+		color: transparent !important;
+	}
+	border-left: {
+		width: $weight;
+		style: solid;
+	}
+	border-top-color: $color;
+	border-left-color: $color;
+	border-radius: 50%;
+	@include animation( spinner 400ms linear infinite );
+}

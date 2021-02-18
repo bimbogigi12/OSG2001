@@ -1,0 +1,4152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ElegantWP PRO\n"
+"POT-Creation-Date: 2018-10-20 07:46+0530\n"
+"PO-Revision-Date: 2018-10-20 07:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:27 inc/admin/options/404-options.php:15
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: 404.php:36 inc/admin/options/404-options.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:44
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:60
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:37
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: Year and site name.
+#: footer.php:50
+#, php-format
+msgid "Copyright &copy; %s"
+msgstr ""
+
+#: footer.php:50
+msgid "Y"
+msgstr ""
+
+#. translators: %s: Theme author.
+#: footer.php:52
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:18
+msgid "WP-PageNavi"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:19
+msgid ""
+"WP-PageNavi plugin helps to display numbered page navigation of this theme. "
+"Just install and activate the plugin."
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:23
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:24
+msgid ""
+"Regenerate Thumbnails plugin helps you to regenerate your thumbnails to "
+"match with this theme. Install and activate the plugin. From the left hand "
+"navigation menu, click Tools &gt; Regen. Thumbnails. On the next screen, "
+"click Regenerate All Thumbnails."
+msgstr ""
+
+#: inc/admin/classes/class-customize-reset-control.php:19
+msgid "Reset Theme Options"
+msgstr ""
+
+#: inc/admin/classes/class-customize-reset-control.php:19
+msgid ""
+"Click OK to reset. Any modification you have set in the Theme Customizer "
+"will be lost!"
+msgstr ""
+
+#: inc/admin/customizer.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/options/404-options.php:13
+msgid "404 Page"
+msgstr ""
+
+#: inc/admin/options/404-options.php:17
+msgid "404 Error Page Heading"
+msgstr ""
+
+#: inc/admin/options/404-options.php:17
+msgid "Enter the heading for the 404 error page."
+msgstr ""
+
+#: inc/admin/options/404-options.php:21
+msgid "Error 404 Message"
+msgstr ""
+
+#: inc/admin/options/404-options.php:21
+msgid "Enter a message to display on the 404 error page."
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:13
+msgid "Authors Page"
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:18
+msgid "Authors Page Configuration"
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:21
+msgid "Follow these steps to create a authors page:"
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:23
+#: inc/admin/options/contact-page-options.php:23
+msgid ""
+"1. On the editing screen of a new page/existing page, scroll down to \"Page "
+"Attributes\" section, and you will find the \"Template\" drop down menu."
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:24
+msgid ""
+"2. Click on it and select \"Authors\" template from available template list."
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:25
+#: inc/admin/options/contact-page-options.php:25
+msgid "3. Publish/update your page."
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:31
+msgid "Hide site administrators from Authors page"
+msgstr ""
+
+#: inc/admin/options/authors-page-options.php:35
+msgid "Hide authors with zero posts from Authors page"
+msgstr ""
+
+#: inc/admin/options/color-options.php:15
+msgid "Main Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:19
+msgid "Main Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:23
+msgid "Main Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:27
+msgid "General Headings Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:32
+msgid "Outer Border 1 Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:36
+msgid "Outer Border 2 Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:42
+msgid "Secondary Menu Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:46
+msgid "Secondary Menu Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:50
+msgid "Secondary Menu Link Shadow Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:54
+msgid "Secondary Menu Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:58
+msgid "Secondary Menu Link Hover Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:62
+msgid "Secondary Sub Menu Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:66
+msgid "Secondary Sub Menu Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:70
+msgid "Secondary Responsive Menu Icon Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:76
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:82
+msgid "Primary Menu Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:86
+msgid "Primary Menu Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:90
+msgid "Primary Menu Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:94
+msgid "Primary Menu Link Shadow Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:98
+msgid "Primary Menu Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:102
+msgid "Primary Menu Link Hover Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:106
+msgid "Primary Sub Menu Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:110
+msgid "Primary Sub Menu Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:114
+msgid "Primary Sub Menu Border 2 Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:118
+msgid "Primary Responsive Menu Icon Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:123
+msgid "Header Social Icons Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:127
+msgid "Header Social Icons Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:132
+msgid "News Ticker Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:136
+msgid "News Ticker Heading Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:140
+msgid "News Ticker Heading Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:144
+msgid "News Ticker Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:148
+msgid "News Ticker Hover Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:153
+msgid "Top Full Width Area Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:157
+msgid "Top Full Width Area Border 1 Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:161
+msgid "Top Full Width Area Border 2 Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:166
+msgid "Main Content Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:170
+msgid "Sidebar 1 Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:174
+msgid "Sidebar 2 Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:179
+msgid "Home/Featured Post Title Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:183
+msgid "Single Post Title Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:187
+msgid "Home/Featured Post Title Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:191
+msgid "Single Post Title Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:196
+msgid "Home/Featured Post Title Color 2"
+msgstr ""
+
+#: inc/admin/options/color-options.php:200
+msgid "Home/Featured Post Title Hover Color 2"
+msgstr ""
+
+#: inc/admin/options/color-options.php:205
+msgid "Post Content Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:209
+msgid "Post Content Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:214
+msgid "Post Categories Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:218
+msgid "Post Categories Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:222
+msgid "Post Categories Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:226
+msgid "Post Categories Hover Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:231
+msgid "Home/Featured Post Meta Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:235
+msgid "Single Post Meta Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:239
+msgid "Home/Featured Post Meta Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:243
+msgid "Single Post Meta Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:247
+msgid "Home/Featured Post Meta Color 2"
+msgstr ""
+
+#: inc/admin/options/color-options.php:251
+msgid "Home/Featured Post Meta Hover Color 2"
+msgstr ""
+
+#: inc/admin/options/color-options.php:256
+msgid "Read More Button Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:260
+msgid "Read More Button Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:264
+msgid "Read More Button Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:268
+msgid "Read More Button Hover Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:273
+msgid "Sidebar Title Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:277
+msgid "Sidebar Title Background Color 1"
+msgstr ""
+
+#: inc/admin/options/color-options.php:281
+msgid "Sidebar Title Background Color 2"
+msgstr ""
+
+#: inc/admin/options/color-options.php:285
+msgid "Sidebar Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:289
+msgid "Sidebar Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:293
+msgid "Sidebar List Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:298
+msgid "Tag Cloud Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:302
+msgid "Tag Cloud Link Background"
+msgstr ""
+
+#: inc/admin/options/color-options.php:306
+msgid "Tag Cloud Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:310
+msgid "Tag Cloud Link Hover Background"
+msgstr ""
+
+#: inc/admin/options/color-options.php:315
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:319
+msgid "Footer Title Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:323
+msgid "Footer Title Border One Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:327
+msgid "Footer Title Border Two Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:331
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:335
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:339
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:343
+msgid "Footer List Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:348
+#: inc/admin/options/color-options.php:352
+msgid "Copyrights Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:356
+msgid "Copyrights Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:361
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:365
+msgid "Button Text Shadow Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:369
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:373
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:377
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:382
+msgid "Selected Text Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:386
+msgid "Selected Text Background Color"
+msgstr ""
+
+#: inc/admin/options/color-options.php:390
+msgid "Disable Shadow Color"
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:13
+msgid "Contact Page"
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:18
+msgid "Contact Page Configuration"
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:21
+msgid ""
+"Follow these steps to create a contact page with a built-in contact form:"
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:24
+msgid ""
+"2. Click on it and select \"Contact Form\" template from available template "
+"list."
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:31
+msgid "Contact Form Email Address"
+msgstr ""
+
+#: inc/admin/options/contact-page-options.php:31
+msgid ""
+"When a user contacts you using the built-in contact form of the theme, this "
+"is your email address to get these messages."
+msgstr ""
+
+#: inc/admin/options/font-options.php:12
+msgid "Open Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:13
+msgid "Roboto"
+msgstr ""
+
+#: inc/admin/options/font-options.php:14
+msgid "Lato"
+msgstr ""
+
+#: inc/admin/options/font-options.php:15
+msgid "Slabo 27px"
+msgstr ""
+
+#: inc/admin/options/font-options.php:16
+msgid "Oswald"
+msgstr ""
+
+#: inc/admin/options/font-options.php:17
+msgid "Roboto Condensed"
+msgstr ""
+
+#: inc/admin/options/font-options.php:18
+msgid "Source Sans Pro"
+msgstr ""
+
+#: inc/admin/options/font-options.php:19
+msgid "Montserrat"
+msgstr ""
+
+#: inc/admin/options/font-options.php:20
+msgid "Raleway"
+msgstr ""
+
+#: inc/admin/options/font-options.php:21
+msgid "PT Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:22
+msgid "Roboto Slab"
+msgstr ""
+
+#: inc/admin/options/font-options.php:23
+msgid "Open Sans Condensed"
+msgstr ""
+
+#: inc/admin/options/font-options.php:24
+msgid "Droid Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:25
+msgid "Lora"
+msgstr ""
+
+#: inc/admin/options/font-options.php:26
+msgid "Merriweather"
+msgstr ""
+
+#: inc/admin/options/font-options.php:27
+msgid "Ubuntu"
+msgstr ""
+
+#: inc/admin/options/font-options.php:28
+msgid "Droid Serif"
+msgstr ""
+
+#: inc/admin/options/font-options.php:29
+msgid "Arimo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:30
+msgid "Playfair Display"
+msgstr ""
+
+#: inc/admin/options/font-options.php:31
+msgid "Titillium Web"
+msgstr ""
+
+#: inc/admin/options/font-options.php:32
+msgid "Noto Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:33
+msgid "PT Sans Narrow"
+msgstr ""
+
+#: inc/admin/options/font-options.php:34
+msgid "PT Serif"
+msgstr ""
+
+#: inc/admin/options/font-options.php:35
+msgid "Muli"
+msgstr ""
+
+#: inc/admin/options/font-options.php:36
+msgid "Inconsolata"
+msgstr ""
+
+#: inc/admin/options/font-options.php:37
+msgid "Bitter"
+msgstr ""
+
+#: inc/admin/options/font-options.php:38
+msgid "Oxygen"
+msgstr ""
+
+#: inc/admin/options/font-options.php:39
+msgid "Dosis"
+msgstr ""
+
+#: inc/admin/options/font-options.php:40
+msgid "Fjalla One"
+msgstr ""
+
+#: inc/admin/options/font-options.php:41
+msgid "Hind"
+msgstr ""
+
+#: inc/admin/options/font-options.php:42
+msgid "Cabin"
+msgstr ""
+
+#: inc/admin/options/font-options.php:43
+msgid "Arvo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:44
+msgid "Lobster"
+msgstr ""
+
+#: inc/admin/options/font-options.php:45
+msgid "Noto Serif"
+msgstr ""
+
+#: inc/admin/options/font-options.php:46
+msgid "Indie Flower"
+msgstr ""
+
+#: inc/admin/options/font-options.php:47
+msgid "Nanum Gothic"
+msgstr ""
+
+#: inc/admin/options/font-options.php:48
+msgid "Poppins"
+msgstr ""
+
+#: inc/admin/options/font-options.php:49
+msgid "Catamaran"
+msgstr ""
+
+#: inc/admin/options/font-options.php:50
+msgid "Yanone Kaffeesatz"
+msgstr ""
+
+#: inc/admin/options/font-options.php:51
+msgid "Nunito"
+msgstr ""
+
+#: inc/admin/options/font-options.php:52
+msgid "Anton"
+msgstr ""
+
+#: inc/admin/options/font-options.php:53
+msgid "Merriweather Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:54
+msgid "Bree Serif"
+msgstr ""
+
+#: inc/admin/options/font-options.php:55
+msgid "Archivo Narrow"
+msgstr ""
+
+#: inc/admin/options/font-options.php:56
+msgid "Libre Baskerville"
+msgstr ""
+
+#: inc/admin/options/font-options.php:57
+msgid "Exo 2"
+msgstr ""
+
+#: inc/admin/options/font-options.php:58
+msgid "Quicksand"
+msgstr ""
+
+#: inc/admin/options/font-options.php:59
+msgid "Rubik"
+msgstr ""
+
+#: inc/admin/options/font-options.php:60
+msgid "Abril Fatface"
+msgstr ""
+
+#: inc/admin/options/font-options.php:61
+msgid "Josefin Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:62
+msgid "Abel"
+msgstr ""
+
+#: inc/admin/options/font-options.php:63
+msgid "Crimson Text"
+msgstr ""
+
+#: inc/admin/options/font-options.php:64
+msgid "Asap"
+msgstr ""
+
+#: inc/admin/options/font-options.php:65
+msgid "Varela Round"
+msgstr ""
+
+#: inc/admin/options/font-options.php:66
+msgid "Pacifico"
+msgstr ""
+
+#: inc/admin/options/font-options.php:67
+msgid "Acme"
+msgstr ""
+
+#: inc/admin/options/font-options.php:68
+msgid "Libre Franklin"
+msgstr ""
+
+#: inc/admin/options/font-options.php:69
+msgid "Nunito Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:70
+msgid "Fira Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:71
+msgid "Cormorant Garamond"
+msgstr ""
+
+#: inc/admin/options/font-options.php:72
+msgid "Dancing Script"
+msgstr ""
+
+#: inc/admin/options/font-options.php:73
+msgid "Gloria Hallelujah"
+msgstr ""
+
+#: inc/admin/options/font-options.php:74
+msgid "Monda"
+msgstr ""
+
+#: inc/admin/options/font-options.php:75
+msgid "Ubuntu Condensed"
+msgstr ""
+
+#: inc/admin/options/font-options.php:76
+msgid "Signika"
+msgstr ""
+
+#: inc/admin/options/font-options.php:77
+msgid "Karla"
+msgstr ""
+
+#: inc/admin/options/font-options.php:78
+msgid "Questrial"
+msgstr ""
+
+#: inc/admin/options/font-options.php:79
+msgid "Play"
+msgstr ""
+
+#: inc/admin/options/font-options.php:80
+msgid "Source Code Pro"
+msgstr ""
+
+#: inc/admin/options/font-options.php:81
+msgid "Cuprum"
+msgstr ""
+
+#: inc/admin/options/font-options.php:82
+msgid "Roboto Mono"
+msgstr ""
+
+#: inc/admin/options/font-options.php:83
+msgid "Vollkorn"
+msgstr ""
+
+#: inc/admin/options/font-options.php:84
+msgid "Maven Pro"
+msgstr ""
+
+#: inc/admin/options/font-options.php:85
+msgid "Berkshire Swash"
+msgstr ""
+
+#: inc/admin/options/font-options.php:86
+msgid "Francois One"
+msgstr ""
+
+#: inc/admin/options/font-options.php:87
+msgid "PT Sans Caption"
+msgstr ""
+
+#: inc/admin/options/font-options.php:88
+msgid "Domine"
+msgstr ""
+
+#: inc/admin/options/font-options.php:89
+msgid "Rokkitt"
+msgstr ""
+
+#: inc/admin/options/font-options.php:90
+msgid "Work Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:91
+msgid "EB Garamond"
+msgstr ""
+
+#: inc/admin/options/font-options.php:92
+msgid "Kanit"
+msgstr ""
+
+#: inc/admin/options/font-options.php:93
+msgid "Cairo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:94
+msgid "Patua One"
+msgstr ""
+
+#: inc/admin/options/font-options.php:95
+msgid "Crete Round"
+msgstr ""
+
+#: inc/admin/options/font-options.php:96
+msgid "Ropa Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:97
+msgid "Rajdhani"
+msgstr ""
+
+#: inc/admin/options/font-options.php:98
+msgid "Heebo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:99
+msgid "Poiret One"
+msgstr ""
+
+#: inc/admin/options/font-options.php:100
+msgid "Cookie"
+msgstr ""
+
+#: inc/admin/options/font-options.php:101
+msgid "Old Standard TT"
+msgstr ""
+
+#: inc/admin/options/font-options.php:102
+msgid "Noticia Text"
+msgstr ""
+
+#: inc/admin/options/font-options.php:103
+msgid "Passion One"
+msgstr ""
+
+#: inc/admin/options/font-options.php:104
+msgid "Karma"
+msgstr ""
+
+#: inc/admin/options/font-options.php:105
+msgid "Josefin Slab"
+msgstr ""
+
+#: inc/admin/options/font-options.php:106
+msgid "Comfortaa"
+msgstr ""
+
+#: inc/admin/options/font-options.php:107
+msgid "Quattrocento Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:108
+msgid "News Cycle"
+msgstr ""
+
+#: inc/admin/options/font-options.php:109
+msgid "Philosopher"
+msgstr ""
+
+#: inc/admin/options/font-options.php:110
+msgid "Yantramanav"
+msgstr ""
+
+#: inc/admin/options/font-options.php:111
+msgid "Lobster Two"
+msgstr ""
+
+#: inc/admin/options/font-options.php:112
+msgid "Cardo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:113
+msgid "ABeeZee"
+msgstr ""
+
+#: inc/admin/options/font-options.php:114
+msgid "Amaranth"
+msgstr ""
+
+#: inc/admin/options/font-options.php:115
+msgid "Glegoo"
+msgstr ""
+
+#: inc/admin/options/font-options.php:116
+msgid "Playfair Display SC"
+msgstr ""
+
+#: inc/admin/options/font-options.php:117
+msgid "Pontano Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:118
+msgid "Istok Web"
+msgstr ""
+
+#: inc/admin/options/font-options.php:119
+msgid "Alegreya Sans"
+msgstr ""
+
+#: inc/admin/options/font-options.php:120
+msgid "Source Serif Pro"
+msgstr ""
+
+#: inc/admin/options/font-options.php:121
+msgid "Tinos"
+msgstr ""
+
+#: inc/admin/options/font-options.php:122
+msgid "Cabin Condensed"
+msgstr ""
+
+#: inc/admin/options/font-options.php:123
+msgid "Copse"
+msgstr ""
+
+#: inc/admin/options/font-options.php:124
+msgid "Scada"
+msgstr ""
+
+#: inc/admin/options/font-options.php:125
+msgid "Actor"
+msgstr ""
+
+#: inc/admin/options/font-options.php:126
+msgid "Forum"
+msgstr ""
+
+#: inc/admin/options/font-options.php:127
+msgid "Arial"
+msgstr ""
+
+#: inc/admin/options/font-options.php:128
+msgid "Arial Black"
+msgstr ""
+
+#: inc/admin/options/font-options.php:129
+msgid "Comic Sans MS"
+msgstr ""
+
+#: inc/admin/options/font-options.php:130
+msgid "Impact"
+msgstr ""
+
+#: inc/admin/options/font-options.php:131
+msgid "Lucida Sans Unicode"
+msgstr ""
+
+#: inc/admin/options/font-options.php:132
+msgid "Tahoma"
+msgstr ""
+
+#: inc/admin/options/font-options.php:133
+msgid "Trebuchet MS"
+msgstr ""
+
+#: inc/admin/options/font-options.php:134
+msgid "Verdana"
+msgstr ""
+
+#: inc/admin/options/font-options.php:135
+msgid "Georgia"
+msgstr ""
+
+#: inc/admin/options/font-options.php:136
+msgid "Palatino"
+msgstr ""
+
+#: inc/admin/options/font-options.php:137
+msgid "Times New Roman"
+msgstr ""
+
+#: inc/admin/options/font-options.php:138
+msgid "Courier New"
+msgstr ""
+
+#: inc/admin/options/font-options.php:139
+msgid "Lucida Console"
+msgstr ""
+
+#: inc/admin/options/font-options.php:144
+msgid "400"
+msgstr ""
+
+#: inc/admin/options/font-options.php:144
+msgid "700"
+msgstr ""
+
+#: inc/admin/options/font-options.php:146
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/options/font-options.php:146
+msgid "Italic"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Greek"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Latin"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/admin/options/font-options.php:148
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/admin/options/font-options.php:159
+msgid "Font Options"
+msgstr ""
+
+#: inc/admin/options/font-options.php:163
+msgid "Font Subsets"
+msgstr ""
+
+#: inc/admin/options/font-options.php:163
+msgid "Select which font subsets should be supported."
+msgstr ""
+
+#: inc/admin/options/font-options.php:167
+msgid "Body Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:167
+msgid "Pick a font for body text. Default is <b>Domine.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:171
+msgid "Body Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:171
+msgid "Choose body font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:175
+msgid "Body Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:175
+msgid "Choose body font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:179
+msgid "Body Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:179
+msgid "Choose body font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:183
+msgid "Body Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:183
+msgid "Enter body line height. Default is <b>1.6.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:188
+msgid "Site Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:188
+msgid "Pick a font for site title. Default is <b>Playfair Display.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:192
+msgid "Site Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:192
+msgid "Choose site title font size. Default is <b>24px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:196
+msgid "Site Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:196
+msgid "Choose site title font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:200
+msgid "Site Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:200
+msgid "Choose site title font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:204
+msgid "Site Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:204
+msgid "Enter site title line height. Default is <b>1.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:209
+msgid "Site Description Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:209
+msgid "Pick a font for site description. Default is <b>Domine.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:213
+msgid "Site Description Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:213
+msgid "Choose site description font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:217
+msgid "Site Description Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:217
+msgid "Choose site description font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:221
+msgid "Site Description Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:221
+msgid "Choose site description font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:225
+msgid "Site Description Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:225
+msgid "Enter site description line height. Default is <b>1.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:230
+msgid "Primary Menu Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:230
+msgid "Pick a font for the primary menu. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:234
+msgid "Primary Menu Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:234
+msgid "Choose primary menu font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:238
+msgid "Primary Menu Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:238
+msgid "Choose primary menu font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:242
+msgid "Primary Menu Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:242
+msgid "Choose primary menu font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:247
+msgid "Secondary Menu Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:247
+msgid "Pick a font for the secondary menu. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:251
+msgid "Secondary Menu Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:251
+msgid "Choose secondary menu font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:255
+msgid "Secondary Menu Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:255
+msgid "Choose secondary menu font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:259
+msgid "Secondary Menu Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:259
+msgid "Choose secondary menu font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:264
+msgid "News Ticker Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:264
+msgid "Pick a font for the news ticker. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:268
+msgid "News Ticker Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:268
+msgid "Choose news ticker font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:272
+msgid "News Ticker Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:272
+msgid "Choose news ticker font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:276
+msgid "News Ticker Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:276
+msgid "Choose news ticker font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:282
+msgid "Home/Featured Post Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:282
+#: inc/admin/options/font-options.php:303
+msgid "Pick a font for home/featured post titles. Default is <b>Poppins.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:286
+msgid "Home/Featured Post Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:286
+msgid "Choose home/featured post title font size. Default is <b>20px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:290
+msgid "Home/Featured Post Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:290
+#: inc/admin/options/font-options.php:311
+msgid "Choose home/featured post title font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:294
+msgid "Home/Featured Post Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:294
+#: inc/admin/options/font-options.php:315
+msgid "Choose home/featured post title font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:298
+msgid "Home/Featured Post Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:298
+#: inc/admin/options/font-options.php:319
+msgid "Enter home/featured post title line height. Default is <b>1.2.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:303
+msgid "Home/Featured Small Post Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:307
+msgid "Home/Featured Small Post Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:307
+msgid "Choose home/featured post title font size. Default is <b>16px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:311
+msgid "Home/Featured Small Post Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:315
+msgid "Home/Featured Small Post Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:319
+msgid "Home/Featured Small Post Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:324
+msgid "Home/Featured Post Categories Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:324
+msgid ""
+"Pick a font for home/featured post categories. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:328
+msgid "Home/Featured Post Categories Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:328
+msgid "Choose home/featured post categories font size. Default is <b>12px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:332
+msgid "Home/Featured Post Categories Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:332
+msgid ""
+"Choose home/featured post categories font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:336
+msgid "Home/Featured Post Categories Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:336
+msgid ""
+"Choose home/featured post categories font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:341
+msgid "Home/Featured Post Meta Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:341
+msgid "Pick a font for home/featured post meta. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:345
+msgid "Home/Featured Post Meta Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:345
+msgid "Choose home/featured post meta font size. Default is <b>12px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:349
+msgid "Home/Featured Post Meta Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:349
+msgid "Choose home/featured post meta font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:353
+msgid "Home/Featured Post Meta Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:353
+msgid "Choose home/featured post meta font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:359
+msgid "Read More Button Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:359
+msgid "Pick a font for read more buttons. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:363
+msgid "Read More Button Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:363
+msgid "Choose read more buttons font size. Default is <b>13px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:367
+msgid "Read More Button Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:367
+msgid "Choose read more buttons font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:371
+msgid "Read More Button Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:371
+msgid "Choose read more buttons font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:377
+msgid "Post Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:377
+msgid "Pick a font for post titles. Default is <b>Playfair Display.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:381
+msgid "Post Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:381
+msgid "Choose post title font size. Default is <b>26px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:385
+msgid "Post Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:385
+msgid "Choose post title font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:389
+msgid "Post Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:389
+msgid "Choose post title font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:393
+msgid "Post Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:393
+msgid "Enter post title line height. Default is <b>1.2.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:398
+msgid "Main/Sidebars Widget Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:398
+msgid "Pick a font for sidebar widget titles. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:402
+msgid "Main/Sidebars Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:402
+msgid "Choose main/sidebar title font size. Default is <b>15px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:406
+msgid "Main/Sidebars Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:406
+msgid "Choose main/sidebar title font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:410
+msgid "Main/Sidebars Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:410
+msgid "Choose main/sidebar title font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:414
+msgid "Main/Sidebars Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:414
+msgid "Enter main/sidebar title line height. Default is <b>1.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:419
+msgid "Footer Widget Title Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:419
+msgid "Pick a font for footer widget titles. Default is <b>Oswald.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:423
+msgid "Footer Title Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:423
+msgid "Choose footer title font size. Default is <b>14px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:427
+msgid "Footer Title Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:427
+msgid "Choose footer title font weight. Default is <b>400.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:431
+msgid "Footer Title Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:431
+msgid "Choose footer title font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:435
+msgid "Footer Title Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:435
+msgid "Enter footer title line height. Default is <b>1.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:440
+msgid "General Headings Font-Family"
+msgstr ""
+
+#: inc/admin/options/font-options.php:440
+msgid "Pick a font for general headings. Default is <b>Playfair Display.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:444
+msgid "General Headings Line-Height"
+msgstr ""
+
+#: inc/admin/options/font-options.php:444
+msgid "Enter general headings line height. Default is <b>1.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:448
+msgid "H1 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:448
+msgid "Choose H1 font size. Default is <b>32px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:452
+msgid "H1 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:452
+msgid "Choose H1 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:456
+msgid "H1 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:456
+msgid "Choose H1 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:460
+msgid "H2 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:460
+msgid "Choose H2 font size. Default is <b>28px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:464
+msgid "H2 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:464
+msgid "Choose H2 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:468
+msgid "H2 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:468
+msgid "Choose H2 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:472
+msgid "H3 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:472
+msgid "Choose H3 font size. Default is <b>24px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:476
+msgid "H3 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:476
+msgid "Choose H3 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:480
+msgid "H3 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:480
+msgid "Choose H3 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:484
+msgid "H4 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:484
+msgid "Choose H4 font size. Default is <b>20px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:488
+msgid "H4 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:488
+msgid "Choose H4 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:492
+msgid "H4 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:492
+msgid "Choose H4 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:496
+msgid "H5 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:496
+msgid "Choose H5 font size. Default is <b>18px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:500
+msgid "H5 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:500
+msgid "Choose H5 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:504
+msgid "H5 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:504
+msgid "Choose H5 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:508
+msgid "H6 Font-Size"
+msgstr ""
+
+#: inc/admin/options/font-options.php:508
+msgid "Choose H6 font size. Default is <b>16px.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:512
+msgid "H6 Font-Weight"
+msgstr ""
+
+#: inc/admin/options/font-options.php:512
+msgid "Choose H6 font weight. Default is <b>700.</b>"
+msgstr ""
+
+#: inc/admin/options/font-options.php:516
+msgid "H6 Font-Style"
+msgstr ""
+
+#: inc/admin/options/font-options.php:516
+msgid "Choose H6 font style. Default is <b>normal.</b>"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:13
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:17
+msgid "Footer copyright notice"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:21
+msgid "Hide Footer Widgets"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:26
+msgid "Hide Theme Designer Credits"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:13
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:13
+msgid ""
+"Thanks for your interest in ElegantWP! If you have any questions or run into "
+"any trouble, please visit us the following links. We will get you fixed up!"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:17
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:21
+msgid "Contact Us"
+msgstr ""
+
+#: inc/admin/options/header-options.php:14
+msgid "Header Options"
+msgstr ""
+
+#: inc/admin/options/header-options.php:18
+msgid "Enable Full Width Header"
+msgstr ""
+
+#: inc/admin/options/header-options.php:22
+msgid "Hide Header Content"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:13
+msgid "Layout Options"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+msgid "Layout Style"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+msgid "Select your layout style."
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:113
+msgid "Sidebar 1 + Content + Sidebar 2"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:114
+msgid "Sidebar 2 + Content + Sidebar 1"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:115
+msgid "Content + Sidebar 1 + Sidebar 2"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:116
+msgid "Content + Sidebar 2 + Sidebar 1"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:117
+msgid "Sidebar 1 + Sidebar 2 + Content"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:118
+msgid "Sidebar 2 + Sidebar 1 + Content"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:119
+msgid "Sidebar 1 + Content"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:120
+msgid "Content + Sidebar 1"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:121
+msgid "Content + Sidebar 2"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:122
+msgid "Sidebar 2 + Content"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:17
+#: inc/admin/options/sanitize-callbacks.php:123
+msgid "One Column"
+msgstr ""
+
+#: inc/admin/options/layout-options.php:21
+msgid "Hide Sidebar from One Column Layout"
+msgstr ""
+
+#: inc/admin/options/other-options.php:13
+msgid "Other Options"
+msgstr ""
+
+#: inc/admin/options/other-options.php:17
+msgid "Disable Sticky Menu"
+msgstr ""
+
+#: inc/admin/options/other-options.php:21
+msgid "Disable Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/options/other-options.php:25
+msgid "Disable Back to Top Button"
+msgstr ""
+
+#: inc/admin/options/post-options.php:13
+msgid "Post Options"
+msgstr ""
+
+#: inc/admin/options/post-options.php:17
+msgid "Hide HomePage Posts Heading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:19
+#: inc/admin/options/trending-news.php:29
+#: inc/widgets/featured_posts_widget_1.php:23
+#: inc/widgets/featured_posts_widget_10.php:23
+#: inc/widgets/featured_posts_widget_11.php:23
+#: inc/widgets/featured_posts_widget_12.php:23
+#: inc/widgets/featured_posts_widget_13.php:23
+#: inc/widgets/featured_posts_widget_14.php:23
+#: inc/widgets/featured_posts_widget_15.php:23
+#: inc/widgets/featured_posts_widget_16.php:23
+#: inc/widgets/featured_posts_widget_2.php:23
+#: inc/widgets/featured_posts_widget_3.php:23
+#: inc/widgets/featured_posts_widget_4.php:24
+#: inc/widgets/featured_posts_widget_5.php:23
+#: inc/widgets/featured_posts_widget_6.php:23
+#: inc/widgets/featured_posts_widget_7.php:33
+#: inc/widgets/featured_posts_widget_8.php:23
+#: inc/widgets/featured_posts_widget_9.php:23 index.php:35
+#: template-sitemap.php:34
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:21
+msgid "HomePage Posts Heading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Thumbnail Link"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Do you want single post thumbnail to be linked to their post?"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "No"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Non-Singular Posts Style"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid ""
+"Select the post style you want for home/categories/tags/archive/search-"
+"results pages."
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 1"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 2"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 3"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 4"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 5"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 6"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 8"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 9"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 12"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Style 13"
+msgstr ""
+
+#: inc/admin/options/post-options.php:33
+msgid "Auto Post Summary Length"
+msgstr ""
+
+#: inc/admin/options/post-options.php:33
+msgid ""
+"Enter the number of words need to display in the post summary. Default is 25 "
+"words."
+msgstr ""
+
+#: inc/admin/options/post-options.php:35 inc/functions/other.php:20
+#: inc/widgets/featured_posts_widget_11.php:24
+#: inc/widgets/featured_posts_widget_11.php:159
+#: inc/widgets/featured_posts_widget_12.php:24
+#: inc/widgets/featured_posts_widget_12.php:124
+#: inc/widgets/featured_posts_widget_14.php:24
+#: inc/widgets/featured_posts_widget_14.php:159
+#: inc/widgets/featured_posts_widget_2.php:24
+#: inc/widgets/featured_posts_widget_2.php:119
+#: inc/widgets/featured_posts_widget_3.php:24
+#: inc/widgets/featured_posts_widget_3.php:139
+#: inc/widgets/featured_posts_widget_4.php:25
+#: inc/widgets/featured_posts_widget_4.php:137
+#: inc/widgets/featured_posts_widget_5.php:24
+#: inc/widgets/featured_posts_widget_5.php:124
+msgid "Continue Reading..."
+msgstr ""
+
+#: inc/admin/options/post-options.php:37
+msgid "Read More Text"
+msgstr ""
+
+#: inc/admin/options/post-options.php:41
+msgid "Hide Posted Date from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:45
+msgid "Hide Posted Date from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:49
+msgid "Hide Post Author from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:53
+msgid "Hide Post Author from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:57
+msgid "Hide Post Categories from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:61
+msgid "Hide Post Categories from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:65
+msgid "Hide Post Tags from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:69
+msgid "Hide Post Tags from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:73
+msgid "Hide Comment Link from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:77
+msgid "Hide Comment Link from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:81
+msgid "Hide Post Edit Link"
+msgstr ""
+
+#: inc/admin/options/post-options.php:85
+msgid "Hide Thumbnails from Every Page"
+msgstr ""
+
+#: inc/admin/options/post-options.php:89
+msgid "Hide Thumbnails from Posts/Pages"
+msgstr ""
+
+#: inc/admin/options/post-options.php:93
+msgid "Hide Post Snippet"
+msgstr ""
+
+#: inc/admin/options/post-options.php:97
+msgid "Hide Read More Button"
+msgstr ""
+
+#: inc/admin/options/post-options.php:101
+msgid "Hide Share Buttons from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:105
+msgid "Hide Share Buttons from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:109
+msgid "Hide Author Bio Box"
+msgstr ""
+
+#: inc/admin/options/post-options.php:113
+msgid "Hide Related Posts from Posts Summaries"
+msgstr ""
+
+#: inc/admin/options/post-options.php:117
+msgid "Hide Related Posts from Single Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:119 inc/functions/related-posts.php:18
+msgid "Related Articles"
+msgstr ""
+
+#: inc/admin/options/post-options.php:121
+msgid "Related Posts Heading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid "Number of Related Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid ""
+"Choose the number of posts you need to display in the related posts area"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid "4 Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid "8 Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid "12 Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:125
+msgid "16 Posts"
+msgstr ""
+
+#: inc/admin/options/recommended-plugins.php:14
+#: inc/admin/options/recommended-plugins.php:18
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/admin/options/reset-options.php:14
+msgid "Reset Settings"
+msgstr ""
+
+#: inc/admin/options/reset-options.php:18
+msgid ""
+"Reset all theme options made for this theme to their default values by "
+"clicking the button below."
+msgstr ""
+
+#: inc/admin/options/search-options.php:13
+msgid "Search Page"
+msgstr ""
+
+#: inc/admin/options/search-options.php:15 template-parts/content-none.php:19
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/admin/options/search-options.php:17
+msgid "No Search Results Heading"
+msgstr ""
+
+#: inc/admin/options/search-options.php:17
+msgid "Enter a heading to display when no search results are found."
+msgstr ""
+
+#: inc/admin/options/search-options.php:19 template-parts/content-none.php:46
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/admin/options/search-options.php:21
+msgid "No Search Results Message"
+msgstr ""
+
+#: inc/admin/options/search-options.php:21
+msgid "Enter a message to display when no search results are found."
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:13
+msgid "Social Links"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:17
+msgid "Hide Header Social Buttons"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:21
+#: inc/functions/author-bio-box.php:15
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:25
+#: inc/functions/author-bio-box.php:16
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:29
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:33
+#: inc/functions/author-bio-box.php:18
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:37
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:41
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:45
+msgid "VK Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:49
+msgid "Flickr Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:53
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:57
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:61
+msgid "Soundcloud URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:65
+msgid "Lastfm URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:69
+#: inc/functions/author-bio-box.php:21
+msgid "Github URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:73
+msgid "Bitbucket URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:77
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:81
+msgid "Digg URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:85
+msgid "Delicious URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:89
+msgid "Stumbleupon Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:93
+msgid "Reddit Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:97
+msgid "Dribbble Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:101
+msgid "Behance Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:105
+msgid "Codepen Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:109
+msgid "JSFiddle Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:113
+msgid "Stack Overflow Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:117
+msgid "Stack Exchange Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:121
+msgid "BuySellAds Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:125
+msgid "SlideShare Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:129
+msgid "Skype Username"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:133
+msgid "Email Address"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:137
+msgid "RSS Feed URL"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:13
+msgid "News Ticker"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:17
+msgid "Enable News Ticker"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:19 inc/functions/trending-news.php:18
+msgid "Breaking News"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:21
+msgid "News Ticker Heading"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:25
+msgid "Number of News Ticker Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:25
+msgid ""
+"Enter the number of posts you need to display in the news ticker area. "
+"Default is 5 posts."
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+msgid "News Ticker Posts Type"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+msgid "Select a post type to display in news ticker."
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+#: inc/widgets/featured_posts_widget_1.php:23
+#: inc/widgets/featured_posts_widget_10.php:23
+#: inc/widgets/featured_posts_widget_11.php:23
+#: inc/widgets/featured_posts_widget_12.php:23
+#: inc/widgets/featured_posts_widget_13.php:23
+#: inc/widgets/featured_posts_widget_14.php:23
+#: inc/widgets/featured_posts_widget_15.php:23
+#: inc/widgets/featured_posts_widget_16.php:23
+#: inc/widgets/featured_posts_widget_2.php:23
+#: inc/widgets/featured_posts_widget_3.php:23
+#: inc/widgets/featured_posts_widget_4.php:24
+#: inc/widgets/featured_posts_widget_5.php:23
+#: inc/widgets/featured_posts_widget_6.php:23
+#: inc/widgets/featured_posts_widget_7.php:33
+#: inc/widgets/featured_posts_widget_8.php:23
+#: inc/widgets/featured_posts_widget_9.php:23
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+#: inc/widgets/featured_posts_widget_1.php:23
+#: inc/widgets/featured_posts_widget_10.php:23
+#: inc/widgets/featured_posts_widget_11.php:23
+#: inc/widgets/featured_posts_widget_12.php:23
+#: inc/widgets/featured_posts_widget_13.php:23
+#: inc/widgets/featured_posts_widget_14.php:23
+#: inc/widgets/featured_posts_widget_15.php:23
+#: inc/widgets/featured_posts_widget_16.php:23
+#: inc/widgets/featured_posts_widget_2.php:23
+#: inc/widgets/featured_posts_widget_3.php:23
+#: inc/widgets/featured_posts_widget_4.php:24
+#: inc/widgets/featured_posts_widget_5.php:23
+#: inc/widgets/featured_posts_widget_6.php:23
+#: inc/widgets/featured_posts_widget_7.php:33
+#: inc/widgets/featured_posts_widget_8.php:23
+#: inc/widgets/featured_posts_widget_9.php:23
+msgid "Random Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+#: inc/widgets/featured_posts_widget_1.php:23
+#: inc/widgets/featured_posts_widget_10.php:23
+#: inc/widgets/featured_posts_widget_11.php:23
+#: inc/widgets/featured_posts_widget_12.php:23
+#: inc/widgets/featured_posts_widget_13.php:23
+#: inc/widgets/featured_posts_widget_14.php:23
+#: inc/widgets/featured_posts_widget_15.php:23
+#: inc/widgets/featured_posts_widget_16.php:23
+#: inc/widgets/featured_posts_widget_2.php:23
+#: inc/widgets/featured_posts_widget_3.php:23
+#: inc/widgets/featured_posts_widget_4.php:24
+#: inc/widgets/featured_posts_widget_5.php:23
+#: inc/widgets/featured_posts_widget_6.php:23
+#: inc/widgets/featured_posts_widget_7.php:33
+#: inc/widgets/featured_posts_widget_8.php:23
+#: inc/widgets/featured_posts_widget_9.php:23
+msgid "Category Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:29
+#: inc/widgets/featured_posts_widget_1.php:23
+#: inc/widgets/featured_posts_widget_10.php:23
+#: inc/widgets/featured_posts_widget_11.php:23
+#: inc/widgets/featured_posts_widget_12.php:23
+#: inc/widgets/featured_posts_widget_13.php:23
+#: inc/widgets/featured_posts_widget_14.php:23
+#: inc/widgets/featured_posts_widget_15.php:23
+#: inc/widgets/featured_posts_widget_16.php:23
+#: inc/widgets/featured_posts_widget_2.php:23
+#: inc/widgets/featured_posts_widget_3.php:23
+#: inc/widgets/featured_posts_widget_4.php:24
+#: inc/widgets/featured_posts_widget_5.php:23
+#: inc/widgets/featured_posts_widget_6.php:23
+#: inc/widgets/featured_posts_widget_7.php:33
+#: inc/widgets/featured_posts_widget_8.php:23
+#: inc/widgets/featured_posts_widget_9.php:23
+msgid "Tag Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:33
+msgid "News Ticker Posts Category"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:33
+msgid "Select a category if Posts Type option is Category Posts"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:37
+msgid "News Ticker Posts Tag"
+msgstr ""
+
+#: inc/admin/options/trending-news.php:37
+msgid "Select a tag if Posts Type option is Tag Posts"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:17
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:19
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:20
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:44
+msgid "Author: "
+msgstr ""
+
+#: inc/functions/author-bio-box.php:52 inc/functions/social-buttons.php:15
+#: inc/widgets/about_me_widget.php:273 inc/widgets/social_widget.php:252
+msgid "Twitter"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:54 inc/functions/social-buttons.php:17
+#: inc/widgets/about_me_widget.php:270 inc/widgets/social_widget.php:249
+msgid "Facebook"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:56
+msgid "GooglePlus"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:58 inc/functions/social-buttons.php:21
+#: inc/widgets/about_me_widget.php:279 inc/widgets/social_widget.php:258
+msgid "Pinterest"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:60 inc/functions/social-buttons.php:23
+#: inc/widgets/about_me_widget.php:282 inc/widgets/social_widget.php:261
+msgid "Linkedin"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:62 inc/functions/social-buttons.php:51
+#: inc/widgets/about_me_widget.php:324 inc/widgets/social_widget.php:303
+msgid "Dribbble"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:64 inc/functions/social-buttons.php:37
+#: inc/widgets/about_me_widget.php:303 inc/widgets/social_widget.php:282
+msgid "Github"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/functions/postmeta.php:18 inc/widgets/featured_posts_widget_3.php:205
+#: inc/widgets/featured_posts_widget_9.php:211
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/functions/postmeta.php:21 inc/widgets/featured_posts_widget_3.php:208
+#: inc/widgets/featured_posts_widget_9.php:214
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta.php:32 inc/functions/postmeta.php:62
+#: inc/functions/postmeta.php:106 inc/functions/postmeta.php:120
+#: inc/functions/postmeta.php:164 inc/functions/postmeta.php:178
+#: inc/functions/postmeta.php:222 inc/functions/postmeta.php:252
+#: inc/functions/postmeta.php:282
+msgid "&nbsp;"
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/functions/postmeta.php:35 inc/functions/postmeta.php:65
+#: inc/functions/postmeta.php:109 inc/functions/postmeta.php:123
+#: inc/functions/postmeta.php:167 inc/functions/postmeta.php:181
+#: inc/functions/postmeta.php:225 inc/functions/postmeta.php:255
+#: inc/functions/postmeta.php:285 inc/functions/postmeta.php:314
+#: inc/widgets/featured_posts_widget_11.php:222
+#: inc/widgets/featured_posts_widget_11.php:294
+#: inc/widgets/featured_posts_widget_12.php:190
+#: inc/widgets/featured_posts_widget_14.php:222
+#: inc/widgets/featured_posts_widget_14.php:283
+#: inc/widgets/featured_posts_widget_15.php:197
+#: inc/widgets/featured_posts_widget_15.php:256
+#: inc/widgets/featured_posts_widget_16.php:154
+#: inc/widgets/featured_posts_widget_2.php:184
+#: inc/widgets/featured_posts_widget_3.php:186
+#: inc/widgets/featured_posts_widget_4.php:181
+#: inc/widgets/featured_posts_widget_5.php:168
+#: inc/widgets/featured_posts_widget_6.php:154
+#: inc/widgets/featured_posts_widget_8.php:143
+#: inc/widgets/featured_posts_widget_9.php:167
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted in </span>%1$s"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:79
+#: inc/functions/postmeta.php:137 inc/functions/postmeta.php:152
+#: inc/functions/postmeta.php:195 inc/functions/postmeta.php:210
+#: inc/functions/postmeta.php:299 inc/functions/postmeta.php:328
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:79
+#: inc/functions/postmeta.php:94 inc/functions/postmeta.php:137
+#: inc/functions/postmeta.php:152 inc/functions/postmeta.php:195
+#: inc/functions/postmeta.php:210 inc/functions/postmeta.php:240
+#: inc/functions/postmeta.php:270 inc/functions/postmeta.php:299
+#: inc/functions/postmeta.php:328 inc/widgets/featured_posts_widget_1.php:149
+#: inc/widgets/featured_posts_widget_10.php:205
+#: inc/widgets/featured_posts_widget_10.php:239
+#: inc/widgets/featured_posts_widget_11.php:231
+#: inc/widgets/featured_posts_widget_11.php:252
+#: inc/widgets/featured_posts_widget_11.php:303
+#: inc/widgets/featured_posts_widget_11.php:324
+#: inc/widgets/featured_posts_widget_12.php:200
+#: inc/widgets/featured_posts_widget_13.php:135
+#: inc/widgets/featured_posts_widget_14.php:231
+#: inc/widgets/featured_posts_widget_14.php:292
+#: inc/widgets/featured_posts_widget_15.php:206
+#: inc/widgets/featured_posts_widget_15.php:265
+#: inc/widgets/featured_posts_widget_16.php:163
+#: inc/widgets/featured_posts_widget_2.php:194
+#: inc/widgets/featured_posts_widget_3.php:195
+#: inc/widgets/featured_posts_widget_4.php:190
+#: inc/widgets/featured_posts_widget_5.php:177
+#: inc/widgets/featured_posts_widget_6.php:163
+#: inc/widgets/featured_posts_widget_8.php:152
+#: inc/widgets/featured_posts_widget_9.php:176
+#: inc/widgets/tabbed_widget.php:166 inc/widgets/tabbed_widget.php:203
+#: inc/widgets/tabbed_widget.php:240
+msgid "1 Comment"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:79
+#: inc/functions/postmeta.php:94 inc/functions/postmeta.php:137
+#: inc/functions/postmeta.php:152 inc/functions/postmeta.php:195
+#: inc/functions/postmeta.php:210 inc/functions/postmeta.php:240
+#: inc/functions/postmeta.php:270 inc/functions/postmeta.php:299
+#: inc/functions/postmeta.php:328 inc/widgets/featured_posts_widget_1.php:149
+#: inc/widgets/featured_posts_widget_10.php:205
+#: inc/widgets/featured_posts_widget_10.php:239
+#: inc/widgets/featured_posts_widget_11.php:231
+#: inc/widgets/featured_posts_widget_11.php:252
+#: inc/widgets/featured_posts_widget_11.php:303
+#: inc/widgets/featured_posts_widget_11.php:324
+#: inc/widgets/featured_posts_widget_12.php:200
+#: inc/widgets/featured_posts_widget_13.php:135
+#: inc/widgets/featured_posts_widget_14.php:231
+#: inc/widgets/featured_posts_widget_14.php:292
+#: inc/widgets/featured_posts_widget_15.php:206
+#: inc/widgets/featured_posts_widget_15.php:265
+#: inc/widgets/featured_posts_widget_16.php:163
+#: inc/widgets/featured_posts_widget_2.php:194
+#: inc/widgets/featured_posts_widget_3.php:195
+#: inc/widgets/featured_posts_widget_4.php:190
+#: inc/widgets/featured_posts_widget_5.php:177
+#: inc/widgets/featured_posts_widget_6.php:163
+#: inc/widgets/featured_posts_widget_8.php:152
+#: inc/widgets/featured_posts_widget_9.php:176
+#: inc/widgets/tabbed_widget.php:166 inc/widgets/tabbed_widget.php:203
+#: inc/widgets/tabbed_widget.php:240
+msgid "% Comments"
+msgstr ""
+
+#: inc/functions/postmeta.php:94 inc/functions/postmeta.php:240
+#: inc/functions/postmeta.php:270 inc/widgets/featured_posts_widget_1.php:149
+#: inc/widgets/featured_posts_widget_10.php:205
+#: inc/widgets/featured_posts_widget_10.php:239
+#: inc/widgets/featured_posts_widget_11.php:231
+#: inc/widgets/featured_posts_widget_11.php:252
+#: inc/widgets/featured_posts_widget_11.php:303
+#: inc/widgets/featured_posts_widget_11.php:324
+#: inc/widgets/featured_posts_widget_12.php:200
+#: inc/widgets/featured_posts_widget_13.php:135
+#: inc/widgets/featured_posts_widget_14.php:231
+#: inc/widgets/featured_posts_widget_14.php:292
+#: inc/widgets/featured_posts_widget_15.php:206
+#: inc/widgets/featured_posts_widget_15.php:265
+#: inc/widgets/featured_posts_widget_16.php:163
+#: inc/widgets/featured_posts_widget_2.php:194
+#: inc/widgets/featured_posts_widget_3.php:195
+#: inc/widgets/featured_posts_widget_4.php:190
+#: inc/widgets/featured_posts_widget_5.php:177
+#: inc/widgets/featured_posts_widget_6.php:163
+#: inc/widgets/featured_posts_widget_8.php:152
+#: inc/widgets/featured_posts_widget_9.php:176
+#: inc/widgets/tabbed_widget.php:166 inc/widgets/tabbed_widget.php:203
+#: inc/widgets/tabbed_widget.php:240
+msgid "0 Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta.php:311
+msgid ", "
+msgstr ""
+
+#: inc/functions/postmeta.php:330 template-contact-page.php:106
+#: template-parts/content-page.php:45 template-site-authors.php:35
+#: template-sitemap.php:56
+msgid "Edit"
+msgstr ""
+
+#: inc/functions/posts-navigation.php:26
+msgid "&larr; Older posts"
+msgstr ""
+
+#: inc/functions/posts-navigation.php:26
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#. translators: %s: post title.
+#: inc/functions/related-posts.php:47 inc/functions/related-posts.php:49
+#: inc/functions/related-posts.php:51 inc/functions/trending-news.php:52
+#: inc/widgets/featured_posts_widget_1.php:139
+#: inc/widgets/featured_posts_widget_1.php:141
+#: inc/widgets/featured_posts_widget_1.php:145
+#: inc/widgets/featured_posts_widget_10.php:195
+#: inc/widgets/featured_posts_widget_10.php:197
+#: inc/widgets/featured_posts_widget_10.php:201
+#: inc/widgets/featured_posts_widget_10.php:229
+#: inc/widgets/featured_posts_widget_10.php:231
+#: inc/widgets/featured_posts_widget_10.php:235
+#: inc/widgets/featured_posts_widget_11.php:209
+#: inc/widgets/featured_posts_widget_11.php:211
+#: inc/widgets/featured_posts_widget_11.php:227
+#: inc/widgets/featured_posts_widget_11.php:243
+#: inc/widgets/featured_posts_widget_11.php:245
+#: inc/widgets/featured_posts_widget_11.php:249
+#: inc/widgets/featured_posts_widget_11.php:281
+#: inc/widgets/featured_posts_widget_11.php:283
+#: inc/widgets/featured_posts_widget_11.php:299
+#: inc/widgets/featured_posts_widget_11.php:315
+#: inc/widgets/featured_posts_widget_11.php:317
+#: inc/widgets/featured_posts_widget_11.php:321
+#: inc/widgets/featured_posts_widget_12.php:176
+#: inc/widgets/featured_posts_widget_12.php:178
+#: inc/widgets/featured_posts_widget_12.php:196
+#: inc/widgets/featured_posts_widget_13.php:125
+#: inc/widgets/featured_posts_widget_13.php:130
+#: inc/widgets/featured_posts_widget_14.php:209
+#: inc/widgets/featured_posts_widget_14.php:211
+#: inc/widgets/featured_posts_widget_14.php:227
+#: inc/widgets/featured_posts_widget_14.php:242
+#: inc/widgets/featured_posts_widget_14.php:270
+#: inc/widgets/featured_posts_widget_14.php:272
+#: inc/widgets/featured_posts_widget_14.php:288
+#: inc/widgets/featured_posts_widget_14.php:303
+#: inc/widgets/featured_posts_widget_15.php:184
+#: inc/widgets/featured_posts_widget_15.php:186
+#: inc/widgets/featured_posts_widget_15.php:202
+#: inc/widgets/featured_posts_widget_15.php:215
+#: inc/widgets/featured_posts_widget_15.php:243
+#: inc/widgets/featured_posts_widget_15.php:245
+#: inc/widgets/featured_posts_widget_15.php:261
+#: inc/widgets/featured_posts_widget_15.php:274
+#: inc/widgets/featured_posts_widget_16.php:133
+#: inc/widgets/featured_posts_widget_16.php:137
+#: inc/widgets/featured_posts_widget_16.php:142
+#: inc/widgets/featured_posts_widget_16.php:159
+#: inc/widgets/featured_posts_widget_2.php:170
+#: inc/widgets/featured_posts_widget_2.php:172
+#: inc/widgets/featured_posts_widget_2.php:190
+#: inc/widgets/featured_posts_widget_3.php:174
+#: inc/widgets/featured_posts_widget_3.php:191
+#: inc/widgets/featured_posts_widget_4.php:169
+#: inc/widgets/featured_posts_widget_4.php:186
+#: inc/widgets/featured_posts_widget_5.php:156
+#: inc/widgets/featured_posts_widget_5.php:173
+#: inc/widgets/featured_posts_widget_6.php:133
+#: inc/widgets/featured_posts_widget_6.php:137
+#: inc/widgets/featured_posts_widget_6.php:142
+#: inc/widgets/featured_posts_widget_6.php:159
+#: inc/widgets/featured_posts_widget_7.php:115
+#: inc/widgets/featured_posts_widget_8.php:131
+#: inc/widgets/featured_posts_widget_8.php:148
+#: inc/widgets/featured_posts_widget_9.php:155
+#: inc/widgets/featured_posts_widget_9.php:172
+#: inc/widgets/tabbed_widget.php:156 inc/widgets/tabbed_widget.php:158
+#: inc/widgets/tabbed_widget.php:162 inc/widgets/tabbed_widget.php:193
+#: inc/widgets/tabbed_widget.php:195 inc/widgets/tabbed_widget.php:199
+#: inc/widgets/tabbed_widget.php:230 inc/widgets/tabbed_widget.php:232
+#: inc/widgets/tabbed_widget.php:236 template-parts/content-single.php:32
+#: template-parts/content-singlefull.php:32
+#: template-parts/content-style-1.php:19 template-parts/content-style-1.php:21
+#: template-parts/content-style-12.php:36
+#: template-parts/content-style-12.php:38
+#: template-parts/content-style-13.php:19
+#: template-parts/content-style-2.php:36 template-parts/content-style-2.php:38
+#: template-parts/content-style-3.php:19 template-parts/content-style-4.php:19
+#: template-parts/content-style-5.php:19 template-parts/content-style-6.php:19
+#: template-parts/content-style-6.php:23 template-parts/content-style-6.php:28
+#: template-parts/content-style-8.php:19 template-parts/content-style-9.php:19
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: inc/functions/share-buttons.php:39
+msgid "Share: "
+msgstr ""
+
+#: inc/functions/share-buttons.php:40
+msgid "Tweet This!"
+msgstr ""
+
+#: inc/functions/share-buttons.php:41
+msgid "Share this on Facebook"
+msgstr ""
+
+#: inc/functions/share-buttons.php:42
+msgid "Share this on Google+"
+msgstr ""
+
+#: inc/functions/share-buttons.php:43
+msgid "Share this on Pinterest"
+msgstr ""
+
+#: inc/functions/share-buttons.php:44
+msgid "Share this on Reddit"
+msgstr ""
+
+#: inc/functions/share-buttons.php:45
+msgid "Share this on VK"
+msgstr ""
+
+#: inc/functions/share-buttons.php:46
+msgid "Share this on Digg"
+msgstr ""
+
+#: inc/functions/share-buttons.php:47
+msgid "Share this on Linkedin"
+msgstr ""
+
+#: inc/functions/share-buttons.php:48
+msgid "Share this on Delicious"
+msgstr ""
+
+#: inc/functions/social-buttons.php:19 inc/widgets/about_me_widget.php:276
+#: inc/widgets/social_widget.php:255
+msgid "Google Plus"
+msgstr ""
+
+#: inc/functions/social-buttons.php:25 inc/widgets/about_me_widget.php:285
+#: inc/widgets/social_widget.php:264
+msgid "Instagram"
+msgstr ""
+
+#: inc/functions/social-buttons.php:27 inc/widgets/about_me_widget.php:288
+#: inc/widgets/social_widget.php:267
+msgid "Flickr"
+msgstr ""
+
+#: inc/functions/social-buttons.php:29 inc/widgets/about_me_widget.php:291
+#: inc/widgets/social_widget.php:270
+msgid "Youtube"
+msgstr ""
+
+#: inc/functions/social-buttons.php:31 inc/widgets/about_me_widget.php:294
+#: inc/widgets/social_widget.php:273
+msgid "Vimeo"
+msgstr ""
+
+#: inc/functions/social-buttons.php:33 inc/widgets/about_me_widget.php:297
+#: inc/widgets/social_widget.php:276
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/functions/social-buttons.php:35 inc/widgets/about_me_widget.php:300
+#: inc/widgets/social_widget.php:279
+msgid "Lastfm"
+msgstr ""
+
+#: inc/functions/social-buttons.php:39 inc/widgets/about_me_widget.php:306
+#: inc/widgets/social_widget.php:285
+msgid "Bitbucket"
+msgstr ""
+
+#: inc/functions/social-buttons.php:41 inc/widgets/about_me_widget.php:309
+#: inc/widgets/social_widget.php:288
+msgid "Tumblr"
+msgstr ""
+
+#: inc/functions/social-buttons.php:43 inc/widgets/about_me_widget.php:312
+#: inc/widgets/social_widget.php:291
+msgid "Digg"
+msgstr ""
+
+#: inc/functions/social-buttons.php:45 inc/widgets/about_me_widget.php:315
+#: inc/widgets/social_widget.php:294
+msgid "Delicious"
+msgstr ""
+
+#: inc/functions/social-buttons.php:47 inc/widgets/about_me_widget.php:318
+#: inc/widgets/social_widget.php:297
+msgid "Stumbleupon"
+msgstr ""
+
+#: inc/functions/social-buttons.php:49 inc/widgets/about_me_widget.php:321
+#: inc/widgets/social_widget.php:300
+msgid "Reddit"
+msgstr ""
+
+#: inc/functions/social-buttons.php:53 inc/widgets/about_me_widget.php:327
+#: inc/widgets/social_widget.php:306
+msgid "Behance"
+msgstr ""
+
+#: inc/functions/social-buttons.php:55 inc/widgets/about_me_widget.php:330
+#: inc/widgets/social_widget.php:309
+msgid "VK"
+msgstr ""
+
+#: inc/functions/social-buttons.php:57 inc/widgets/about_me_widget.php:333
+#: inc/widgets/social_widget.php:312
+msgid "Codepen"
+msgstr ""
+
+#: inc/functions/social-buttons.php:59 inc/widgets/about_me_widget.php:336
+#: inc/widgets/social_widget.php:315
+msgid "JSFiddle"
+msgstr ""
+
+#: inc/functions/social-buttons.php:61 inc/widgets/about_me_widget.php:339
+#: inc/widgets/social_widget.php:318
+msgid "Stack Overflow"
+msgstr ""
+
+#: inc/functions/social-buttons.php:63 inc/widgets/about_me_widget.php:342
+#: inc/widgets/social_widget.php:321
+msgid "Stack Exchange"
+msgstr ""
+
+#: inc/functions/social-buttons.php:65 inc/widgets/about_me_widget.php:345
+#: inc/widgets/social_widget.php:324
+msgid "BuySellAds"
+msgstr ""
+
+#: inc/functions/social-buttons.php:67 inc/widgets/about_me_widget.php:348
+#: inc/widgets/social_widget.php:327
+msgid "SlideShare"
+msgstr ""
+
+#: inc/functions/social-buttons.php:69 inc/widgets/about_me_widget.php:351
+#: inc/widgets/social_widget.php:330
+msgid "Skype"
+msgstr ""
+
+#: inc/functions/social-buttons.php:71 inc/widgets/about_me_widget.php:354
+#: inc/widgets/social_widget.php:333
+msgid "Email Us"
+msgstr ""
+
+#: inc/functions/social-buttons.php:73 inc/widgets/about_me_widget.php:357
+#: inc/widgets/social_widget.php:336
+msgid "RSS"
+msgstr ""
+
+#: inc/functions/social-buttons.php:74
+msgid "Search"
+msgstr ""
+
+#: inc/functions/widgets-init.php:17
+msgid "Header Banner"
+msgstr ""
+
+#: inc/functions/widgets-init.php:18
+msgid "This sidebar is located on the header of the web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:26
+msgid "Sidebar 1"
+msgstr ""
+
+#: inc/functions/widgets-init.php:27
+msgid "This sidebar is normally located on the left-hand side of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:35
+msgid "Sidebar 2"
+msgstr ""
+
+#: inc/functions/widgets-init.php:36
+msgid "This sidebar is normally located on the right-hand side of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:44
+msgid "Top Full Width Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:45
+msgid "This full-width widget area is located at the top of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:53
+msgid "Top Full Width Widgets (Posts Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:54
+msgid "This full-width widget area is located at the top of single post."
+msgstr ""
+
+#: inc/functions/widgets-init.php:62
+msgid "Top Full Width Widgets (Posts/Pages Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:63
+msgid "This full-width widget area is located at the top of single post/page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:71
+msgid "Top Full Width Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:72
+msgid "This full-width widget area is located at the top of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:80
+msgid "Top Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:81
+msgid "This widget area is located at the top of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:89
+msgid "Top Widgets (Posts Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:90
+msgid "This widget area is located at the top of single post."
+msgstr ""
+
+#: inc/functions/widgets-init.php:98
+msgid "Top Widgets (Posts/Pages Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:99
+msgid "This widget area is located at the top of single post/page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:107
+msgid "Top Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:108
+msgid "This widget area is located at the top of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:116
+msgid "Bottom Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:117
+msgid "This widget area is located at the bottom of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:125
+msgid "Bottom Widgets (Posts Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:126
+msgid "This widget area is located at the bottom of single post."
+msgstr ""
+
+#: inc/functions/widgets-init.php:134
+msgid "Bottom Widgets (Posts/Pages Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:135
+msgid "This widget area is located at the bottom of single post/page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:143
+msgid "Bottom Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:144
+msgid "This widget area is located at the bottom of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:152
+msgid "Post Bottom Widgets"
+msgstr ""
+
+#: inc/functions/widgets-init.php:153
+msgid ""
+"This widget area is located at the bottom of single post. before the comments"
+msgstr ""
+
+#: inc/functions/widgets-init.php:161
+msgid "Footer 1"
+msgstr ""
+
+#: inc/functions/widgets-init.php:162
+msgid "This sidebar is located on the left bottom of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:170
+msgid "Footer 2"
+msgstr ""
+
+#: inc/functions/widgets-init.php:171 inc/functions/widgets-init.php:180
+msgid "This sidebar is located on the middle bottom of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:179
+msgid "Footer 3"
+msgstr ""
+
+#: inc/functions/widgets-init.php:188
+msgid "Footer 4"
+msgstr ""
+
+#: inc/functions/widgets-init.php:189
+msgid "This sidebar is located on the right bottom of web page."
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:16
+msgid "This widget can use to add an image and description about you."
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:18
+msgid "ElegantWP About Widget"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:23
+msgid "About Me"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:27
+#: inc/widgets/featured_posts_widget_1.php:28
+#: inc/widgets/featured_posts_widget_11.php:28
+#: inc/widgets/featured_posts_widget_12.php:28
+#: inc/widgets/featured_posts_widget_13.php:28
+#: inc/widgets/featured_posts_widget_14.php:28
+#: inc/widgets/featured_posts_widget_15.php:28
+#: inc/widgets/featured_posts_widget_16.php:28
+#: inc/widgets/featured_posts_widget_2.php:28
+#: inc/widgets/featured_posts_widget_3.php:28
+#: inc/widgets/featured_posts_widget_4.php:29
+#: inc/widgets/featured_posts_widget_5.php:28
+#: inc/widgets/featured_posts_widget_6.php:28
+#: inc/widgets/featured_posts_widget_7.php:38
+#: inc/widgets/featured_posts_widget_8.php:28
+#: inc/widgets/featured_posts_widget_9.php:28 inc/widgets/social_widget.php:27
+#: inc/widgets/tabbed_widget.php:27
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:31
+msgid "Profile Image URL"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:35
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:40
+msgid "Display round social buttons?"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:43
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:47
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:51
+msgid "Google Plus URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:55
+msgid "Pinterest URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:59
+msgid "Linkedin URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:63
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:67
+msgid "Flickr URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:71
+msgid "Youtube URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:75
+msgid "Vimeo URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:79
+msgid "SoundCloud URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:83
+msgid "Lastfm URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:87
+msgid "Github URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:91
+msgid "Bitbucket URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:95
+msgid "Tumblr URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:99
+msgid "Digg URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:103
+msgid "Delicious URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:107
+msgid "Stumbleupon URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:111
+msgid "Reddit URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:115
+msgid "Dribbble URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:119
+msgid "Behance URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:123
+msgid "VK URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:127
+msgid "Codepen URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:131
+msgid "JSFiddle URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:135
+msgid "Stack Overflow URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:139
+msgid "Stack Exchange URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:143
+msgid "BuySellAds URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:147
+msgid "SlideShare URL:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:151
+msgid "Skype Username:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:155 inc/widgets/social_widget.php:147
+msgid "Email Address:"
+msgstr ""
+
+#: inc/widgets/about_me_widget.php:159
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:16
+#: inc/widgets/featured_posts_widget_10.php:16
+#: inc/widgets/featured_posts_widget_11.php:16
+#: inc/widgets/featured_posts_widget_12.php:16
+#: inc/widgets/featured_posts_widget_13.php:16
+#: inc/widgets/featured_posts_widget_14.php:16
+#: inc/widgets/featured_posts_widget_15.php:16
+#: inc/widgets/featured_posts_widget_16.php:16
+#: inc/widgets/featured_posts_widget_2.php:16
+#: inc/widgets/featured_posts_widget_3.php:16
+#: inc/widgets/featured_posts_widget_4.php:16
+#: inc/widgets/featured_posts_widget_5.php:16
+#: inc/widgets/featured_posts_widget_6.php:16
+#: inc/widgets/featured_posts_widget_7.php:23
+#: inc/widgets/featured_posts_widget_8.php:16
+#: inc/widgets/featured_posts_widget_9.php:16
+msgid ""
+"This widget displays recent/popular/random posts or displays posts from a "
+"given category or tag."
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:18
+msgid "ElegantWP Featured Posts - Style 1"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:24
+msgid "Featured Posts - Style 1"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:32
+#: inc/widgets/featured_posts_widget_12.php:32
+#: inc/widgets/featured_posts_widget_13.php:32
+#: inc/widgets/featured_posts_widget_16.php:32
+#: inc/widgets/featured_posts_widget_2.php:32
+#: inc/widgets/featured_posts_widget_3.php:32
+#: inc/widgets/featured_posts_widget_4.php:43
+#: inc/widgets/featured_posts_widget_5.php:32
+#: inc/widgets/featured_posts_widget_6.php:32
+#: inc/widgets/featured_posts_widget_7.php:42
+#: inc/widgets/featured_posts_widget_8.php:32
+#: inc/widgets/featured_posts_widget_9.php:32
+msgid "Choose the Post Type to display"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:42
+#: inc/widgets/featured_posts_widget_12.php:42
+#: inc/widgets/featured_posts_widget_13.php:42
+#: inc/widgets/featured_posts_widget_16.php:42
+#: inc/widgets/featured_posts_widget_2.php:42
+#: inc/widgets/featured_posts_widget_3.php:42
+#: inc/widgets/featured_posts_widget_4.php:53
+#: inc/widgets/featured_posts_widget_5.php:42
+#: inc/widgets/featured_posts_widget_6.php:42
+#: inc/widgets/featured_posts_widget_7.php:52
+#: inc/widgets/featured_posts_widget_8.php:42
+#: inc/widgets/featured_posts_widget_9.php:42
+msgid "Select a Category (If post type option is Category Posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:46
+#: inc/widgets/featured_posts_widget_12.php:46
+#: inc/widgets/featured_posts_widget_13.php:46
+#: inc/widgets/featured_posts_widget_16.php:46
+#: inc/widgets/featured_posts_widget_2.php:46
+#: inc/widgets/featured_posts_widget_3.php:46
+#: inc/widgets/featured_posts_widget_4.php:57
+#: inc/widgets/featured_posts_widget_5.php:46
+#: inc/widgets/featured_posts_widget_6.php:46
+#: inc/widgets/featured_posts_widget_7.php:56
+#: inc/widgets/featured_posts_widget_8.php:46
+#: inc/widgets/featured_posts_widget_9.php:46
+msgid "Select a Tag (If post type option is Tag Posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:50
+#: inc/widgets/featured_posts_widget_10.php:80
+#: inc/widgets/featured_posts_widget_11.php:80
+#: inc/widgets/featured_posts_widget_12.php:50
+#: inc/widgets/featured_posts_widget_13.php:50
+#: inc/widgets/featured_posts_widget_14.php:80
+#: inc/widgets/featured_posts_widget_15.php:80
+#: inc/widgets/featured_posts_widget_16.php:50
+#: inc/widgets/featured_posts_widget_2.php:50
+#: inc/widgets/featured_posts_widget_3.php:50
+#: inc/widgets/featured_posts_widget_4.php:61
+#: inc/widgets/featured_posts_widget_5.php:50
+#: inc/widgets/featured_posts_widget_6.php:50
+#: inc/widgets/featured_posts_widget_7.php:60
+#: inc/widgets/featured_posts_widget_8.php:50
+#: inc/widgets/featured_posts_widget_9.php:50 inc/widgets/tabbed_widget.php:58
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:52
+#: inc/widgets/featured_posts_widget_10.php:82
+#: inc/widgets/featured_posts_widget_12.php:52
+#: inc/widgets/featured_posts_widget_14.php:82
+#: inc/widgets/featured_posts_widget_15.php:82
+#: inc/widgets/featured_posts_widget_16.php:52
+#: inc/widgets/featured_posts_widget_2.php:52
+#: inc/widgets/featured_posts_widget_7.php:62
+msgid "Default value: 5"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:55
+#: inc/widgets/featured_posts_widget_10.php:85
+#: inc/widgets/featured_posts_widget_11.php:85
+#: inc/widgets/featured_posts_widget_12.php:55
+#: inc/widgets/featured_posts_widget_14.php:85
+#: inc/widgets/featured_posts_widget_2.php:55
+#: inc/widgets/featured_posts_widget_3.php:55
+#: inc/widgets/featured_posts_widget_4.php:66
+#: inc/widgets/featured_posts_widget_5.php:55 inc/widgets/tabbed_widget.php:83
+msgid "Post snippet length(number of words):"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:57
+#: inc/widgets/featured_posts_widget_10.php:87
+#: inc/widgets/tabbed_widget.php:85
+msgid "Default value: 20"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:61
+#: inc/widgets/featured_posts_widget_10.php:91
+#: inc/widgets/featured_posts_widget_13.php:56
+#: inc/widgets/featured_posts_widget_16.php:56
+#: inc/widgets/featured_posts_widget_3.php:65
+#: inc/widgets/featured_posts_widget_4.php:76
+#: inc/widgets/featured_posts_widget_5.php:65
+#: inc/widgets/featured_posts_widget_6.php:56
+#: inc/widgets/featured_posts_widget_8.php:56
+#: inc/widgets/featured_posts_widget_9.php:56 inc/widgets/tabbed_widget.php:64
+msgid "Display Post Thumbnail?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:65
+#: inc/widgets/featured_posts_widget_10.php:95
+#: inc/widgets/featured_posts_widget_11.php:99
+#: inc/widgets/featured_posts_widget_12.php:69
+#: inc/widgets/featured_posts_widget_13.php:60
+#: inc/widgets/featured_posts_widget_14.php:99
+#: inc/widgets/featured_posts_widget_15.php:90
+#: inc/widgets/featured_posts_widget_16.php:64
+#: inc/widgets/featured_posts_widget_2.php:69
+#: inc/widgets/featured_posts_widget_3.php:77
+#: inc/widgets/featured_posts_widget_4.php:84
+#: inc/widgets/featured_posts_widget_5.php:73
+#: inc/widgets/featured_posts_widget_6.php:64
+#: inc/widgets/featured_posts_widget_8.php:64
+#: inc/widgets/featured_posts_widget_9.php:68 inc/widgets/tabbed_widget.php:68
+msgid "Display Post Author?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:69
+#: inc/widgets/featured_posts_widget_10.php:99
+#: inc/widgets/featured_posts_widget_11.php:103
+#: inc/widgets/featured_posts_widget_12.php:73
+#: inc/widgets/featured_posts_widget_13.php:64
+#: inc/widgets/featured_posts_widget_14.php:103
+#: inc/widgets/featured_posts_widget_15.php:94
+#: inc/widgets/featured_posts_widget_16.php:68
+#: inc/widgets/featured_posts_widget_2.php:73
+#: inc/widgets/featured_posts_widget_3.php:81
+#: inc/widgets/featured_posts_widget_4.php:88
+#: inc/widgets/featured_posts_widget_5.php:77
+#: inc/widgets/featured_posts_widget_6.php:68
+#: inc/widgets/featured_posts_widget_8.php:68
+#: inc/widgets/featured_posts_widget_9.php:72 inc/widgets/tabbed_widget.php:72
+msgid "Display Post Date?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:73
+#: inc/widgets/featured_posts_widget_10.php:103
+#: inc/widgets/featured_posts_widget_11.php:107
+#: inc/widgets/featured_posts_widget_12.php:77
+#: inc/widgets/featured_posts_widget_13.php:68
+#: inc/widgets/featured_posts_widget_14.php:107
+#: inc/widgets/featured_posts_widget_15.php:98
+#: inc/widgets/featured_posts_widget_16.php:72
+#: inc/widgets/featured_posts_widget_2.php:77
+#: inc/widgets/featured_posts_widget_3.php:85
+#: inc/widgets/featured_posts_widget_4.php:92
+#: inc/widgets/featured_posts_widget_5.php:81
+#: inc/widgets/featured_posts_widget_6.php:72
+#: inc/widgets/featured_posts_widget_8.php:72
+#: inc/widgets/featured_posts_widget_9.php:76 inc/widgets/tabbed_widget.php:76
+msgid "Display Number of Comments?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_1.php:77
+#: inc/widgets/featured_posts_widget_10.php:107
+#: inc/widgets/featured_posts_widget_11.php:111
+#: inc/widgets/featured_posts_widget_14.php:111
+#: inc/widgets/featured_posts_widget_2.php:81
+#: inc/widgets/featured_posts_widget_3.php:89
+#: inc/widgets/featured_posts_widget_4.php:96
+#: inc/widgets/featured_posts_widget_5.php:85 inc/widgets/tabbed_widget.php:80
+msgid "Display Post Snippet?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:18
+msgid "ElegantWP Featured Posts - Style 10"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:24
+msgid "Featured Posts - Style 10"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:24
+msgid "Featured Posts - Style 10 - Left"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:24
+msgid "Featured Posts - Style 10 - Right"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:28
+msgid "Main Title:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:32
+#: inc/widgets/featured_posts_widget_11.php:32
+#: inc/widgets/featured_posts_widget_14.php:32
+#: inc/widgets/featured_posts_widget_15.php:32
+msgid "Left Side Posts Title:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:36
+#: inc/widgets/featured_posts_widget_11.php:36
+#: inc/widgets/featured_posts_widget_14.php:36
+#: inc/widgets/featured_posts_widget_15.php:36
+msgid "Choose the Post Type to Display as Left Side Posts"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:46
+#: inc/widgets/featured_posts_widget_11.php:46
+#: inc/widgets/featured_posts_widget_14.php:46
+#: inc/widgets/featured_posts_widget_15.php:46
+msgid ""
+"Select a Category for Left Side Posts (If post type option is Category Posts "
+"for left side posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:50
+#: inc/widgets/featured_posts_widget_11.php:50
+#: inc/widgets/featured_posts_widget_14.php:50
+#: inc/widgets/featured_posts_widget_15.php:50
+msgid ""
+"Select a Tag for Left Side Posts (If post type option is Tag Posts for left "
+"side posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:56
+#: inc/widgets/featured_posts_widget_11.php:56
+#: inc/widgets/featured_posts_widget_14.php:56
+#: inc/widgets/featured_posts_widget_15.php:56
+msgid "Right Posts Title:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:60
+#: inc/widgets/featured_posts_widget_11.php:60
+#: inc/widgets/featured_posts_widget_14.php:60
+#: inc/widgets/featured_posts_widget_15.php:60
+msgid "Choose the Post Type to Display as Right Side Posts"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:70
+#: inc/widgets/featured_posts_widget_11.php:70
+#: inc/widgets/featured_posts_widget_14.php:70
+#: inc/widgets/featured_posts_widget_15.php:70
+msgid ""
+"Select a Category for Right Side Posts (If post type option is Category "
+"Posts for right side posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_10.php:74
+#: inc/widgets/featured_posts_widget_11.php:74
+#: inc/widgets/featured_posts_widget_14.php:74
+#: inc/widgets/featured_posts_widget_15.php:74
+msgid ""
+"Select a Tag for Right Side Posts (If post type option is Tag Posts for "
+"right side posts)"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:18
+msgid "ElegantWP Featured Posts - Style 11"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:24
+msgid "Featured Posts - Style 11"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:24
+msgid "Featured Posts - Style 11 - Left"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:24
+msgid "Featured Posts - Style 11 - Right"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:82
+#: inc/widgets/featured_posts_widget_4.php:63
+#: inc/widgets/featured_posts_widget_5.php:52
+#: inc/widgets/featured_posts_widget_6.php:52
+msgid "Default value: 4"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:87
+#: inc/widgets/featured_posts_widget_12.php:57
+#: inc/widgets/featured_posts_widget_14.php:87
+#: inc/widgets/featured_posts_widget_2.php:57
+#: inc/widgets/featured_posts_widget_3.php:57
+#: inc/widgets/featured_posts_widget_4.php:68
+#: inc/widgets/featured_posts_widget_5.php:57
+msgid "Default value: 25"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:90
+#: inc/widgets/featured_posts_widget_12.php:60
+#: inc/widgets/featured_posts_widget_14.php:90
+#: inc/widgets/featured_posts_widget_2.php:60
+#: inc/widgets/featured_posts_widget_3.php:60
+#: inc/widgets/featured_posts_widget_4.php:71
+#: inc/widgets/featured_posts_widget_5.php:60
+msgid "Read More Text:"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:95
+#: inc/widgets/featured_posts_widget_12.php:65
+#: inc/widgets/featured_posts_widget_14.php:95
+#: inc/widgets/featured_posts_widget_15.php:86
+#: inc/widgets/featured_posts_widget_16.php:60
+#: inc/widgets/featured_posts_widget_2.php:65
+#: inc/widgets/featured_posts_widget_3.php:69
+#: inc/widgets/featured_posts_widget_4.php:80
+#: inc/widgets/featured_posts_widget_5.php:69
+#: inc/widgets/featured_posts_widget_6.php:60
+#: inc/widgets/featured_posts_widget_8.php:60
+#: inc/widgets/featured_posts_widget_9.php:60
+msgid "Display Post Categories?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_11.php:115
+#: inc/widgets/featured_posts_widget_12.php:89
+#: inc/widgets/featured_posts_widget_14.php:115
+#: inc/widgets/featured_posts_widget_2.php:85
+#: inc/widgets/featured_posts_widget_3.php:97
+#: inc/widgets/featured_posts_widget_4.php:100
+#: inc/widgets/featured_posts_widget_5.php:89
+msgid "Display Read More Button?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_12.php:18
+msgid "ElegantWP Featured Posts - Style 12"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_12.php:24
+msgid "Featured Posts - Style 12"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_12.php:81
+msgid "Display Post Snippet of Main Post?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_12.php:85
+msgid "Display Post Snippets of Small Posts?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_13.php:18
+msgid "ElegantWP Featured Posts - Style 13"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_13.php:24
+msgid "Featured Posts - Style 13"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_13.php:52
+msgid "Default value: 6"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_14.php:18
+msgid "ElegantWP Featured Posts - Style 14"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_14.php:24
+msgid "Featured Posts - Style 14"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_14.php:24
+msgid "Featured Posts - Style 14 - Left"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_14.php:24
+msgid "Featured Posts - Style 14 - Right"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_15.php:18
+msgid "ElegantWP Featured Posts - Style 15"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_15.php:24
+msgid "Featured Posts - Style 15"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_15.php:24
+msgid "Featured Posts - Style 15 - Left"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_15.php:24
+msgid "Featured Posts - Style 15 - Right"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_16.php:18
+msgid "ElegantWP Featured Posts - Style 16"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_16.php:24
+msgid "Featured Posts - Style 16"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_2.php:18
+msgid "ElegantWP Featured Posts - Style 2"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_2.php:24
+msgid "Featured Posts - Style 2"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:18
+msgid "ElegantWP Featured Posts - Style 3"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:24
+msgid "Featured Posts - Style 3"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:52
+#: inc/widgets/featured_posts_widget_8.php:52
+#: inc/widgets/featured_posts_widget_9.php:52
+msgid "Default value: 1"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:73
+msgid "Hide Post Tags?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:93
+msgid "Hide Share Buttons?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_3.php:101
+#: inc/widgets/featured_posts_widget_9.php:88
+msgid "Hide Related Posts?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:18
+msgid "ElegantWP Featured Posts - Style 4"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:23
+msgid "Post Style 1"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:23
+msgid "Post Style 2"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:23
+msgid "Post Style 3"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:25
+msgid "Featured Posts - Style 4"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_4.php:33
+msgid "Choose the Post Style to display"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_5.php:18
+msgid "ElegantWP Featured Posts - Style 5"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_5.php:24
+msgid "Featured Posts - Style 5"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_6.php:18
+msgid "ElegantWP Featured Posts - Style 6"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_6.php:24
+msgid "Featured Posts - Style 6"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_7.php:25
+msgid "ElegantWP Featured Posts - Style 7"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_7.php:34
+msgid "Featured Posts - Style 7"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_8.php:18
+msgid "ElegantWP Featured Posts - Style 8"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_8.php:24
+msgid "Featured Posts - Style 8"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:18
+msgid "ElegantWP Featured Posts - Style 9"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:24
+msgid "Featured Posts - Style 9"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:64
+msgid "Display Post Tags?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:80
+msgid "Display Post Content?"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:84
+msgid "Display Share Buttons?"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/widgets/featured_posts_widget_9.php:184 template-contact-page.php:36
+#: template-parts/content-page.php:25 template-parts/content-single.php:41
+#: template-parts/content-singlefull.php:41
+#: template-parts/content-style-9.php:38
+#, php-format
+msgid ""
+"Continue reading<span class=\"screen-reader-text\"> \"%s\"</span> <span "
+"class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/widgets/featured_posts_widget_9.php:195 template-contact-page.php:47
+#: template-parts/content-page.php:36 template-parts/content-single.php:52
+#: template-parts/content-singlefull.php:52
+#: template-parts/content-style-9.php:49
+msgid "Pages:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:16
+msgid "This widget displays social buttons on your website."
+msgstr ""
+
+#: inc/widgets/social_widget.php:18
+msgid "ElegantWP Social Buttons"
+msgstr ""
+
+#: inc/widgets/social_widget.php:23
+msgid "Social Buttons"
+msgstr ""
+
+#: inc/widgets/social_widget.php:32
+msgid "Display round buttons?"
+msgstr ""
+
+#: inc/widgets/social_widget.php:35
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:39
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:43
+msgid "Google Plus:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:47
+msgid "Pinterest:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:51
+msgid "Linkedin:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:55
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:59
+msgid "Flickr:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:63
+msgid "Youtube:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:67
+msgid "Vimeo:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:71
+msgid "SoundCloud:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:75
+msgid "Lastfm:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:79
+msgid "Github:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:83
+msgid "Bitbucket:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:87
+msgid "Tumblr:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:91
+msgid "Digg:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:95
+msgid "Delicious:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:99
+msgid "Stumbleupon:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:103
+msgid "Reddit:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:107
+msgid "Dribbble:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:111
+msgid "Behance:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:115
+msgid "VK:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:119
+msgid "Codepen:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:123
+msgid "JSFiddle:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:127
+msgid "Stack Overflow:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:131
+msgid "Stack Exchange:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:135
+msgid "BuySellAds:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:139
+msgid "SlideShare:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:143
+msgid "Skype:"
+msgstr ""
+
+#: inc/widgets/social_widget.php:151
+msgid "RSS Feed:"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:16
+msgid "This widget displays widgets in tabbed format."
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:18
+msgid "ElegantWP Tabbed Widget"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:23
+msgid "Tabbed Widget"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:23
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:23
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:23
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:32
+msgid "Display Tab 1 (Popular Posts)"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:36
+msgid "Display Tab 2 (Recent Posts)"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:40
+msgid "Display Tab 3 (Random Posts)"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:43
+msgid "Tab 1 Name:"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:45
+msgid "Default value: Popular"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:48
+msgid "Tab 2 Name:"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:50
+msgid "Default value: Recent"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:53
+msgid "Tab 3 Name:"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:55
+msgid "Default value: Random"
+msgstr ""
+
+#: inc/widgets/tabbed_widget.php:60
+msgid "Default value: 3"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single.php:27 template-c-s1-post.php:28 template-c-s1-s2-post.php:28
+#: template-c-s2-post.php:28 template-c-s2-s1-post.php:28
+#: template-full-width-post-sidebar.php:28 template-full-width-post.php:28
+#: template-s1-c-post.php:28 template-s1-c-s2-post.php:28
+#: template-s1-s2-c-post.php:28 template-s2-c-post.php:28
+#: template-s2-c-s1-post.php:28 template-s2-s1-c-post.php:28
+msgid "&larr; %title"
+msgstr ""
+
+#: single.php:27 template-c-s1-post.php:28 template-c-s1-s2-post.php:28
+#: template-c-s2-post.php:28 template-c-s2-s1-post.php:28
+#: template-full-width-post-sidebar.php:28 template-full-width-post.php:28
+#: template-s1-c-post.php:28 template-s1-c-s2-post.php:28
+#: template-s1-s2-c-post.php:28 template-s2-c-post.php:28
+#: template-s2-c-s1-post.php:28 template-s2-s1-c-post.php:28
+msgid "%title &rarr;"
+msgstr ""
+
+#: template-contact-page.php:66
+msgid "Please fill in all required fields!"
+msgstr ""
+
+#: template-contact-page.php:68
+msgid "Invalid email address!"
+msgstr ""
+
+#: template-contact-page.php:70
+msgid "You entered the wrong number in captcha!"
+msgstr ""
+
+#: template-contact-page.php:72
+msgid ""
+"The contact form has not configured correctly. If you are the site Admin, go "
+"to the Theme Customizer and provide your email address."
+msgstr ""
+
+#: template-contact-page.php:75
+msgid "Thanks for contacting us."
+msgstr ""
+
+#: template-contact-page.php:84
+msgid "Name"
+msgstr ""
+
+#: template-contact-page.php:87
+msgid "Email"
+msgstr ""
+
+#: template-contact-page.php:93
+msgid "Subject"
+msgstr ""
+
+#: template-contact-page.php:96
+msgid "Message"
+msgstr ""
+
+#: template-contact-page.php:99
+msgid "Submit"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:30
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:53
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-sitemap.php:35
+msgid "Recent Comments"
+msgstr ""
+
+#: template-sitemap.php:38
+msgid "Pages"
+msgstr ""
+
+#: template-sitemap.php:43
+msgid "Categories"
+msgstr ""
+
+#: template-sitemap.php:46
+msgid "Tags"
+msgstr ""
+
+#: template-sitemap.php:47
+msgid "Archives"
+msgstr ""
+
+#: template-sitemap.php:48
+msgid "Authors"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "ElegantWP PRO"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themesdna.com/elegantwp-pro-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"ElegantWP is an attractive, user-friendly, 100% responsive, 3 columns, "
+"elegant blogging theme for WordPress. It has useful theme options to "
+"customize various aspects of the theme quickly and has 2 navigation menus, "
+"clean post summaries, full-width layout for posts/pages, sticky menu and "
+"sidebars, header widget, left and right sidebars, 4 columns footer, social "
+"buttons, scroll-to-top button and more. With ElegantWP PRO version you can "
+"get many color and font options, 10 different post styles, 16 featured posts "
+"widgets, social widget, tabbed widget and more widgets, 10+ layout options, "
+"10+ custom page templates, 10+ custom post templates, header layouts, social/"
+"share buttons, related posts and more features. PRO version demo: https://"
+"themesdna.com/demo/elegantwp-pro/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesDNA"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themesdna.com/"
+msgstr ""

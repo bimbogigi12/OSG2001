@@ -1,0 +1,19 @@
+#sp_cdm_breadcrumbs{ 
+  background-color:#EBEBEB; padding:12px; margin:10px 0px;       
+           
+        }
+  #sp_cdm_breadcrumbs span{
+       background-color:#EDEDED;color:#AAA;
+        }
+     
+   #sp_cdm_breadcrumbs span a{
+	color:#333; text-decoration:none;font-size:12px;
+         
+        }
+		
+
+
+   #sp_cdm_breadcrumbs span a:hover{
+	   text-decoration:underline
+      
+        }

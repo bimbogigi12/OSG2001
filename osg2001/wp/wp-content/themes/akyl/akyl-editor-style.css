@@ -1,0 +1,352 @@
+/*
+* ----------------------------------------------------------------------------------------
+* Classic Editor Style for Akyl 
+* ----------------------------------------------------------------------------------------
+*/
+
+body#tinymce.wp-editor {
+	color: #333;
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin: 20px 60px;
+}
+
+body#tinymce.wp-editor .wp-caption-text {
+	text-align: center;
+}
+
+body#tinymce.wp-editor hr {
+    width: 120px;
+    height: 4px;
+    background: #e0e6ed;
+    margin: 40px auto;
+    border: 0;
+}
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6 {
+	font-family: 'Raleway';
+	font-weight: 600;
+}
+
+body#tinymce.wp-editor h1 { font-size: 36px; line-height: 36px; margin: 0.67em 0;}
+body#tinymce.wp-editor h2 { font-size: 32px; line-height: 1.2em; }
+body#tinymce.wp-editor h3 { font-size: 28px; line-height: 1.2em; }
+body#tinymce.wp-editor h4 { font-size: 24px; line-height: 1.2em; }
+body#tinymce.wp-editor h5 { font-size: 20px; line-height: 1.2em; }
+body#tinymce.wp-editor h6 { font-size: 16px; line-height: 1.2em; text-transform: uppercase;}
+
+body#tinymce.wp-editor p {
+	margin: 0 0 24px;
+}
+
+body#tinymce.wp-editor a {
+	color: #59a3e9;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-transition: all 024s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+body#tinymce.wp-editor a:hover,
+body#tinymce.wp-editor a:focus {
+	text-decoration: underline;
+}
+
+body#tinymce.wp-editor code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body#tinymce.wp-editor pre {
+
+	color: #fff;
+	background: #363F48;
+	white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+
+}
+
+body#tinymce.wp-editor pre code {
+	padding: 0;
+	font-size: 1em;
+	color: inherit;
+	white-space: pre-wrap;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+body#tinymce.wp-editor blockquote {
+	font-family: 'Raleway';
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0 40px 20px;
+	border: none;
+	font-size: 1.1em;
+	padding: 10px 20px;
+}
+
+body#tinymce.wp-editor blockquote p, body#tinymce.wp-editor blockquote cite {
+	margin: 0;
+	padding: 0;
+}
+
+body#tinymce.wp-editor blockquote cite {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	background: transparent;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body#tinymce.wp-editor blockquote cite::before {
+    content: "— ";
+}
+
+body#tinymce.wp-editor blockquote::before {
+	content: "\201C";
+	left: -30px;
+}
+
+body#tinymce.wp-editor blockquote::after{
+	content: "\201D";
+	right: -30px;
+}
+
+body#tinymce.wp-editor blockquote::before, body#tinymce.wp-editor blockquote::after{
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	text-indent: 6px;
+	top: 20%;
+	background: #091b2c;
+	border-radius: 50%;
+	width: 30px;
+	line-height: 40px;
+	height: 30px;
+}
+
+body#tinymce.wp-editor table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+body#tinymce.wp-editor table>tbody>tr:nth-of-type(even) {
+    background-color: #f1f1f1;
+}
+
+body#tinymce.wp-editor table th {
+	font-weight: bold;
+}
+
+body#tinymce.wp-editor table th, body#tinymce.wp-editor table td {
+	padding: 12px 8px;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+
+body#tinymce.wp-editor dt {
+	font-weight: 700;
+}
+
+body#tinymce.wp-editor dd, dt {
+    line-height: 24px;
+}
+
+body#tinymce.wp-editor dd {
+	margin-left: 30px;
+}
+
+body#tinymce.wp-editor li {
+	margin-top: 0.5em;
+	line-height: 170%;
+}
+
+body#tinymce.wp-editor address {
+    padding: 3% 3.5%;
+    background: #f1f1f1;
+}
+
+
+/*--------------------------------------------------------------
+# Gutenberg Editor Style for Akyl 
+--------------------------------------------------------------*/
+
+.edit-post-visual-editor, .edit-post-visual-editor input[type=text].editor-default-block-appender__content, .edit-post-visual-editor p {
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	font-weight: 300;
+}
+
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h6 {
+	font-family: 'Raleway';
+	font-weight: 600;
+}
+
+.edit-post-visual-editor h1 { font-size: 36px; line-height: 36px; margin: 0.67em 0;}
+.edit-post-visual-editor h2 { font-size: 32px; line-height: 1.2em;}
+.edit-post-visual-editor h3 { font-size: 28px; line-height: 1.2em;}
+.edit-post-visual-editor h4 { font-size: 24px; line-height: 1.2em;}
+.edit-post-visual-editor h5 { font-size: 20px; line-height: 1.2em;}
+.edit-post-visual-editor h6 { font-size: 16px; line-height: 1.2em; text-transform: uppercase;}
+
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Raleway';
+	margin: 0 auto;
+	max-width: 760px;
+	padding: 6% 0 15px;
+}
+
+.edit-post-visual-editor .editor-post-title__block {
+	max-width: 760px;
+}
+
+.edit-post-visual-editor .editor-block-list__block {
+	max-width: 760px;
+}
+
+.edit-post-visual-editor blockquote {
+	font-family: 'Raleway';
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0 40px 20px;
+	border: none;
+	font-size: 1.1em;
+	padding: 10px 20px;
+}
+
+.edit-post-visual-editor blockquote p, .edit-post-visual-editor blockquote cite {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+.edit-post-visual-editor blockquote cite {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	background: transparent;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.edit-post-visual-editor blockquote cite::before {
+    content: "— ";
+}
+
+.edit-post-visual-editor blockquote::before {
+	content: "\201C";
+	left: -30px;
+}
+
+.edit-post-visual-editor blockquote::after{
+	content: "\201D";
+	right: -30px;
+}
+
+.edit-post-visual-editor blockquote::before, .edit-post-visual-editor blockquote::after{
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	text-indent: 6px;
+	top: 20%;
+	background: #091b2c;
+	border-radius: 50%;
+	width: 30px;
+	line-height: 40px;
+	height: 30px;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border: 0;
+}
+
+.edit-post-visual-editor address {
+    padding: 3% 3.5%;
+    background: #f1f1f1;
+}
+
+.edit-post-visual-editor table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.edit-post-visual-editor table>tbody>tr:nth-of-type(even) {
+    background-color: #f1f1f1;
+}
+
+.edit-post-visual-editor table th {
+	font-weight: bold;
+}
+
+.edit-post-visual-editor table th, .edit-post-visual-editor table td {
+	padding: 12px 8px;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+
+.edit-post-visual-editor dt {
+	font-weight: 700;
+}
+
+.edit-post-visual-editor dd, dt {
+    line-height: 24px;
+}
+
+.edit-post-visual-editor dd {
+	margin-left: 30px;
+}
+
+.edit-post-visual-editor li {
+	margin-top: 0.5em;
+	line-height: 170%;
+}
+
+.edit-post-visual-editor code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.edit-post-visual-editor hr {
+    width: 120px;
+    height: 4px;
+    background: #e0e6ed;
+    margin: 40px auto;
+    border: 0;
+}

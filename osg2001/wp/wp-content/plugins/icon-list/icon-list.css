@@ -1,0 +1,42 @@
+/*
+* ==========================================================================
+* Icon List
+* ==========================================================================
+*/
+.widget-iconlist-kamn .widget-iconlist-container:before,
+.widget-iconlist-kamn .widget-iconlist-container:after {
+  content: " ";
+  display: table;
+}
+.widget-iconlist-kamn .widget-iconlist-container:after {
+  clear: both;
+}
+.widget-iconlist-kamn .widget-iconlist-row:before,
+.widget-iconlist-kamn .widget-iconlist-row:after {
+  content: " ";
+  display: table;
+}
+.widget-iconlist-kamn .widget-iconlist-row:after {
+  clear: both;
+}
+.widget-iconlist-kamn ul.widget-iconlist {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.widget-iconlist-kamn ul.widget-iconlist:before,
+.widget-iconlist-kamn ul.widget-iconlist:after {
+  content: " ";
+  display: table;
+}
+.widget-iconlist-kamn ul.widget-iconlist:after {
+  clear: both;
+}
+.widget-iconlist-kamn ul.widget-iconlist > li {
+  position: relative;
+}
+.widget-iconlist-kamn ul.widget-iconlist > li .iconlist-title {
+}
+.widget-iconlist-kamn ul.widget-iconlist > li .iconlist-icon {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}

@@ -1,0 +1,165 @@
+.featured_picture img, .riv_post_thumbs img {
+	width: 80px;
+	height: 80px;
+}
+
+.seos_video-info .media-button-select .sv-info {
+	color: #fff !important;
+}
+
+.seos-video  {
+	max-width: 100%;
+	display: block;
+	clear: both;
+	margin: 0;
+	padding-right: 20px;
+}
+
+.seos-video hr {
+	margin-top:20px;
+}
+				
+.seos-video label {
+	font-weight: bold;
+}
+				
+.cc-clr {
+	display: block;
+	clear: both;
+	content: "";
+}
+				
+.seos-video .form-group  {
+	height: 50px;
+	display:block;
+}
+				
+.seos-video .form-group input {
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.cb-center {
+    width: 100%;
+	display: inline-block;	
+	margin: 0 auto;
+	text-align: center;	
+	margin-top: 20px;
+}
+
+.sb-demo {
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	display: inline-block;
+}
+
+.seos-video  .ss-logo {
+	position: relative;
+	top: 12px;
+	width: 60px;
+	height: 60px;
+}
+
+.seos-video  .s-red {
+    background-color: #B70000 !important;
+	border: 1px solid #6B0000 !important;
+	display: block;
+	clear: both;
+	font-size: 40px;
+	font-weight: 900;
+	width: 100%;
+	color: #fff;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #333;
+}
+
+.seos-video h2  {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.s-red:hover {
+    background-color: red !important;
+}
+
+.seos-video .btn {
+	text-align: center;
+	line-height: 80px;
+}
+
+.seos-video  a {
+	text-decoration: none;
+}
+
+.seos-video h1 {
+	font-size: 44px;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+.seos-video  #load_img1 {
+	max-width: 45px;
+}
+
+.seos-video .form-group {
+	margin-top: 50px;
+}
+
+.seos-video .bttb-images {
+	display: block;
+	margin-top: 40px;
+	clear: both;
+	height: 100%;
+}
+
+.bttb-radio {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	padding: 30px;
+	border: 1px solid #C0C0C0;
+}
+
+.bttb-radio img {
+	position: absolute;
+}
+
+.bttb-radio input {
+	position: relative;
+}
+
+.attachment-featured-thumbnail {
+	width: 80px;
+	height: 80px;
+}
+
+.magazine_news-info a {
+	color: #fff;
+}
+
+.p-demo {
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 900;
+	width: 200px;
+	padding:10px;
+	background: #B70000 ;
+	color: #fff;
+	font-size:22px;
+	text-decoration: none;
+	margin: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+.p-demo:active, 
+.p-demo:hover  {
+	color: #fff;
+	background: red; 
+}

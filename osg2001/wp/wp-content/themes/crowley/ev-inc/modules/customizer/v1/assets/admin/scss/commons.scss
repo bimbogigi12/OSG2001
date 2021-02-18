@@ -1,0 +1,81 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Commons
+// -----------------------------------------------------------------------------
+
+
+// Fields divider
+.evolvethemes-f-d {
+	display: block;
+	float: left;
+	@include size( 100%, 1px );
+	margin: 5px 0;
+	background: $grey_40;
+	clear: both;
+}
+
+// Field label
+.evolvethemes-f-l,
+.evolvethemes-f label {
+	display: block;
+	color: $grey_70;
+	margin-bottom: 6px;
+	margin-top: 0;
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+// Field label help text
+.evolvethemes-f-lh {
+	color: $grey_50;
+	font-size: 12px;
+	line-height: 1.5;
+	display: block;
+	margin-bottom: 6px;
+	margin-top: 0;
+}
+
+.evolvethemes-f {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	clear: both;
+	@include clearfix();
+}
+
+	.evolvethemes-f-1-2 {
+		width: _ev_col( 1/2 );
+		box-sizing: border-box;
+		float: left;
+		clear: none;
+
+		@media screen and ( max-width: 1440px ) {
+			width: 100%;
+		}
+	}
+
+// Field icon
+.evolvethemes-f-i {
+	float: left;
+	margin-right: 15px;
+}
+
+// Note
+.evolvethemes-f-note {
+	background-color: $yellow_light;
+	color: $yellow_text;
+	font-size: 12px;
+	padding: 4px 8px;
+	border-radius: $radius;
+}
+
+// Link
+.evolvethemes-f-lnk {
+	color: $blue_20;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

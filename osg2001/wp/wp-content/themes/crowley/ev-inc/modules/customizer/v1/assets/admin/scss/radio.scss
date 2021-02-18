@@ -1,0 +1,169 @@
+@import "libs";
+
+// -----------------------------------------------------------------------------
+// $Graphic radio
+// -----------------------------------------------------------------------------
+input[type="radio"].evolvethemes-f-gr {
+	display: none;
+}
+
+// Compact horizontal style
+.evolvethemes-f-gr-horz,
+.evolvethemes-f-gr-vert {
+	border-radius: $radius;
+	display: inline-block;
+	transition: border-color $transition_time ease;
+	box-shadow:  0 0 0 2px $grey_40 ;
+
+	&:hover {
+		border-color: $grey_50;
+	}
+
+	.evolvethemes-f-gr:checked + label {
+		background-color: $blue_20;
+		box-shadow:  0 0 0 2px $blue_30 ;
+		color: $white;
+		position: relative;
+		z-index: 20;
+
+		svg path,
+		svg polygon {
+			fill: $white;
+		}
+	}
+
+	> div {
+		float: left;
+
+		&:first-child {
+			label {
+				@include border-left-radius( $radius );
+			}
+		}
+
+		&:last-child {
+			label {
+				@include border-right-radius( $radius );
+			}
+		}
+	}
+
+	label {
+		// float: left;
+		display: block;
+		margin: 0;
+		@include size( 32px );
+		transition: color $transition_time ease, background-color $transition_time ease;
+		box-shadow:  0 0 0 1px $grey_40 ;
+		color: $grey_50;
+
+		&:hover {
+			color: $grey_70;
+			background-color: $grey_10;
+			z-index: 10;
+			position: relative;
+
+			path,
+			polygon {
+				transition: fill $transition_time ease;
+				fill: $grey_70;
+			}
+		}
+
+		svg {
+			margin-top: 10px;
+			margin-left: 10px;
+
+			path,
+			polygon {
+				fill: $grey_50;
+			}
+		}
+	}
+
+	// Graphic radio text
+	.evolvethemes-f-gr-t + label {
+		line-height: 32px;
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+// Compact vertical style
+.evolvethemes-f-gr-vert {
+	width: 100%;
+
+	> div {
+		float: none;
+
+		&:first-child {
+			label {
+				border-radius: 0;
+				@include border-top-radius( $radius );
+			}
+		}
+
+		&:last-child {
+			label {
+				border-radius: 0;
+				@include border-bottom-radius( $radius );
+			}
+		}
+	}
+}
+
+// Splitted options style
+.evolvethemes-f-gr-split {
+	margin-left: -5px;
+	margin-right: -5px;
+	float: left;
+	box-sizing: border-box;
+
+	> div {
+		float: left;
+	}
+
+	label {
+		// float: left;
+		display: block;
+		margin: 5px;
+		transition: box-shadow $transition_time ease;
+		border-radius: $radius;
+		box-sizing: border-box;
+		overflow: hidden;
+		background-color: $grey_10;
+
+		svg,
+		img {
+			float: left;
+			opacity: .5;
+			transition: opacity $transition_time ease;
+		}
+
+		img {
+			margin: 5px;
+		}
+
+		&:hover {
+			box-shadow:  0 1px 3px rgba( $black, .07 ) ;
+
+			svg,
+			img {
+				opacity: 1;
+			}
+		}
+	}
+
+	.evolvethemes-f-gr:checked + label {
+		opacity: 1;
+		border-color: $blue_20;
+		box-shadow:  0 0 0 3px $blue_20, 0 2px 8px 3px rgba( $black, .2 ) ;
+		z-index: 10;
+		background-color: $white;
+
+		svg {
+			opacity: 1;
+		}
+	}
+}

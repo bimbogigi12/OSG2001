@@ -1,0 +1,403 @@
+0000.001 (0) Opened log file at time: Mon, 31 Aug 2020 09:56:17 +0000 on http://www.osg2001.it/wp
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.0.10 PHP: 7.2.26 (cgi-fcgi, Linux webxc243s02.ad.aruba.it 3.10.0-862.3.2.el7.x86_64 #1 SMP Mon May 21 23:36:36 UTC 2018 x86_64) MySQL: 5.6.44-86.0-log WPLANG: it_IT Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 60.4M | 62.3M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 488733.2 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.030 (0) Semaphore (fd, wptg_options) being initialised
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.038 (0) Set semaphore last lock (fd) time to 2020-08-31 09:56:17
+0000.039 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=8de0703dffdf, file_nonce=8de0703dffdf begun at=1598867777 (0s ago), job type=backup
+0000.047 (0) Scheduling a resumption (1) after 300 seconds (1598868077) in case this run gets aborted
+0000.089 (0) Checking if we have a zip executable available
+0000.092 (0) Creation of backups of directories: beginning
+0000.100 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0019.596 (0) Total entities for the zip file: 962 directories, 6716 files (0 skipped as non-modified), 117.3 MB
+0019.610 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0019.814 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 100 files added (on-disk size: 176.8 KB)
+0019.960 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 200 files added (on-disk size: 176.8 KB)
+0020.138 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 300 files added (on-disk size: 176.8 KB)
+0020.248 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 400 files added (on-disk size: 176.8 KB)
+0020.398 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 500 files added (on-disk size: 176.8 KB)
+0020.401 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.4 MB, 6716 files batched, 501 (502) added so far); re-opening (prior size: 176.8 KB)
+0026.390 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 600 files added (on-disk size: 5333.1 KB)
+0026.542 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 700 files added (on-disk size: 5333.1 KB)
+0026.694 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 800 files added (on-disk size: 5333.1 KB)
+0026.856 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 900 files added (on-disk size: 5333.1 KB)
+0027.010 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1000 files added (on-disk size: 5333.1 KB)
+0027.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.7 MB, 6716 files batched, 501 (1003) added so far); re-opening (prior size: 5333.1 KB)
+0033.109 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1100 files added (on-disk size: 8800.6 KB)
+0033.262 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1200 files added (on-disk size: 8800.6 KB)
+0033.408 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1300 files added (on-disk size: 8800.6 KB)
+0033.550 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1400 files added (on-disk size: 8800.6 KB)
+0033.671 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1500 files added (on-disk size: 8800.6 KB)
+0033.676 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.8 MB, 6716 files batched, 501 (1504) added so far); re-opening (prior size: 8800.6 KB)
+0040.548 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1600 files added (on-disk size: 12032.6 KB)
+0040.705 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1700 files added (on-disk size: 12032.6 KB)
+0040.823 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1800 files added (on-disk size: 12032.6 KB)
+0040.964 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 1900 files added (on-disk size: 12032.6 KB)
+0041.095 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2000 files added (on-disk size: 12032.6 KB)
+0041.101 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.6 MB, 6716 files batched, 501 (2005) added so far); re-opening (prior size: 12032.6 KB)
+0046.740 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2100 files added (on-disk size: 13778.1 KB)
+0046.871 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2200 files added (on-disk size: 13778.1 KB)
+0046.971 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2300 files added (on-disk size: 13778.1 KB)
+0047.073 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2400 files added (on-disk size: 13778.1 KB)
+0047.191 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2500 files added (on-disk size: 13778.1 KB)
+0047.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.8 MB, 6716 files batched, 501 (2506) added so far); re-opening (prior size: 13778.1 KB)
+0053.634 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2600 files added (on-disk size: 17558.3 KB)
+0053.806 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2700 files added (on-disk size: 17558.3 KB)
+0053.955 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2800 files added (on-disk size: 17558.3 KB)
+0054.098 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 2900 files added (on-disk size: 17558.3 KB)
+0054.248 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3000 files added (on-disk size: 17558.3 KB)
+0054.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.7 MB, 6716 files batched, 501 (3007) added so far); re-opening (prior size: 17558.3 KB)
+0059.292 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3100 files added (on-disk size: 19593.8 KB)
+0059.524 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3200 files added (on-disk size: 19593.8 KB)
+0059.726 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3300 files added (on-disk size: 19593.8 KB)
+0059.929 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3400 files added (on-disk size: 19593.8 KB)
+0060.078 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3500 files added (on-disk size: 19593.8 KB)
+0060.090 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 6716 files batched, 501 (3508) added so far); re-opening (prior size: 19593.8 KB)
+0064.192 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3600 files added (on-disk size: 20648.9 KB)
+0064.331 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3700 files added (on-disk size: 20648.9 KB)
+0064.461 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3800 files added (on-disk size: 20648.9 KB)
+0064.609 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 3900 files added (on-disk size: 20648.9 KB)
+0064.779 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4000 files added (on-disk size: 20648.9 KB)
+0064.793 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11 MB, 6716 files batched, 501 (4009) added so far); re-opening (prior size: 20648.9 KB)
+0071.908 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4100 files added (on-disk size: 23845.4 KB)
+0072.038 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4200 files added (on-disk size: 23845.4 KB)
+0072.429 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4300 files added (on-disk size: 23845.4 KB)
+0072.618 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4400 files added (on-disk size: 23845.4 KB)
+0072.791 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4500 files added (on-disk size: 23845.4 KB)
+0072.812 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.5 MB, 6716 files batched, 501 (4510) added so far); re-opening (prior size: 23845.4 KB)
+0078.682 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4600 files added (on-disk size: 28777.4 KB)
+0078.919 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4700 files added (on-disk size: 28777.4 KB)
+0079.125 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4800 files added (on-disk size: 28777.4 KB)
+0079.447 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 4900 files added (on-disk size: 28777.4 KB)
+0079.554 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5000 files added (on-disk size: 28777.4 KB)
+0079.567 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 6716 files batched, 501 (5011) added so far); re-opening (prior size: 28777.4 KB)
+0084.505 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5100 files added (on-disk size: 34486.8 KB)
+0084.733 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5200 files added (on-disk size: 34486.8 KB)
+0084.903 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5300 files added (on-disk size: 34486.8 KB)
+0085.071 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5400 files added (on-disk size: 34486.8 KB)
+0085.207 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5500 files added (on-disk size: 34486.8 KB)
+0085.221 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.3 MB, 6716 files batched, 501 (5512) added so far); re-opening (prior size: 34486.8 KB)
+0091.757 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5600 files added (on-disk size: 38886.8 KB)
+0091.975 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5700 files added (on-disk size: 38886.8 KB)
+0092.182 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5800 files added (on-disk size: 38886.8 KB)
+0092.353 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 5900 files added (on-disk size: 38886.8 KB)
+0092.485 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6000 files added (on-disk size: 38886.8 KB)
+0092.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.1 MB, 6716 files batched, 501 (6013) added so far); re-opening (prior size: 38886.8 KB)
+0096.972 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6100 files added (on-disk size: 41982.6 KB)
+0097.112 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6200 files added (on-disk size: 41982.6 KB)
+0097.242 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6300 files added (on-disk size: 41982.6 KB)
+0097.383 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6400 files added (on-disk size: 41982.6 KB)
+0097.533 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6500 files added (on-disk size: 41982.6 KB)
+0097.553 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 6716 files batched, 501 (6514) added so far); re-opening (prior size: 41982.6 KB)
+0101.053 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6600 files added (on-disk size: 42759.9 KB)
+0101.214 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip.tmp: 6700 files added (on-disk size: 42759.9 KB)
+0104.444 (0) Created plugins zip (0) - 43415.6 KB in 104.3 s (416.1 KB/s) (sha1: c1f34346e7cb55f334c0da86cedf5b83998734e4, sha256: ddcaed8f7b261eb0db3b65ceed30ac6e2fe116a10650849c27ab79cc4e8bc9ac)
+0104.455 (0) Beginning creation of dump of themes (split every: 400 MB)
+0113.539 (0) Total entities for the zip file: 455 directories, 2178 files (0 skipped as non-modified), 63.9 MB
+0113.544 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0113.855 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 100 files added (on-disk size: 63.7 KB)
+0113.965 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 200 files added (on-disk size: 63.7 KB)
+0114.074 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 300 files added (on-disk size: 63.7 KB)
+0114.167 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 400 files added (on-disk size: 63.7 KB)
+0114.284 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 500 files added (on-disk size: 63.7 KB)
+0114.289 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.1 MB, 2178 files batched, 501 (502) added so far); re-opening (prior size: 63.7 KB)
+0121.144 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 600 files added (on-disk size: 5973.9 KB)
+0121.263 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 700 files added (on-disk size: 5973.9 KB)
+0121.410 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 800 files added (on-disk size: 5973.9 KB)
+0121.731 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 900 files added (on-disk size: 5973.9 KB)
+0121.914 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1000 files added (on-disk size: 5973.9 KB)
+0121.919 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.6 MB, 2178 files batched, 501 (1003) added so far); re-opening (prior size: 5973.9 KB)
+0129.052 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1100 files added (on-disk size: 16837.2 KB)
+0129.160 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1200 files added (on-disk size: 16837.2 KB)
+0129.267 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1300 files added (on-disk size: 16837.2 KB)
+0129.373 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1400 files added (on-disk size: 16837.2 KB)
+0129.485 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1500 files added (on-disk size: 16837.2 KB)
+0129.490 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18 MB, 2178 files batched, 501 (1504) added so far); re-opening (prior size: 16837.2 KB)
+0137.712 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1600 files added (on-disk size: 29416.9 KB)
+0137.805 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1700 files added (on-disk size: 29416.9 KB)
+0137.901 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1800 files added (on-disk size: 29416.9 KB)
+0138.003 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 1900 files added (on-disk size: 29416.9 KB)
+0138.128 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 2000 files added (on-disk size: 29416.9 KB)
+0138.134 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.3 MB, 2178 files batched, 501 (2005) added so far); re-opening (prior size: 29416.9 KB)
+0146.096 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip.tmp: 2100 files added (on-disk size: 38633.2 KB)
+0149.542 (0) Created themes zip (0) - 40021.8 KB in 45.1 s (887.8 KB/s) (sha1: a9aeaa689a1fa321f7e1fe1e3548322d30f22b99, sha256: 20cc4205451d0794a996044dbc6b93a76509bf57b0c6dd882833dc75c911c683)
+0149.551 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0149.552 (0) Looking for candidates to backup in: /web/htdocs/www.osg2001.it/home/wp/wp-content/uploads
+0149.557 (0) finding files: 2019: adding to list (1)
+0149.558 (0) finding files: elementor: adding to list (2)
+0149.559 (0) finding files: mdocs: adding to list (3)
+0149.560 (0) finding files: mdocs-ftp: adding to list (4)
+0149.561 (0) finding files: sp-client-document-manager: adding to list (5)
+0149.562 (0) finding files: supsystic-tables: adding to list (6)
+0149.562 (0) finding files: docs: adding to list (7)
+0149.563 (0) finding files: 2020: adding to list (8)
+0149.564 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0156.096 (0) Total entities for the zip file: 32 directories, 3604 files (0 skipped as non-modified), 346.1 MB
+0156.104 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0156.313 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 100 files added (on-disk size: 154.9 KB)
+0156.706 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 200 files added (on-disk size: 154.9 KB)
+0156.870 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 300 files added (on-disk size: 154.9 KB)
+0157.054 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 400 files added (on-disk size: 154.9 KB)
+0157.203 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 500 files added (on-disk size: 154.9 KB)
+0157.207 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (22.5 MB, 3604 files batched, 501 (502) added so far); re-opening (prior size: 154.9 KB)
+0165.141 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 600 files added (on-disk size: 23007.1 KB)
+0165.328 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 700 files added (on-disk size: 23007.1 KB)
+0165.462 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 800 files added (on-disk size: 23007.1 KB)
+0165.587 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 900 files added (on-disk size: 23007.1 KB)
+0165.711 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1000 files added (on-disk size: 23007.1 KB)
+0165.716 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (23.2 MB, 3604 files batched, 501 (1003) added so far); re-opening (prior size: 23007.1 KB)
+0173.568 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1100 files added (on-disk size: 46881.1 KB)
+0173.686 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1200 files added (on-disk size: 46881.1 KB)
+0173.803 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (27.5 MB, 3604 files batched, 265 (1268) added so far); re-opening (prior size: 46881.1 KB)
+0179.259 (0) A useful amount of data was added after this amount of zip processing: 6.7 s (normalised: 6.1 s, rate: 4189.1 KB/s)
+0179.331 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1300 files added (on-disk size: 75125.5 KB)
+0179.469 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1400 files added (on-disk size: 75125.5 KB)
+0179.617 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1500 files added (on-disk size: 75125.5 KB)
+0179.767 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1600 files added (on-disk size: 75125.5 KB)
+0179.786 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3604 files batched, 347 (1615) added so far); re-opening (prior size: 75125.5 KB)
+0186.668 (0) A useful amount of data was added after this amount of zip processing: 8.1 s (normalised: 8.1 s, rate: 3145.6 KB/s)
+0186.864 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1700 files added (on-disk size: 100782.6 KB)
+0187.044 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (27.2 MB, 3604 files batched, 166 (1781) added so far); re-opening (prior size: 100782.6 KB)
+0191.812 (0) A useful amount of data was added after this amount of zip processing: 5.3 s (normalised: 4.8 s, rate: 5280.2 KB/s)
+0191.814 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.2830679416656, normalised_time=4.8482845799804, max_time=191.81216597557, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0191.888 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1800 files added (on-disk size: 128617.3 KB)
+0192.041 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 1900 files added (on-disk size: 128617.3 KB)
+0192.401 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2000 files added (on-disk size: 128617.3 KB)
+0192.625 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2100 files added (on-disk size: 128617.3 KB)
+0192.780 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2200 files added (on-disk size: 128617.3 KB)
+0192.923 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (54.9 MB, 3604 files batched, 501 (2282) added so far); re-opening (prior size: 128617.3 KB)
+0203.846 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2300 files added (on-disk size: 184853 KB)
+0204.020 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2400 files added (on-disk size: 184853 KB)
+0204.193 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2500 files added (on-disk size: 184853 KB)
+0204.310 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2600 files added (on-disk size: 184853 KB)
+0204.763 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2700 files added (on-disk size: 184853 KB)
+0204.857 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (85.2 MB, 3604 files batched, 501 (2783) added so far); re-opening (prior size: 184853 KB)
+0219.992 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2800 files added (on-disk size: 271273.6 KB)
+0220.140 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 2900 files added (on-disk size: 271273.6 KB)
+0220.278 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3000 files added (on-disk size: 271273.6 KB)
+0220.427 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3100 files added (on-disk size: 271273.6 KB)
+0220.561 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3200 files added (on-disk size: 271273.6 KB)
+0220.661 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (61.1 MB, 3604 files batched, 501 (3284) added so far); re-opening (prior size: 271273.6 KB)
+0239.943 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3300 files added (on-disk size: 333560 KB)
+0240.072 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3400 files added (on-disk size: 333560 KB)
+0240.208 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3500 files added (on-disk size: 333560 KB)
+0240.578 (0) Zip: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip.tmp: 3600 files added (on-disk size: 333560 KB)
+0261.439 (0) Created uploads zip (0) - 353431.2 KB in 111.9 s (3159.5 KB/s) (sha1: 4c7a1d8faf148302e9157bda0a3d6889700be547, sha256: a7c2984543f82441724e4be7baa4310de242b81f6351d9d9e4cfe5e13cf9968c)
+0261.449 (0) Beginning backup of other directories found in the content directory (index: 0)
+0261.451 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0261.453 (0) Looking for candidates to backup in: /web/htdocs/www.osg2001.it/home/wp/wp-content
+0261.456 (0) finding files: index.php: adding to list (1)
+0261.457 (0) finding files: plugins: skipping: this is the plugins directory
+0261.458 (0) finding files: themes: skipping: this is the themes directory
+0261.459 (0) finding files: languages: adding to list (2)
+0261.459 (0) finding files: uploads: skipping: this is the uploads directory
+0261.460 (0) finding files: upgrade: skipping: excluded by options
+0261.461 (0) finding files: ngg: adding to list (3)
+0261.461 (0) finding files: gallery: adding to list (4)
+0261.462 (0) finding files: ngg_styles: adding to list (5)
+0261.463 (0) finding files: updraft: skipping: this is the updraft directory
+0261.463 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0262.128 (0) Total entities for the zip file: 50 directories, 79 files (0 skipped as non-modified), 9.1 MB
+0263.489 (0) The scheduled resumption is within 45 seconds - will reschedule
+0263.491 (0) Rescheduling resumption 1: moving to 345 seconds from now (1598868385)
+0263.495 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.651 (0) Created others zip (0) - 6375.7 KB in 2.2 s (2920.5 KB/s) (sha1: 31590d6e78a098f120881debede65f1ec936b32d, sha256: ca3f80ac32bdd5800109e338948b8f3f9f6222ded9bda15f8f757ec8b7bb61d2)
+0263.661 (0) Saving backup status to database (elements: 8)
+0263.664 (0) Beginning creation of database dump (WordPress DB)
+0263.686 (0) Table wptg_options: Total expected rows (approximate): 952
+0263.765 (0) Table wptg_options: Rows added in this batch (start page: 0; next: finished): 948 in 0.08 seconds
+0263.770 (0) Table wptg_options: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_options.table.gz - 158.7 KB)
+0263.777 (0) Table wptg_users: Total expected rows (approximate): 12
+0263.781 (0) Table wptg_users: Rows added in this batch (start page: 0; next: finished): 12 in 0.00 seconds
+0263.783 (0) Table wptg_users: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_users.table.gz - 1.5 KB)
+0263.788 (0) Table wptg_usermeta: Total expected rows (approximate): 303
+0263.795 (0) Table wptg_usermeta: Rows added in this batch (start page: 0; next: finished): 303 in 0.01 seconds
+0263.796 (0) Table wptg_usermeta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_usermeta.table.gz - 5.7 KB)
+0263.814 (0) Table wptg_commentmeta: Total expected rows (approximate): 0
+0263.818 (0) Table wptg_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0263.819 (0) Table wptg_commentmeta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_commentmeta.table.gz - 0.4 KB)
+0263.827 (0) Table wptg_comments: Total expected rows (approximate): 28
+0263.834 (0) Table wptg_comments: Rows added in this batch (start page: 0; next: finished): 28 in 0.00 seconds
+0263.836 (0) Table wptg_comments: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_comments.table.gz - 5.8 KB)
+0263.856 (0) Table wptg_links: Total expected rows (approximate): 0
+0263.859 (0) Table wptg_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0263.861 (0) Table wptg_links: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_links.table.gz - 0.4 KB)
+0263.868 (0) Table wptg_postmeta: Total expected rows (approximate): 2478
+0263.920 (0) Table wptg_postmeta: Rows added in this batch (start page: 0; next: finished): 2478 in 0.05 seconds
+0263.936 (0) Table wptg_postmeta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_postmeta.table.gz - 72.3 KB)
+0263.968 (0) Table wptg_posts: Total expected rows (approximate): 864
+0264.028 (0) Table wptg_posts: Rows added in this batch (start page: 0; next: finished): 864 in 0.06 seconds
+0264.032 (0) Table wptg_posts: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_posts.table.gz - 132.2 KB)
+0264.040 (0) Table wptg_term_relationships: Total expected rows (approximate): 294
+0264.046 (0) Table wptg_term_relationships: Rows added in this batch (start page: 0; next: finished): 294 in 0.00 seconds
+0264.047 (0) Table wptg_term_relationships: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_term_relationships.table.gz - 1.2 KB)
+0264.063 (0) Table wptg_term_taxonomy: Total expected rows (approximate): 42
+0264.066 (0) Table wptg_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 42 in 0.00 seconds
+0264.067 (0) Table wptg_term_taxonomy: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_term_taxonomy.table.gz - 0.9 KB)
+0264.088 (0) Table wptg_termmeta: Total expected rows (approximate): 12
+0264.092 (0) Table wptg_termmeta: Rows added in this batch (start page: 0; next: finished): 12 in 0.00 seconds
+0264.093 (0) Table wptg_termmeta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_termmeta.table.gz - 0.5 KB)
+0264.101 (0) Table wptg_terms: Total expected rows (approximate): 42
+0264.104 (0) Table wptg_terms: Rows added in this batch (start page: 0; next: finished): 42 in 0.00 seconds
+0264.106 (0) Table wptg_terms: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_terms.table.gz - 1 KB)
+0264.116 (0) Table wptg_yoast_seo_links: Total expected rows (approximate): 85
+0264.120 (0) Table wptg_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 85 in 0.00 seconds
+0264.122 (0) Table wptg_yoast_seo_links: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_yoast_seo_links.table.gz - 1.9 KB)
+0264.134 (0) Table wptg_yoast_seo_meta: Total expected rows (approximate): 475
+0264.140 (0) Table wptg_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 475 in 0.00 seconds
+0264.142 (0) Table wptg_yoast_seo_meta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_yoast_seo_meta.table.gz - 1.5 KB)
+0264.153 (0) Table wptg_booking: Total expected rows (approximate): 1
+0264.156 (0) Table wptg_booking: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.158 (0) Table wptg_booking: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_booking.table.gz - 0.6 KB)
+0264.171 (0) Table wptg_bookingdates: Total expected rows (approximate): 3
+0264.175 (0) Table wptg_bookingdates: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0264.176 (0) Table wptg_bookingdates: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_bookingdates.table.gz - 0.4 KB)
+0264.195 (0) Table wptg_ngg_album: Total expected rows (approximate): 1
+0264.200 (0) Table wptg_ngg_album: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.201 (0) Table wptg_ngg_album: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_album.table.gz - 0.4 KB)
+0264.219 (0) Table wptg_ngg_gallery: Total expected rows (approximate): 1
+0264.222 (0) Table wptg_ngg_gallery: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.224 (0) Table wptg_ngg_gallery: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_gallery.table.gz - 0.5 KB)
+0264.230 (0) Table wptg_ngg_pictures: Total expected rows (approximate): 5
+0264.236 (0) Table wptg_ngg_pictures: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0264.238 (0) Table wptg_ngg_pictures: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_pictures.table.gz - 2 KB)
+0264.257 (0) Table wptg_ninja_table_items: Total expected rows (approximate): 178
+0264.267 (0) Table wptg_ninja_table_items: Rows added in this batch (start page: 0; next: finished): 178 in 0.01 seconds
+0264.270 (0) Table wptg_ninja_table_items: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ninja_table_items.table.gz - 3.6 KB)
+0264.290 (0) Table wptg_sp_cu: Total expected rows (approximate): 0
+0264.294 (0) Table wptg_sp_cu: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.295 (0) Table wptg_sp_cu: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu.table.gz - 0.4 KB)
+0264.310 (0) Table wptg_sp_cu_cats: Total expected rows (approximate): 0
+0264.313 (0) Table wptg_sp_cu_cats: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.314 (0) Table wptg_sp_cu_cats: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_cats.table.gz - 0.3 KB)
+0264.328 (0) Table wptg_sp_cu_event_log: Total expected rows (approximate): 0
+0264.332 (0) Table wptg_sp_cu_event_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.334 (0) Table wptg_sp_cu_event_log: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_event_log.table.gz - 0.3 KB)
+0264.359 (0) Table wptg_sp_cu_form_entries: Total expected rows (approximate): 0
+0264.361 (0) Table wptg_sp_cu_form_entries: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.363 (0) Table wptg_sp_cu_form_entries: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_form_entries.table.gz - 0.3 KB)
+0264.394 (0) Table wptg_sp_cu_forms: Total expected rows (approximate): 0
+0264.396 (0) Table wptg_sp_cu_forms: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.398 (0) Table wptg_sp_cu_forms: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_forms.table.gz - 0.4 KB)
+0264.410 (0) Table wptg_sp_cu_groups: Total expected rows (approximate): 0
+0264.412 (0) Table wptg_sp_cu_groups: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.413 (0) Table wptg_sp_cu_groups: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_groups.table.gz - 0.3 KB)
+0264.425 (0) Table wptg_sp_cu_groups_assign: Total expected rows (approximate): 0
+0264.428 (0) Table wptg_sp_cu_groups_assign: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.429 (0) Table wptg_sp_cu_groups_assign: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_groups_assign.table.gz - 0.3 KB)
+0264.440 (0) Table wptg_sp_cu_meta: Total expected rows (approximate): 0
+0264.448 (0) Table wptg_sp_cu_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0264.451 (0) Table wptg_sp_cu_meta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_meta.table.gz - 0.3 KB)
+0264.465 (0) Table wptg_sp_cu_project: Total expected rows (approximate): 1
+0264.468 (0) Table wptg_sp_cu_project: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.470 (0) Table wptg_sp_cu_project: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_project.table.gz - 0.4 KB)
+0264.480 (0) Table wptg_spidercalendar_calendar: Total expected rows (approximate): 1
+0264.484 (0) Table wptg_spidercalendar_calendar: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.486 (0) Table wptg_spidercalendar_calendar: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_calendar.table.gz - 0.4 KB)
+0264.497 (0) Table wptg_spidercalendar_event: Total expected rows (approximate): 0
+0264.500 (0) Table wptg_spidercalendar_event: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.501 (0) Table wptg_spidercalendar_event: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_event.table.gz - 0.4 KB)
+0264.513 (0) Table wptg_spidercalendar_event_category: Total expected rows (approximate): 1
+0264.517 (0) Table wptg_spidercalendar_event_category: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.518 (0) Table wptg_spidercalendar_event_category: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_event_category.table.gz - 0.4 KB)
+0264.534 (0) Table wptg_spidercalendar_theme: Total expected rows (approximate): 1
+0264.539 (0) Table wptg_spidercalendar_theme: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0264.540 (0) Table wptg_spidercalendar_theme: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_theme.table.gz - 1 KB)
+0264.561 (0) Table wptg_spidercalendar_widget_theme: Total expected rows (approximate): 1
+0264.569 (0) Table wptg_spidercalendar_widget_theme: Rows added in this batch (start page: 0; next: finished): 1 in 0.01 seconds
+0264.570 (0) Table wptg_spidercalendar_widget_theme: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_widget_theme.table.gz - 0.7 KB)
+0264.592 (0) Table wptg_supsystic_tbl_columns: Total expected rows (approximate): 0
+0264.595 (0) Table wptg_supsystic_tbl_columns: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.596 (0) Table wptg_supsystic_tbl_columns: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_columns.table.gz - 0.3 KB)
+0264.607 (0) Table wptg_supsystic_tbl_diagrams: Total expected rows (approximate): 0
+0264.609 (0) Table wptg_supsystic_tbl_diagrams: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.610 (0) Table wptg_supsystic_tbl_diagrams: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_diagrams.table.gz - 0.3 KB)
+0264.621 (0) Table wptg_supsystic_tbl_rows: Total expected rows (approximate): 0
+0264.624 (0) Table wptg_supsystic_tbl_rows: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.625 (0) Table wptg_supsystic_tbl_rows: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_rows.table.gz - 0.3 KB)
+0264.665 (0) Table wptg_supsystic_tbl_tables: Total expected rows (approximate): 0
+0264.668 (0) Table wptg_supsystic_tbl_tables: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.669 (0) Table wptg_supsystic_tbl_tables: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_tables.table.gz - 0.3 KB)
+0264.700 (0) Table wptg_tm_taskmeta: Total expected rows (approximate): 0
+0264.705 (0) Table wptg_tm_taskmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.706 (0) Table wptg_tm_taskmeta: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_tm_taskmeta.table.gz - 0.4 KB)
+0264.745 (0) Table wptg_tm_tasks: Total expected rows (approximate): 0
+0264.763 (0) Table wptg_tm_tasks: Rows added in this batch (start page: 0; next: finished): 0 in 0.02 seconds
+0264.764 (0) Table wptg_tm_tasks: finishing file (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_tm_tasks.table.gz - 0.4 KB)
+0264.768 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_options.table.gz (1/40): adding to final database dump
+0264.811 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_users.table.gz (2/40): adding to final database dump
+0264.814 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_usermeta.table.gz (3/40): adding to final database dump
+0264.818 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_commentmeta.table.gz (4/40): adding to final database dump
+0264.820 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_comments.table.gz (5/40): adding to final database dump
+0264.823 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_links.table.gz (6/40): adding to final database dump
+0264.826 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_postmeta.table.gz (7/40): adding to final database dump
+0264.850 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_posts.table.gz (8/40): adding to final database dump
+0264.884 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_term_relationships.table.gz (9/40): adding to final database dump
+0264.886 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_term_taxonomy.table.gz (10/40): adding to final database dump
+0264.889 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_termmeta.table.gz (11/40): adding to final database dump
+0264.891 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_terms.table.gz (12/40): adding to final database dump
+0264.894 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_yoast_seo_links.table.gz (13/40): adding to final database dump
+0264.896 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_yoast_seo_meta.table.gz (14/40): adding to final database dump
+0264.900 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_booking.table.gz (15/40): adding to final database dump
+0264.902 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_bookingdates.table.gz (16/40): adding to final database dump
+0264.904 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_album.table.gz (17/40): adding to final database dump
+0264.906 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_gallery.table.gz (18/40): adding to final database dump
+0264.908 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ngg_pictures.table.gz (19/40): adding to final database dump
+0264.912 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_ninja_table_items.table.gz (20/40): adding to final database dump
+0264.915 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu.table.gz (21/40): adding to final database dump
+0264.919 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_cats.table.gz (22/40): adding to final database dump
+0264.921 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_event_log.table.gz (23/40): adding to final database dump
+0264.923 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_form_entries.table.gz (24/40): adding to final database dump
+0264.925 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_forms.table.gz (25/40): adding to final database dump
+0264.929 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_groups.table.gz (26/40): adding to final database dump
+0264.931 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_groups_assign.table.gz (27/40): adding to final database dump
+0264.934 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_meta.table.gz (28/40): adding to final database dump
+0264.936 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_sp_cu_project.table.gz (29/40): adding to final database dump
+0264.938 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_calendar.table.gz (30/40): adding to final database dump
+0264.941 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_event.table.gz (31/40): adding to final database dump
+0264.943 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_event_category.table.gz (32/40): adding to final database dump
+0264.946 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_theme.table.gz (33/40): adding to final database dump
+0264.949 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_spidercalendar_widget_theme.table.gz (34/40): adding to final database dump
+0264.951 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_columns.table.gz (35/40): adding to final database dump
+0264.953 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_diagrams.table.gz (36/40): adding to final database dump
+0264.956 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_rows.table.gz (37/40): adding to final database dump
+0264.959 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_supsystic_tbl_tables.table.gz (38/40): adding to final database dump
+0264.962 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_tm_taskmeta.table.gz (39/40): adding to final database dump
+0264.964 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db-table-wptg_tm_tasks.table.gz (40/40): adding to final database dump
+0265.004 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db.gz: finished writing out complete database file (368 KB)
+0265.055 (0) Total database tables backed up: 40 (backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db.gz, size: 399713, sha1: 9f8fbc33794f6a62e6b77dfba0497e605bc8e19f, sha256: 4c2e341ed0188b5fdf8cea59bf0255f1bcca328a4eb115302d63c728a197dd5f)
+0265.062 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0265.063 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0265.064 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0265.064 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0265.065 (0) backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0265.066 (0) Saving backup history. Total backup size: 433.2 MB
+0265.068 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0265.071 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0265.072 (0) No remote despatch: user chose no remote backup service
+0265.073 (0) Recording as successfully uploaded: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-plugins.zip
+0265.075 (0) Recording as successfully uploaded: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-themes.zip
+0265.077 (0) Recording as successfully uploaded: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-uploads.zip
+0265.080 (0) Recording as successfully uploaded: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-others.zip
+0265.083 (0) Recording as successfully uploaded: backup_2020-08-31-0856_wwwosg2001it_wp_8de0703dffdf-db.gz
+0265.087 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0265.088 (0) Number of backup sets in history: 1; groups (db): 1
+0265.089 (0) Examining (for databases) backup set with group_id=0, nonce=8de0703dffdf, datestamp=1598867777 (Aug 31 2020 09:56:17)
+0265.090 (0) This backup set is the backup set just made, so will not be deleted.
+0265.090 (0) Number of backup sets in history: 1; groups (files): 1
+0265.090 (0) Examining (for files) backup set with nonce=8de0703dffdf, datestamp=1598867777 (Aug 31 2020 09:56:17)
+0265.090 (0) This backup set is the backup set just made, so will not be deleted.
+0265.091 (0) This backup set is the backup set just made, so will not be deleted.
+0265.092 (0) This backup set is the backup set just made, so will not be deleted.
+0265.092 (0) This backup set is the backup set just made, so will not be deleted.
+0265.092 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0265.093 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0265.096 (0) Resume backup (8de0703dffdf, 0): finish run
+0265.099 (0) Decremented the semaphore (fd) by 1
+0265.101 (0) Semaphore (fd) unlocked
+0265.102 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0265.106 (0) The backup apparently succeeded and is now complete
+0265.107 (0) No email will/can be sent - the user has not configured an email address.
+0265.108 (0) Il backup apparentemente è riuscito ed ora è completo

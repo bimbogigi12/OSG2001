@@ -1,0 +1,15 @@
+/**
+ *   Table Of Contents
+ *      - 1. layout
+ */
+/**
+ @- 1. layout
+ **/
+.crowley-l .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1116px !important;
+}
+
+.crowley-l .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+    padding-left: 24px;
+    padding-right: 24px;
+}

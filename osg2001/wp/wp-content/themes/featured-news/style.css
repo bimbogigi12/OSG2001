@@ -1,0 +1,129 @@
+/*
+Theme Name: Featured News
+Theme URI: https://afthemes.com/products/featured-news/
+Author: AF themes
+Author URI: https://afthemes.com
+Description:  Featured News is a child theme of Magazine 7. The theme has different fonts and color setup. Furthermore, the theme altered some of the default value to other available settings, like frontpage section and archive layout. With the help of available customizer options along with widgets, you can implement layouts as a clean and minimal blogging site, modern fashion blog, photography blog, wedding blog & magazine and even more. The theme is SEO friendly with optimized code and awesome support.
+See Demo: https://demo.afthemes.com/magazine-7/featured-news/
+Support: https://afthemes.com/supports/
+Template: magazine-7
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: featured-news
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Featured News WordPress Theme, Copyright 2018 AF themes
+Featured News is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Oswald';
+}
+
+body .figure-categories .cat-links a.magazine-7-categories {    
+    background-color: #0be6af;    
+} 
+
+body .figure-categories .cat-links a.category-color-2 {
+    background-color: #00bcd4;
+}
+
+body .figure-categories .cat-links a.category-color-3 {
+    background-color: #ff5722;
+}
+
+.figure-categories-bg .em-post-format:before{
+background: #0be6af; 
+}
+.em-post-format{
+color: #0be6af; 
+}
+
+
+body .top-masthead {
+    background: #000;
+}
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .tagcloud a:hover{
+background: #0be6af;
+}
+
+
+body.woocommerce #content input.button, 
+body.woocommerce #respond input#submit,
+body.woocommerce a.button, 
+body .widget .woocommerce a.button, 
+body.woocommerce button.button, 
+body.woocommerce input.button, 
+body.woocommerce-page #content input.button, 
+body.woocommerce-page #respond input#submit, 
+body.woocommerce-page a.button, 
+body.woocommerce-page button.button, 
+body.woocommerce-page input.button
+{
+background: #0be6af;
+}
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+color: #0be6af;
+}
+
+body .af-main-banner .slider-figcaption .slide-title {
+        font-size: 34px;
+}
+
+body #primary .af-tabs.nav-tabs > li > a,
+body.archive .site-content .header-title-wrapper .page-title,
+body.search-results .site-content .header-title-wrapper .page-title,
+body #primary .widget-title span,
+body header.entry-header h1.entry-title{
+font-size: 36px;
+}
+
+body .article-title, .site-branding .site-title, 
+body .main-navigation .menu ul li a, 
+body .slider-figcaption .slide-title {
+letter-spacing: 0px;
+line-height: 1.2;
+     
+}
+
+body h1,
+body h2,
+body h2 span,
+body h3,
+body h4,
+body h5,
+body h6 {
+line-height: 1.2;
+}

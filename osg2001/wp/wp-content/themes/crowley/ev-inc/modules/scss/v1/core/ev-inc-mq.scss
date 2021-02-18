@@ -1,0 +1,56 @@
+// Utility function
+// Return a media query value
+@function get-mq-val( $media ) {
+	$mq: '';
+
+	@if type-of( $media ) == list {
+		$mq: map-get( map-get( $media-queries, nth( $media, 1 ) ), nth( $media, 2 ) );
+	}
+	@else {
+		@if map-has-key( $media-queries, $media ) and ev-is-map( map-get( $media-queries, $media ) ) == false {
+			$mq: map-get( $media-queries, $media );
+		}
+	}
+
+	@if $mq == '' {
+		@error "Wrong media value";
+	}
+
+	@return $mq;
+}
+
+// -----------------------------------------------------------------------------
+// $Media query mixin
+// $mq: the media query key, map or simple, i.e. (tablet,portrait) or vertical
+// -----------------------------------------------------------------------------
+@mixin ev-media( $mq ) {
+	$first_operator: str-slice( $mq, 1, 1 );
+	$second_operator: str-slice( $mq, 2, 2 );
+
+	$mq_new_val: '';
+	$mq_start: '';
+
+	$mq: ev-str-replace( $mq, '(', '' );
+	$mq: ev-str-replace( $mq, ')', '' );
+
+	@if $first_operator == '<' {
+		$mq: ev-str-replace( $mq, '<', '' );
+		$split: ev-str-split( $mq, ',' );
+		$mq_new_val: map-get( map-get( $media-queries, nth( $split , 1 ) ), nth( $split, 2 ) );
+		$mq_start: 'max-width:#{$mq_new_val}';
+	}
+	@else if $first_operator == '>' {
+		$mq: ev-str-replace( $mq, '>', '' );
+		$split: ev-str-split( $mq, ',' );
+		$mq_new_val: map-get( map-get( $media-queries, nth( $split , 1 ) ), nth( $split, 2 ) );
+		$mq_start: 'min-width:#{$mq_new_val}';
+	}
+	@else {
+		$mq_new_val: map-get( $media-queries, unquote( $mq ) );
+		$mq_start: 'max-width:#{$mq_new_val}';
+	}
+
+	@media only screen and ( #{$mq_start} ) {
+		@content;
+	}
+}

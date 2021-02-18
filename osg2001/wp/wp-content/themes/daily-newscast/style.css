@@ -1,0 +1,157 @@
+/*
+Theme Name: Daily Newscast
+Theme URI: https://afthemes.com/products/daily-newscast/
+Author: AF themes
+Author URI: https://afthemes.com
+Description:  Daily Newscast is a child theme of CoverNews. The theme has different header layout as well as changes on some essential fonts and color setup. Furthermore, the theme also altered some of the frontpage layout's default value. With the help of available customizer options along with widgets, you can implement layouts as a clean and minimal blogging site, modern fashion blog, photography blog, wedding blog & magazine and even more. The theme is SEO friendly with optimized code and awesome support.
+See Demo: https://demo.afthemes.com/covernews/daily-newscast/
+Support: https://afthemes.com/supports/
+Template: covernews
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: daily-newscast
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Daily Newscast WordPress Theme, Copyright 2018 AF themes
+Daily Newscast is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Roboto Condensed';
+}
+
+body .figure-categories .cat-links a.covernews-categories {      
+    background-color: #ffffff;
+    color: #404040;
+    
+}
+
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories, 
+.trending-story .figure-categories .cat-links a.covernews-categories{
+color: #404040;
+}
+
+
+body .figure-categories .cat-links a.category-color-2 { 
+	background-color: #003446;
+	color: #ffffff;
+    
+}
+
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-2, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-2{
+    color: #003446;
+}
+
+body .figure-categories .cat-links a.category-color-3 {
+   background-color: #bb1919;
+   color: #ffffff;
+}
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-3, 
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-3{
+    color: #bb1919;
+}
+
+
+body .top-masthead {
+    background: #031c27;
+}
+
+body span.menu-description{
+        background: #bb1919;
+}
+
+
+
+/*Header layout 3*/
+.header-layout-3 .masthead-banner .site-branding {
+    text-align: center;
+}
+
+.header-layout-3 .site-header .site-branding .site-title{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .main-navigation,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li.active > a:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover{
+        background: #003446;
+}
+
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+        color: #003446;
+}
+
+body #loader:after {
+  border-left-color: #003446;
+}
+
+.site-footer {
+    background: #031c27;
+    color: #fff;
+}
+
+.site-footer a, 
+.site-footer a:hover, 
+.site-footer a:visited, 
+.site-footer a:active {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 320px){
+.main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title {
+    font-size: 26px;
+    line-height: 55px;
+    }
+}

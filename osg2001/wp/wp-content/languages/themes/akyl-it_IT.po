@@ -1,0 +1,210 @@
+# Translation of Themes - Akyl in Italian
+# This file is distributed under the same license as the Themes - Akyl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-18 14:27:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Akyl\n"
+
+#. Theme Name of the plugin/theme
+msgid "Akyl"
+msgstr "Akyl"
+
+#: searchform.php:6
+msgid "Search"
+msgstr "Cerca"
+
+#: searchform.php:3
+msgid "Search..."
+msgstr "Cerca..."
+
+#: page.php:52 single.php:97
+msgid "Page"
+msgstr "Pagina"
+
+#: page.php:48 single.php:93
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: inc/customizer.php:55
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:389
+msgid "<i class=\"fa fa-pencil\"></i> Edit"
+msgstr "<i class=\"fa fa-pencil\"></i> Modifica"
+
+#: functions.php:387
+msgid "<i class=\"fa fa-reply\"></i> Reply"
+msgstr "<i class=\"fa fa-reply\"></i> Rispondi"
+
+#: functions.php:377
+msgid "Awaiting moderation"
+msgstr "In attesa di moderazione"
+
+#: functions.php:129
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: functions.php:119
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: functions.php:109
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembra che non riusciamo a trovare ciò che stai cercando. Forse una ricerca può aiutare."
+
+#: content-none.php:20 search.php:67
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: comments.php:113
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:110
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:40 comments.php:85
+msgid "Newer comments"
+msgstr "Commenti più recenti"
+
+#: comments.php:29
+msgid "Add yours"
+msgstr "Aggiungi il tuo"
+
+#: 404.php:20
+msgid "Oops! That page can't be found."
+msgstr "Oops! La pagina che stavi cercando non è stata trovata"
+
+#: search.php:22 search.php:59
+msgid "Search Results For"
+msgstr "Risultati della ricerca per"
+
+#: comments.php:39 comments.php:84
+msgid "Older comments"
+msgstr "Commenti meno recenti"
+
+#: comments.php:65
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingback"
+
+#: comments.php:101
+msgid "Your email address will not be published."
+msgstr "Il tuo indirizzo email non verrà pubblicato."
+
+#: comments.php:93
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: content-audio.php:54 content-gallery.php:79 content-image.php:72
+#: content-link.php:51 content-video.php:49 content.php:61
+msgid "Read More"
+msgstr "Leggi tutto"
+
+#: comments.php:116
+msgid "Website"
+msgstr "Sito web"
+
+#: functions.php:42
+msgid "Main menu"
+msgstr "Menu principale"
+
+#: comments.php:22
+msgctxt "comments title"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s commento"
+msgstr[1] "%s commenti"
+
+#: archive.php:54 index.php:40 search.php:43
+msgid "Newer posts &rarr;"
+msgstr "Articoli più recenti &rarr;"
+
+#: archive.php:53 index.php:39 search.php:42
+msgid "&larr; Older posts"
+msgstr "&larr; Articoli meno recenti"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra non vi sia nulla in questa posizione. Provare con qualcuno dei link qua sotto o una ricerca?"
+
+#: inc/customizer.php:68
+msgid "Footer Background Color"
+msgstr "Colore di sfondo del footer"
+
+#: inc/customizer.php:45
+msgid "Header Background Color"
+msgstr "Colore di sfondo dell'header"
+
+#: functions.php:84
+msgid "light green"
+msgstr "verde chiaro"
+
+#: functions.php:79
+msgid "very light red"
+msgstr "rosso molto chiaro"
+
+#: functions.php:74
+msgid "very dark red"
+msgstr "rosso molto scuro"
+
+#: functions.php:69
+msgid "dark gray"
+msgstr "grigio scuro"
+
+#: functions.php:64
+msgid "very light blue"
+msgstr "blu molto chiaro"
+
+#: functions.php:59
+msgid "light blue"
+msgstr "azzurro"
+
+#: functions.php:54
+msgid "strong blue"
+msgstr "blu scuro"
+
+#: footer.php:68
+msgid "Theme by"
+msgstr "Tema di"
+
+#: inc/customizer.php:83
+msgid "Footer Widget Area Background Color"
+msgstr "Colore di sfondo dell'area widget del footer"
+
+#: search.php:73
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Non c’è nessuna corrispondenza con i termini di ricerca che hai indicato. Riprova con termini diversi."
+
+#: inc/customizer.php:93
+msgid "Social Media Links"
+msgstr "Link social media"
+
+#: functions.php:111 functions.php:121 functions.php:131
+msgid "Add widgets here."
+msgstr "Aggiungi i widget qui."
+
+#. Author URI of the plugin/theme
+msgid "http://www.akilathiwanka.info"
+msgstr "http://www.akilathiwanka.info"
+
+#. Theme URI of the plugin/theme
+msgid "Theme URI: https://wordpress.org/themes/akyl/"
+msgstr "Theme URI: https://wordpress.org/themes/akyl/"
+
+#. Author of the plugin/theme
+msgid "Akila Thiwanka"
+msgstr "Akila Thiwanka"

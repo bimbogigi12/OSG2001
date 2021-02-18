@@ -1,0 +1,58 @@
+/**
+ *   Table Of Contents
+ *      - 1. blocks
+ *      - 2. layout
+ */
+/**
+ @- 1. blocks
+ **/
+.brix-tabs-nav {
+    padding-left: 0;
+}
+
+/**
+ @- 2. layout
+ **/
+.brix-active .crowley-mc-w_i {
+    padding: 0;
+}
+
+.brix-active .crowley-c {
+    padding-bottom: 0;
+}
+
+.brix-section-column-block {
+    padding: 36px 24px;
+}
+
+.brix-section-column-block-text + .brix-section-column-block-button {
+    padding-top: 0;
+}
+
+.brix-block-preloaded-img {
+    opacity: 0;
+    transition: opacity .2s;
+}
+.brix-block-preloaded-img.brix-img-loaded {
+    opacity: 1;
+}
+
+.brix-icon {
+    opacity: 0;
+    transition: opacity .2s;
+}
+.brix-icon.brix-icon-loaded {
+    opacity: 1;
+}
+
+.brix-background-image {
+    opacity: 0;
+    transition: opacity .2s;
+}
+.brix-background-image.brix-background-loaded {
+    opacity: 1;
+}
+
+.brix-block-content > *:last-child {
+    margin-bottom: 0;
+}

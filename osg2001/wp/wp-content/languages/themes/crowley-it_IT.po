@@ -1,0 +1,538 @@
+# Translation of Themes - Crowley in Italian
+# This file is distributed under the same license as the Themes - Crowley package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-02 18:06:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Crowley\n"
+
+#. Description of the theme
+msgid "A clean and minimal theme for bloggers."
+msgstr "Un tema pulito e minimalistico per blogger."
+
+#. Theme Name of the theme
+msgid "Crowley"
+msgstr "Crowley"
+
+#: templates/page-content/content.php:40
+msgid "Page"
+msgstr "Pagina"
+
+#: templates/page-content/content.php:36
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. translators: %s: The post title.
+#: templates/page-content/content.php:30
+msgid "Continue reading %s"
+msgstr "Continua a leggere %s"
+
+#: templates/page-content/content-loop-search.php:22
+msgid "Didn't you find what you were looking for?"
+msgstr "Non hai trovato quello che stavi cercando?"
+
+#: templates/page-content/404.php:21
+msgid "home page"
+msgstr "home page"
+
+#: templates/page-content/404.php:21
+msgid "Please check entered address and try again or go to"
+msgstr "Controlla l'indirizzo e prova nuovamente o vai alla"
+
+#: templates/page-content/404.php:21
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "La pagina che stai cercando non esiste."
+
+#: searchform.php:21
+msgid "Search"
+msgstr "Ricerca"
+
+#: searchform.php:20
+msgid "Search&#8230;"
+msgstr "Cerca&#8230;"
+
+#: searchform.php:19
+msgid "Search for:"
+msgstr "Ricerca per:"
+
+#: helpers/page-header.php:149
+msgid "Website"
+msgstr "Sito web"
+
+#: helpers/page-header.php:84
+msgid "Error 404"
+msgstr "Errore 404"
+
+#: helpers/page-header.php:82
+msgid "Archive for:"
+msgstr "Archivio per:"
+
+#: helpers/page-header.php:76
+msgid "Search results for:"
+msgstr "Risultati di ricerca per:"
+
+#: helpers/page-header.php:24
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: helpers/page-content.php:126
+msgid "Enter"
+msgstr "Invia"
+
+#: helpers/page-content.php:119
+msgid "Password:"
+msgstr "Password:"
+
+#: helpers/page-content.php:114
+msgid "To view it please enter your password below"
+msgstr "Per leggerlo, inserisci qui sotto la tua password"
+
+#: helpers/page-content.php:114
+msgid "This content is password protected."
+msgstr "Questo contenuto è protetto da password."
+
+#: helpers/comments.php:58
+msgid "(Edit)"
+msgstr "(Modifica)"
+
+#. Translators: 1: date, 2: time
+#: helpers/comments.php:51
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: helpers/comments.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: helpers/comments.php:37
+msgid "says"
+msgstr "dice"
+
+#: helpers/comments.php:22
+msgid "Author"
+msgstr "Autore"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:119
+msgid "Keep in mind that some of the issues that may arise can be solved on your own (following the indications provided), while for others it is best to talk to your host provider directly."
+msgstr "Tieni a mente che alcuni dei problemi che potrebbero occorrere possono essere risolti autonomamente (seguendo le indicazioni fornite), mentre per altri la cosa migliore è parlare direttamente con il tuo gestore dello spazio Web."
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:118
+msgid "The System Status report helps with troubleshooting issues with your site and allows to have a clear view over software versions, server settings and WordPress conifiguration."
+msgstr "Il report sullo stato del sistema ti aiuta a capire le cause dei problemi sul tuo sito, e consente di avere una visione chiara delle versioni del software installato, impostazioni di server e configurazione di WordPress."
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:112
+msgid "Child theme:"
+msgstr "Child theme:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:111
+msgid "Version:"
+msgstr "Versione:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:107
+msgid "Theme"
+msgstr "Tema"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:89
+msgid "Active plugins"
+msgstr "Plugin attivi"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:82
+msgid "Max Upload Size:"
+msgstr "Dimensione massima di upload:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:81
+msgid "PHP Max Input Vars:"
+msgstr "PHP Max Input Vars:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:80
+msgid "PHP Time Limit:"
+msgstr "PHP Time Limit:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:79
+msgid "PHP Post Max Size:"
+msgstr "PHP Post Max Size:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:78
+msgid "PHP version:"
+msgstr "Versione PHP:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:74
+msgid "Server environment"
+msgstr "Ambiente del server"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:67
+msgid "WP debug mode:"
+msgstr "Modalità di debug di WP:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:66
+msgid "WP memory limit:"
+msgstr "Limite di memoria di WP:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:65
+msgid "WP Multisite:"
+msgstr "Installazione multisite:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:64
+msgid "WP version:"
+msgstr "Versione di WP:"
+
+#: ev-inc/modules/theme-page/v1/templates/system-status.php:60
+msgid "WordPress environment"
+msgstr "Ambiente di WordPress"
+
+#. translators: %1$s: The theme name, %2$s: The theme version number
+#: ev-inc/modules/theme-page/v1/templates/general.php:20
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Benvenuti in %1$s - Versione %2$s"
+
+#. translators: %s: the number of seconds.
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:121
+msgctxt "php time limit"
+msgid "%s seconds"
+msgstr "%s secondi"
+
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:112
+msgid "Although the theme is compatible with PHP 5.2+, we recommend a minimum PHP version of 5.6."
+msgstr "Sebbene il tema sia compatibile con PHP 5.2+, ti consigliamo di installare almeno PHP 5.6."
+
+#. translators: codex page for debug.
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:106
+msgid "Debug mode is not suitable for production use, you might want to turn it off. See <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">official WordPress documentation</a>."
+msgstr "La modalità di debug non è consigliabile per un utilizzo in produzione, quindi potresti scegliere di disattivarla. Consulta la <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentazione ufficiale di WordPress</a>."
+
+#. translators: codex page for memory.
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:100
+msgid "We recommend setting memory to at least 64MB. See <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">official WordPress documentation</a>."
+msgstr "Ti consigliamo di impostare la memoria almeno a 64MB. Consulta la <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">documentazione ufficiale di WordPress</a>."
+
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:94
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:104
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:138
+msgid "Off"
+msgstr "Off"
+
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:94
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:104
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:138
+msgid "On"
+msgstr "On"
+
+#: ev-inc/modules/theme-page/v1/helpers/system-status.php:19
+msgid "System status"
+msgstr "Stato del sistema"
+
+#. translators: %1$s: The theme name
+#: ev-inc/modules/theme-page/v1/class-evolvethemes-module-theme-page.php:56
+#: ev-inc/modules/theme-page/v1/class-evolvethemes-module-theme-page.php:62
+msgid "About %1$s"
+msgstr "A proposito di %1$s"
+
+#. translators: %1$s: The theme name, %2$s: The number of notices
+#: ev-inc/modules/theme-page/v1/class-evolvethemes-module-theme-page.php:53
+msgid "About %1$s %2$s"
+msgstr "A proposito di %1$s %2$s"
+
+#. translators: %1$s: The number of notices
+#: ev-inc/modules/theme-page/v1/class-evolvethemes-module-theme-page.php:50
+msgid "%1$s notice"
+msgid_plural "%1$s notices"
+msgstr[0] "%1$s notifica"
+msgstr[1] "%1$s notifiche"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:323
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Grandezza naturale"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:309
+msgid "% comments"
+msgstr "% commenti"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:309
+msgid "1 comment"
+msgstr "1 commento"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:309
+msgid "No comments"
+msgstr "Nessun commento"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:291
+msgid "No title"
+msgstr "Nessun titolo"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:270
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:261
+msgid "Go to the last page"
+msgstr "Vai all'ultima pagina"
+
+#. translators: page number
+#: ev-inc/modules/layout/v1/templates/page-content.php:237
+msgid "Go to page number %s"
+msgstr "Vai alla pagina numero %s"
+
+#. translators: page number
+#: ev-inc/modules/layout/v1/templates/page-content.php:231
+msgid "<span class=\"meta-nav screen-reader-text\">Page </span>%s"
+msgstr "<span class=\"meta-nav screen-reader-text\">Pagina </span>%s"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:210
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:192
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: ev-inc/modules/layout/v1/templates/page-content.php:131
+msgid "Posts navigation"
+msgstr "Navigazione tra articoli"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:370
+msgid "Add font family"
+msgstr "Aggiungi una famiglia di caratteri"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:358
+msgid "Font families"
+msgstr "Famiglie di caratteri"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:291
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:286
+msgid "Typekit"
+msgstr "Typekit"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:281
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: ev-inc/modules/customizer/v1/controls/typography.php:257
+msgid "Give a label to the font family"
+msgstr "Dai un'etichetta alla famiglia di caratteri"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:71
+msgid "Stylesheet URL"
+msgstr "URL del foglio di stile"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:55
+msgid "Kit ID"
+msgstr "Kit ID"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:48
+msgid "Subsets"
+msgstr "Subset"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:43
+msgid "Variants"
+msgstr "Varianti"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:27
+msgid "Label"
+msgstr "Etichetta"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:16
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:61
+msgid "Capitalize"
+msgstr "Iniziali maiuscole"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:60
+msgid "Lowercase"
+msgstr "Tutto minuscolo"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:59
+msgid "Uppercase"
+msgstr "Tutto maiuscolo"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:58
+msgid "None"
+msgstr "Nessuno"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:56
+msgid "Transform"
+msgstr "Stile del testo"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:50
+msgid "Spacing"
+msgstr "Spaziatura"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:46
+msgid "Height"
+msgstr "Altezza"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:42
+msgid "Size"
+msgstr "Dimensione"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:33
+msgid "Variant"
+msgstr "Variante"
+
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:37
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:60
+#: ev-inc/modules/customizer/v1/controls/templates/font-family.php:66
+#: ev-inc/modules/customizer/v1/controls/templates/font-family-instance.php:25
+msgid "Family"
+msgstr "Famiglia"
+
+#: ev-inc/modules/blog/v1/helpers/helpers.php:132
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: content.php:109
+msgid "Continue reading"
+msgstr "Continua a leggere"
+
+#: config/theme-page.php:34
+msgid "Welcome"
+msgstr "Benvenuti"
+
+#: config/theme-page.php:17
+msgid "Crowley is a free blog theme with clean type, smart layouts and a design flexibility that makes it perfect for publishers of all kinds."
+msgstr "Crowley è un tema gratuito dalla tipografia chiara, layout intelligenti e una flessibilita di design che lo rende perfetto per tutti gli utilizzi."
+
+#: config/theme-page/welcome.php:27
+msgid "Download for free!"
+msgstr "Scarica gratuitamente!"
+
+#: config/theme-page/welcome.php:26
+msgid "Brix is a new and powerful drag & drop WordPress page builder that allows you to visually compose any page or layout you can imagine with a grid-based, easy interface, without touching a single line of code."
+msgstr "Brix è un nuovo e potente page builder drag & drop per WordPress, che ti consente di comporre visivamente qualsiasi pagina o layout con un sistema di griglia, un'interfaccia semplice e senza mai toccare una singola linea di codice."
+
+#: config/theme-page/welcome.php:25
+msgid "Want to take Crowley to the next level? Try Brix, the WordPress page builder plugin!"
+msgstr "Vuoi dare una marcia in più a Crowley? Prova Brix, il page builder per WordPress!"
+
+#: config/theme-page/welcome.php:18
+msgid "Browse our catalog"
+msgstr "Sfoglia il nostro catalogo"
+
+#: config/theme-page/welcome.php:17
+msgid "Come and join the over 9000 people that have chosen us for their online presence. Our themes & plugins are rock solid, maintained and leave the bloat behind, allowing you to care about what really matters: your ideas."
+msgstr "Unisciti alle oltre 9000 persone che ci hanno scelto per la loro presenza online. I nostri temi e plugin sono solidi, sono aggiornati costantemente e vanno dritti al punto, consentendoti di concentrarti solo su quello che realmente importa: le tue idee."
+
+#: config/theme-page/welcome.php:16
+msgid "Delivering Beautiful & Unique WordPress themes and plugins"
+msgstr "Temi WordPress unici e fuori dal comune"
+
+#: config/global-functionality.php:107
+msgid "Add widgets here to appear in the third footer column."
+msgstr "Aggiungi widget qui per far sì che appaiano nella terza colonna del footer."
+
+#: config/global-functionality.php:105
+msgid "Footer column 3"
+msgstr "Colonna n.3 del footer"
+
+#: config/global-functionality.php:95
+msgid "Add widgets here to appear in the second footer column."
+msgstr "Aggiungi widget qui per far sì che appaiano nella seconda colonna del footer."
+
+#: config/global-functionality.php:93
+msgid "Footer column 2"
+msgstr "Colonna n.2 del footer"
+
+#: config/global-functionality.php:83
+msgid "Add widgets here to appear in the first footer column."
+msgstr "Aggiungi widget qui per far sì che appaiano nella prima colonna del footer."
+
+#: config/global-functionality.php:81
+msgid "Footer column 1"
+msgstr "Colonna n.1 del footer"
+
+#: config/global-functionality.php:71
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Aggiungi widget qui per far sì che appaiano nella barra laterale."
+
+#: config/global-functionality.php:69
+msgid "Main Widget Area"
+msgstr "Widget area principale"
+
+#: config/global-functionality.php:24
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: config/customizer/customizer.php:32
+msgid "The accent companion color is used to give a subtle highlight to specific parts of the template, such as menu and footer background. Ideally, for best results, this color should be chosen to work well alongside the accent color."
+msgstr "Il colore secondario è utilizzato per mettere in lievemente in risalto alcune parti del template, come il footer. Idealmente, per ottenere i risultati migliori, questo colore dovrebbe essere derivato dal colore distintivo."
+
+#: config/customizer/customizer.php:31
+msgid "Accent companion color"
+msgstr "Colore secondario"
+
+#: config/customizer/customizer.php:21
+msgid "The accent color is used to highlight specific parts of the template, in order to make them stand out compared to the standard text color."
+msgstr "Il colore distintivo è usato per mettere sensibilmente in risalto alcune parti del template, in modo che si distinguano chiaramente se messe a confronto con il colore del testo."
+
+#: config/customizer/customizer.php:20
+msgid "Accent color"
+msgstr "Colore distintivo"
+
+#: comments.php:107
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: templates/single-post/single-post-nav.php:55 comments.php:96
+msgid "Next"
+msgstr "Successivo"
+
+#: templates/single-post/single-post-nav.php:35 comments.php:95
+msgid "Previous"
+msgstr "Precedente"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:64
+msgctxt "comments title"
+msgid "%1$s reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s risposta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s risposte a &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:59
+msgctxt "comments title"
+msgid "One reply to &ldquo;%s&rdquo;"
+msgstr "Una risposta a &ldquo;%s&rdquo;"
+
+#: comments.php:50
+msgid "Read the discussion"
+msgstr "Leggi la discussione"
+
+#: comments.php:48
+msgid "Join the discussion"
+msgstr "Unisciti alla discussione"
+
+#: comments.php:36
+msgid "Start the discussion"
+msgstr "Comincia la discussione"
+
+#: comments.php:34
+msgid "Show comments"
+msgstr "Mostra i commenti"
+
+#. Theme URI of the theme
+msgid "https://justevolve.it/product/crowley/"
+msgstr "https://justevolve.it/product/crowley/"
+
+#. Author URI of the theme
+msgid "https://justevolve.it"
+msgstr "https://justevolve.it/it/"
+
+#. Author of the theme
+msgid "Evolve Themes"
+msgstr "Evolve Themes"

@@ -1,0 +1,189 @@
+@import "bourbon";
+
+// -----------------------------------------------------------------------------
+// $Tab notices
+// -----------------------------------------------------------------------------
+
+.evolvethemes-notice-count {
+	background-color: #d54e21;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 50em;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-left: 8px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	bottom: -2px;
+}
+
+// -----------------------------------------------------------------------------
+// $System status
+// -----------------------------------------------------------------------------
+
+.evolvethemes-themepage-ss-t_w {
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 1.4em;
+}
+
+.evolvethemes-themepage-sc_w {
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 2.8em;
+	padding-top: .4em;
+}
+
+.evolvethemes-themepage-ss-t {
+	border: 1px solid #e5e5e5;
+	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 1.4em;
+	background-color: #fff;
+	color: #555;
+	font-size: 14px;
+	box-shadow: 0 1px 1px rgba( #000, 0.04 );
+
+	+ .evolvethemes-themepage-ss-t {
+		padding-top: 0;
+	}
+
+	th {
+		border-bottom: 1px solid #e1e1e1;
+		font-weight: normal;
+		background-color: #fff;
+		color: #32373c;
+	}
+
+	td, th {
+		text-align: left;
+		padding: 8px 12px;
+	}
+
+	td:first-child {
+		width: 35%;
+	}
+
+	tr:nth-child( odd ) {
+		background-color: #f9f9f9;
+	}
+
+	tr.evolvethemes-themepage-ss-warning {
+		background-color: #fef7f1;
+
+		td {
+			border-left: 4px solid #d54e21;
+			padding-left: 8px;
+		}
+	}
+
+	td {
+		clear: both;
+		overflow: hidden;
+	}
+
+	.evolvethemes-themepage-ss-r-l,
+	.evolvethemes-themepage-ss-r-v {
+		width: 50%;
+		float: left;
+	}
+
+	.evolvethemes-themepage-ss-r-v {
+		font-weight: bold;
+	}
+
+	.evolvethemes-themepage-ss-r-m {
+		clear: both;
+		padding-top: 6px;
+		font-size: 12px;
+	}
+}
+
+.evolvethemes-themepage-content {
+	margin-top: 10px;
+}
+
+// -----------------------------------------------------------------------------
+// $Evolve promo
+// -----------------------------------------------------------------------------
+
+.evolvethemes-themepage-promo {
+	margin-top: 40px;
+	background: white;
+	padding: 10px 40px 40px;
+
+	.button {
+		margin-top: 20px;
+	}
+}
+
+.evolvethemes-themepage-promo_w {
+	max-width: 600px;
+}
+
+.svg .wp-badge {
+	background-image: url( ../img/mono_white.svg );
+}
+
+.wp-badge {
+	background-image: url( ../img/mono_white.png );
+	background-color: #6c6;
+
+	&:hover,
+	&:focus {
+		color: #56AD56;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 1px #56AD56, 0 0 2px 1px rgba(#56AD56, .8);
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $Brix banner
+// -----------------------------------------------------------------------------
+
+.evolvethemes-themepage-brix-promo {
+	background: #3e6274 url( '../img/brix-bg.png' ) no-repeat center top;
+	background-size: cover;
+	color: white;
+	margin-top: 20px;
+
+	h3 {
+		color: white;
+	}
+
+	.button {
+		margin-top: 20px;
+		background: #D9EB3D;
+		border-color: #B3C322;
+		box-shadow: 0 2px 0 #B3C322 !important;
+		color: #3e6274;
+		text-shadow: none;
+		font-weight: 600;
+
+		&:hover,
+		&:focus {
+			border-color: darken( #B3C322, 10 );
+			background-color: #B3C322;
+			color: #3e6274;
+			box-shadow: 0 2px 0 darken( #B3C322, 10 ) !important;
+		}
+	}
+}
+
+.evolvethemes-themepage-brix-promo_w {
+	padding: 40px;
+	max-width: 700px;
+}
+
+.about-wrap .evolvethemes-themepage-brix_logo {
+	width: 190px;
+	height: 62.7px;
+	margin-bottom: 20px;
+}

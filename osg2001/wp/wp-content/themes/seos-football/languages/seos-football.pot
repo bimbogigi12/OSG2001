@@ -1,0 +1,466 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Seos Football\n"
+"POT-Creation-Date: 2018-06-20 03:07+0300\n"
+"PO-Revision-Date: 2018-06-20 03:07+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47 comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:72
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:16
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:18
+msgid "Theme by Seos Themes"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-header.php:23
+msgctxt "header image description"
+msgid "Default Image"
+msgstr ""
+
+#: inc/custom-header.php:87
+msgid "Activate Header Image:"
+msgstr ""
+
+#: inc/custom-header.php:91 inc/custom-header.php:159
+msgid "Deactivate Header Image"
+msgstr ""
+
+#: inc/custom-header.php:92 inc/custom-header.php:160
+msgid "Default Image"
+msgstr ""
+
+#: inc/custom-header.php:93 inc/custom-header.php:161
+msgid "All Pages"
+msgstr ""
+
+#: inc/custom-header.php:94 inc/custom-header.php:162
+msgid "Home Page"
+msgstr ""
+
+#: inc/custom-header.php:114
+msgid "Hide Overlay:"
+msgstr ""
+
+#: inc/custom-header.php:118 inc/custom-header.php:174
+msgid "Show Overlay"
+msgstr ""
+
+#: inc/custom-header.php:119 inc/custom-header.php:175
+msgid "Hide Overlay"
+msgstr ""
+
+#: inc/custom-header.php:136
+msgid "Custom Height"
+msgstr ""
+
+#: inc/custom-header.php:137
+msgid "Min-height 200px."
+msgstr ""
+
+#: inc/customizer.php:28 inc/customizer.php:83
+msgid " "
+msgstr ""
+
+#: inc/customizer.php:29 inc/customizer.php:84
+msgid "_self"
+msgstr ""
+
+#: inc/customizer.php:30 inc/customizer.php:85
+msgid "_blank"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Social media buttons"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Activate Social Icons in Header:"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Activate Social Icons in Footer:"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Link Type"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Social Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Social Hover Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Enter Facebook url"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Enter Twitter url"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Enter Google+ url"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Enter Linkedin url"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Enter RSS url"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Enter Pinterest url"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Enter Youtube url"
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Enter Vimeo url"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Enter Ynstagram url"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Enter Stumbleupon url"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Enter Flickr url"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Enter Dribbble url"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Enter Digg url"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Enter Skype url"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "Enter Deviantart url"
+msgstr ""
+
+#: inc/customizer.php:267
+msgid "Enter Yahoo url"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Enter Reddit Alien url"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Enter Paypal url"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Enter Dropbox url"
+msgstr ""
+
+#: inc/customizer.php:308
+msgid "Enter Soundcloud url"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Enter VK url"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Enter Envelope url"
+msgstr ""
+
+#: inc/customizer.php:339
+msgid "Enter Address Book url"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Enter Apple url"
+msgstr ""
+
+#: inc/customizer.php:359
+msgid "Enter Amazon url"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Enter Slack url"
+msgstr ""
+
+#: inc/customizer.php:379
+msgid "Enter Slideshare url"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Enter Wikipedia url"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Enter WordPress url"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Enter Odnoklassniki url"
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Enter Tumblr url"
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer.php:440
+msgid "Sidebar Width:"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:461
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:462
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:463
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "Sidebar Title Background Color"
+msgstr ""
+
+#: inc/customizer.php:493
+msgid "Sidebar Title Color"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: inc/customizer.php:523
+msgid "Sidebar Link Color"
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Sidebar Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:627 inc/customizer.php:628 inc/customizer.php:699
+msgid "SEOS THEMES"
+msgstr ""
+
+#: inc/customizer.php:700
+msgid "\t<a href=\"https://seosthemes.com/\" target=\"_blank\">SEOS THEMES</a>"
+msgstr ""
+
+#: inc/template-tags.php:24
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:46 inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:48
+#, php-format
+msgid " Posted in %1$s "
+msgstr ""
+
+#: inc/template-tags.php:54
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:61
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:69 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/theme-functions.php:32
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-functions.php:76
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-functions.php:78
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/theme-functions.php:149
+#, php-format
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content.php:55
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Seos Football"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://seosthemes.com/seos-football"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Seos Football is clear, easy to customize WP template.Seos Footballis a "
+"modern multi-purpose HTML5 theme with a responsive 2 column layout. The "
+"theme is excellent for a football, sport, photography, blog, eatery, "
+"newspaper, images, photos, publishing, news, blog, portfolio or other "
+"editorial websites. To learn more about the theme please go to the theme uri "
+"and read the documentation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tsvetomir Tsvetanov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://seosthemes.info/seos-football-wordpress-theme/"
+msgstr ""

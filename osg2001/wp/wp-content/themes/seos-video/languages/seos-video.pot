@@ -1,0 +1,348 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Seos Video\n"
+"POT-Creation-Date: 2017-11-03 20:40+0200\n"
+"PO-Revision-Date: 2017-11-03 20:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:19
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:21
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:21
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: footer.php:23
+msgid "Wordpress theme"
+msgstr ""
+
+#: footer.php:23
+msgid "https://seosthemes.com/"
+msgstr ""
+
+#: footer.php:23
+msgid "Theme by SEOS"
+msgstr ""
+
+#: functions.php:28
+msgid "Primary"
+msgstr ""
+
+#: functions.php:59
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:61
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: functions.php:129
+#, php-format
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:144 functions.php:145 functions.php:184
+msgid "Seos Video Premium"
+msgstr ""
+
+#: functions.php:175
+msgid "Seos Video Premium Options"
+msgstr ""
+
+#: functions.php:176 functions.php:186 functions.php:211 functions.php:237
+#: functions.php:262 functions.php:286 functions.php:308 functions.php:331
+#: functions.php:355 functions.php:378 functions.php:402
+msgid "\tLearn more about Seos Video. "
+msgstr ""
+
+#: functions.php:196
+msgid "Seos Video  Premium"
+msgstr ""
+
+#: functions.php:209
+msgid "Seos Video Slider 🔒"
+msgstr ""
+
+#: functions.php:221
+msgid "Seos Video Slider"
+msgstr ""
+
+#: functions.php:235
+msgid "Hide Options 🔒"
+msgstr ""
+
+#: functions.php:247
+msgid "Hide Options"
+msgstr ""
+
+#: functions.php:260
+msgid "Header Logo 🔒"
+msgstr ""
+
+#: functions.php:272
+msgid "Header Logo"
+msgstr ""
+
+#: functions.php:284
+msgid "Mobile CalL Now 🔒"
+msgstr ""
+
+#: functions.php:296
+msgid "Mobile CalL Now"
+msgstr ""
+
+#: functions.php:306
+msgid "Read More Options 🔒"
+msgstr ""
+
+#: functions.php:318
+msgid "Read More Options"
+msgstr ""
+
+#: functions.php:329
+msgid "Remove Comments 🔒"
+msgstr ""
+
+#: functions.php:341
+msgid "Remove Comments"
+msgstr ""
+
+#: functions.php:353
+msgid "Back to Top 🔒"
+msgstr ""
+
+#: functions.php:365
+msgid "Back to Top"
+msgstr ""
+
+#: functions.php:376
+msgid "WooCommerce Options 🔒"
+msgstr ""
+
+#: functions.php:388
+msgid "WooCommerce Options"
+msgstr ""
+
+#: functions.php:400
+msgid "Footer Options 🔒"
+msgstr ""
+
+#: functions.php:412
+msgid "Footer Options"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:48
+msgid "Menu"
+msgstr ""
+
+#: inc/custom-header.php:37
+msgctxt "header image description"
+msgid "Default Image"
+msgstr ""
+
+#: inc/premium-options.php:29
+msgid "Buy"
+msgstr ""
+
+#: inc/premium-options.php:29
+msgid " Now"
+msgstr ""
+
+#: inc/premium-options.php:34
+msgid ""
+"You can support us by Buying an Seos Video Pro theme with a lot new features "
+"& extensions!"
+msgstr ""
+
+#: inc/template-tags.php:27
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:32
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:49 inc/template-tags.php:55
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:57
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:64
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71
+#, php-format
+msgid " Edit %s"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:23
+msgid "Previous"
+msgstr ""
+
+#: single.php:24
+msgid "Next"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content.php:55
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Seos Video"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://seosthemes.com/free-wordpress-video-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Seos Video is a modern responsive WordPress theme. The Seos Video theme is "
+"excellent for a movies, news, newspaper, video, publishing or other "
+"editorial websites. To learn more about the theme please go to the theme uri "
+"and read the documentation. https://seosthemes.com/free-wordpress-video-"
+"theme/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SEOS - Tsvetomir Tsvetanov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://seosthemes.com/"
+msgstr ""

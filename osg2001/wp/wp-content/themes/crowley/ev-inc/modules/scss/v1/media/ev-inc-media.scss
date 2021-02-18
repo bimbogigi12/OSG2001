@@ -1,0 +1,240 @@
+// -----------------------------------------------------------------------------
+// $Media reset
+// -----------------------------------------------------------------------------
+
+@mixin evolvethemes_media_reset() {
+	img {
+		max-width: 100%;
+		height: auto;
+		border-style: none; // Remove the border on images inside links in IE 10-.
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	svg {
+		// Workaround for the SVG overflow bug in IE10/11 is still required.
+		// See https://github.com/twbs/bootstrap/issues/26878
+		overflow: hidden;
+	}
+
+	// Hide the overflow in IE
+	svg:not(:root) {
+		overflow: hidden;
+	}
+
+	// Add the correct display in IE 9-.
+	canvas,
+	audio,
+	video {
+		display: inline-block;
+	}
+
+	// Add the correct display in iOS 4-7.
+	audio:not([controls]) {
+		display: none;
+		height: 0;
+	}
+
+	// Change the alignment on media elements in all browers
+	audio,
+	canvas,
+	iframe,
+	img,
+	svg,
+	video {
+		vertical-align: middle;
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $WordPress Media
+// -----------------------------------------------------------------------------
+
+@mixin evolvethemes_wp_media_reset() {
+	.wp-caption {
+		max-width: 100%;
+
+		[class*="wp-image-"] {
+			display: block;
+			float: none;
+		}
+
+		.wp-caption-text {}
+
+		a {
+			&:before {
+				display: none;
+			}
+		}
+
+		&.alignnone {
+			text-align: center;
+		}
+	}
+
+	.alignleft {
+		float: left;
+	}
+
+	.alignright {
+		float: right;
+	}
+
+	.aligncenter {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.format-embed-wrapper {
+		iframe {
+			width: 100%;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+// $WordPress galleries
+// -----------------------------------------------------------------------------
+
+@mixin evolvethemes_wp_gallery_reset( $media_mobile: false ) {
+	.gallery {
+		@include clearfix;
+		position: relative;
+
+		a {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+
+			img {
+				display: inline-block;
+			}
+		}
+
+		.gallery-item {
+			float: left;
+			text-align: center;
+			position: relative;
+			width: 100%;
+			margin: 0;
+
+			.gallery-icon {
+				margin-right: auto;
+			}
+		}
+
+		&.gallery-columns-2 {
+			.gallery-item {
+				width: _ev_col( 1/2 ) !important;
+
+				&:nth-child( 2n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-3 {
+			.gallery-item {
+				width: _ev_col( 1/3 ) !important;
+
+				&:nth-child( 3n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-4 {
+			.gallery-item {
+				width: _ev_col( 1/4 ) !important;
+
+				&:nth-child( 4n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-5 {
+			.gallery-item {
+				width: _ev_col( 1/5 ) !important;
+
+				&:nth-child( 5n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-6 {
+			.gallery-item {
+				width: _ev_col( 1/6 ) !important;
+
+				&:nth-child( 6n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-7 {
+			.gallery-item {
+				width: _ev_col( 1/7 ) !important;
+
+				&:nth-child( 7n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-8 {
+			.gallery-item {
+				width: _ev_col( 1/8 ) !important;
+
+				&:nth-child( 8n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+		&.gallery-columns-9 {
+			.gallery-item {
+				width: _ev_col( 1/9 ) !important;
+
+				&:nth-child( 9n + 1 ) {
+					clear: both;
+				}
+			}
+		}
+
+		@if $media_mobile {
+			&.gallery-columns-1,
+			&.gallery-columns-2,
+			&.gallery-columns-3,
+			&.gallery-columns-4,
+			&.gallery-columns-5,
+			&.gallery-columns-6,
+			&.gallery-columns-7,
+			&.gallery-columns-8,
+			&.gallery-columns-9 {
+				.gallery-item {
+					@media #{$media_mobile} {
+						width: _ev_col( 1/2 ) !important;
+					}
+				}
+			}
+		}
+
+		.gallery-caption {
+			max-width: none;
+		}
+
+		br + br {
+			display: none;
+		}
+	}
+
+	.gallery-columns-1,
+	.gallery-columns-2,
+	.gallery-columns-3,
+	.gallery-columns-4,
+	.gallery-columns-5,
+	.gallery-columns-6,
+	.gallery-columns-7,
+	.gallery-columns-8,
+	.gallery-columns-9 {
+		overflow: visible !important;
+	}
+}

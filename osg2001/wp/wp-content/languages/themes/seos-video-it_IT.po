@@ -1,0 +1,316 @@
+# Translation of Themes - Seos Video in Italian
+# This file is distributed under the same license as the Themes - Seos Video package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-25 21:18:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Seos Video\n"
+
+#. Description of the plugin/theme
+msgid "Seos Video is a modern responsive WordPress theme. The Seos Video theme is excellent for a movies, news, newspaper, video, publishing or other editorial websites. To learn more about the theme please go to the theme uri and read the documentation. https://seosthemes.com/free-wordpress-video-theme/"
+msgstr "Seos Video è un tema WordPress moderno e responsivo. Il tema Seos Video è eccellente per film, notizie, giornale, video, pubblicazione o altri siti web editoriali. Per saperne di più sul tema ti invitiamo ad andare sull'url del tema e leggere la documentazione. https://seosthemes.com/free-wordpress-video-theme/"
+
+#. Theme Name of the plugin/theme
+msgid "Seos Video"
+msgstr "Seos Video"
+
+#: functions.php:224 functions.php:247
+msgid "Homepage Image Slider"
+msgstr "Slider immagine di homepage"
+
+#: functions.php:212
+msgid "Homepage Image Slider 🔒"
+msgstr "Slider immagine di homepage 🔒"
+
+#: functions.php:148 functions.php:149
+msgid "Check demo here."
+msgstr "Controlla qui la demo."
+
+#: functions.php:143 functions.php:144
+msgid "Seos Video Pro Feature"
+msgstr "Caratteristica di Seos Video Pro"
+
+#: header.php:48
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:438
+msgid "Footer Options"
+msgstr "Opzioni del footer"
+
+#: functions.php:426
+msgid "Footer Options 🔒"
+msgstr "Opzioni del footer 🔒"
+
+#: functions.php:414
+msgid "WooCommerce Options"
+msgstr "Opzioni di WooCommerce"
+
+#: functions.php:402
+msgid "WooCommerce Options 🔒"
+msgstr "Opzioni di WooCommerce 🔒"
+
+#: functions.php:391
+msgid "Back to Top"
+msgstr "Torna in alto"
+
+#: functions.php:379
+msgid "Back to Top 🔒"
+msgstr "Torna su 🔒"
+
+#: functions.php:367
+msgid "Remove Comments"
+msgstr "Rimuovi i commenti"
+
+#: functions.php:355
+msgid "Remove Comments 🔒"
+msgstr "Rimuovi i commenti 🔒"
+
+#: functions.php:344
+msgid "Read More Options"
+msgstr "Leggi le altre opzioni"
+
+#: functions.php:332
+msgid "Read More Options 🔒"
+msgstr "Leggi le altre opzioni 🔒"
+
+#: functions.php:322
+msgid "Mobile CalL Now"
+msgstr "Chiamata mobile adesso"
+
+#: functions.php:310
+msgid "Mobile CalL Now 🔒"
+msgstr "Chiamata mobile adesso 🔒"
+
+#: functions.php:298
+msgid "Header Logo"
+msgstr "Logo dell'header"
+
+#: functions.php:286
+msgid "Header Logo 🔒"
+msgstr "Logo dell'header 🔒"
+
+#: functions.php:273
+msgid "Hide Options"
+msgstr "Nascondi le opzioni"
+
+#: functions.php:261
+msgid "Hide Options 🔒"
+msgstr "Nascondi le opzioni"
+
+#: functions.php:235
+msgid "Seos Video Slider 🔒"
+msgstr "Slider di Seos Video 🔒"
+
+#: functions.php:178
+msgid "Seos Video Premium Options"
+msgstr "Opzioni di Seos Video Premium"
+
+#: functions.php:187
+msgid "Seos Video Premium"
+msgstr "Seos Video Premium"
+
+#: inc/premium-options.php:34
+msgid "You can support us by Buying an Seos Video Pro theme with a lot new features & extensions!"
+msgstr "Ci puoi sostenere acquistando un tema Seos Video Pro con tante nuove caratteristiche ed estensioni!"
+
+#: inc/premium-options.php:29
+msgid " Now"
+msgstr "Adesso"
+
+#: inc/premium-options.php:29
+msgid "Buy"
+msgstr "Acquista"
+
+#: functions.php:199
+msgid "Seos Video  Premium"
+msgstr "Seos Video  Premium"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:32
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: template-parts/content-page.php:21 template-parts/content.php:55
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: template-parts/content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembra impossibile trovare quello che stavi cercando. Forse una ricerca specifica potrebbe aiutarti."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Non c’è nessuna corrispondenza con i termini di ricerca che hai indicato. Riprova con termini diversi."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Inizia da qui</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: single.php:24
+msgid "Next"
+msgstr "Successivo"
+
+#: single.php:23
+msgid "Previous"
+msgstr "Precedente"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71
+msgid " Edit %s"
+msgstr "Modifica %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:64
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
+
+#: inc/template-tags.php:57
+msgid "Tagged %1$s"
+msgstr "Taggato %1$s"
+
+#: inc/template-tags.php:51
+msgid "Posted in %1$s"
+msgstr "Pubblicato in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:49 inc/template-tags.php:55
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:32
+msgctxt "post author"
+msgid "by %s"
+msgstr "da %s"
+
+#: inc/template-tags.php:27
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Pubblicato il %s"
+
+#: inc/custom-header.php:37
+msgctxt "header image description"
+msgid "Default Image"
+msgstr "Immagine predefinita"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#. translators: %s: Name of current post
+#: functions.php:129
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Leggi altro<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: functions.php:61
+msgid "Add widgets here."
+msgstr "Aggiungi i widget qui."
+
+#: functions.php:59
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:28
+msgid "Primary"
+msgstr "Primario"
+
+#: footer.php:23
+msgid "Theme by SEOS"
+msgstr "Tema di SEOS"
+
+#: footer.php:23
+msgid "https://seosthemes.com/"
+msgstr "https://seosthemes.com/"
+
+#: footer.php:23
+msgid "Wordpress theme"
+msgstr "Tema WordPress"
+
+#: footer.php:21
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:19
+msgid "All rights reserved"
+msgstr "Tutti i diritti riservati"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr "Commenti più recenti"
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr "Commenti meno recenti"
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Risposta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Risposte a &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:32
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una risposta a &ldquo;%s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:50
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prova a cercare negli archivi mensili. %1$s"
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr "Categorie più utilizzate"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sembra non vi sia nulla in questa posizione. Provare con qualcuno dei link qua sotto o una ricerca?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Impossibile trovare la pagina."
+
+#. Author URI of the plugin/theme
+msgid "https://seosthemes.info/seos-video-free-wp-theme/"
+msgstr "https://seosthemes.info/seos-video-free-wp-theme/"
+
+#. Author of the plugin/theme
+msgid "SEOS - Tsvetomir Tsvetanov"
+msgstr "SEOS - Tsvetomir Tsvetanov"
+
+#. Theme URI of the plugin/theme
+msgid "http://seosthemes.com/free-wordpress-video-theme/"
+msgstr "http://seosthemes.com/free-wordpress-video-theme/"
